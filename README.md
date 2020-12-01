@@ -9,7 +9,7 @@
       <th>TIPO DE DADOS</th>
     </tr>
     <tr>
-      <td>Marketing Analytics do Zero</td>
+      <td>AULA 01 - Marketing Analytics do Zero</td>
       <td>Aplicar estatística descritiva, Análise de Regressão e Modelos básicos de Séries Temporais</td>
       <td>Time Series</td>
     </tr>
