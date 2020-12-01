@@ -9,7 +9,7 @@
       <th>TIPO DE DADOS</th>
     </tr>
     <tr>
-      <td>AULA 01 - Marketing Analytics do Zero</td>
+      <td>Marketing Analytics do Zero</td>
       <td>Aplicar estatística descritiva, Análise de Regressão e Modelos básicos de Séries Temporais</td>
       <td>Time Series</td>
     </tr>
@@ -20,7 +20,7 @@
 </div>
 </h5>
 <hr>
-<h2>MARKETING ANALYTICS</h2>
+<h2>AULA 1 - MARKETING ANALYTICS</h2>
 <h4>DATASET VENDAS CHOCOLATE</h4>
 <p>Utilizaremos um dataset classificado em marketing como dataset em nível de cadeia. Exemplo clássico em marketing de varejo.</p>
 <p>A planilha <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.xlsx</a> contém dados agregados de todas as informações consolidadas das vendas de determinadas marcas de chocolate de todas as lojas de uma grande rede de varejo dentro de um período de 104 semanas, aproximadamente dois anos.</p>
