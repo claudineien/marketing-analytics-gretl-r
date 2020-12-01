@@ -23,7 +23,7 @@
 <h2>AULA 1 - MARKETING ANALYTICS</h2>
 <h4>DATASET VENDAS CHOCOLATE</h4>
 <p>Utilizaremos um dataset classificado em marketing como dataset em nível de cadeia. Exemplo clássico em marketing de varejo.</p>
-<p>A planilha <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.xlsx</a> contém dados agregados de todas as informações consolidadas das vendas de determinadas marcas de chocolate de todas as lojas de uma grande rede de varejo dentro de um período de 104 semanas, aproximadamente dois anos.</p>
+<p>A planilha <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.csv</a> contém dados agregados de todas as informações consolidadas das vendas de determinadas marcas de chocolate de todas as lojas de uma grande rede de varejo dentro de um período de 104 semanas, aproximadamente dois anos.</p>
 <p>Estes dados se caracterizam como Time Series (Serie Temporal) por que ocorrem dentro de um determinado tempo, prazo controlado por semana.</p>
 <p>Este dataset contém seis variáveis/atributos/colunas correspondentes às decisões de budgets sobre de cinco marcas dentro de 104 semanas em todas as lojas. As variáveis são :
     <ul>
@@ -54,14 +54,16 @@ Os preços dos chocolates registrados nas colunas Preco_atual_Budget e Preco_reg
 <p>Anuncio_Budget : variável ponderada ou transformada, como por exemplo maketing share. Divisão das vendas da marca pelo total do mercado. Variável em razão. Por exemplo : 0.21 = 21% da cadeia de lojas continham naquela semana um anuncio da semana num encarte. Se relacionar esta variável com as vendas conseguimos identificar o efeito do Anuncio_Budget nas vendas.</p>
 
 <h4>IMPORTANTE</h4>
-<p>Muitas informações mercadológicas relevantes<br>
-Gerar vendas ao longo do tempo<br>
-Relacionar Vendas com preço<br>
-Ao relacionar vendas com preço é possivel medir a sensibilidade das vendas em relação ao preço<br>
-Multiplicando preço por quantidade vendida temos receita/faturamento<br>
-Relacionar preço com receita/faturamento<br>
-Relacionar promoção com receita/faturamento<br>
-Identificar os efeitos para todas as marcas<br>
+<p>Podemos extrair muitas informações mercadológicas relevantes como:
+    <ul>
+        <li>Gerar vendas ao longo do tempo</li>
+        <li>Relacionar Vendas com preço</li>
+        <li>Ao relacionar vendas com preço é possivel medir a sensibilidade das vendas em relação ao preço</li>
+        <li>Multiplicando preço por quantidade vendida temos receita/faturamento</li>
+        <li>Relacionar preço com receita/faturamento</li>
+        <li>Relacionar promoção com receita/faturamento</li>
+        Identificar os efeitos para todas as marcas</li>
+    </ul>
 </p>
 <p>A maioria das variáveis relevantes são transformadas. As informações estão nas transformações das variáveis.</p>
 <p>Este dataset possui cada marca em cada coluna para permitir gerar :<br>
