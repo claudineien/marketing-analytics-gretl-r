@@ -68,6 +68,17 @@ Possivelmente é uma marca de combate, uma marca marginal que tem sempre uma par
 As vezes há a marca premium com práticas estratégicas interessantes e tem a marca de combate que tem o preço muito baixo cujo preço raramente é alterado e possui o seu mercado. Isto já estava expresso nas variáveis de variabilidade e pode ser percebido pelo desvio padrão do preço é quase zero, isto significa que preço quase não varia.<br>
 Observar que o desvio-padrão é quase zero, que significa que não houve variação no preço do produto.</p>
 
+<p>Utilizar o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/0-documentation">01-Report_Descritivo.docx</a> como apoio para analisar as média, mediana, desvio-padrão, coeficiente de variação, no primeiro ano e no segundo ano por marca e extrair informações.</p>
+
+<p>52 semanas para cada ano, as variáveis de preço variam ao longo do tempo e dependendem de alguns acontecimentos.<br>
+Anotar todos os valores de todas as marcas das 52 semanas.<br>
+É possível detectar : <br>
+Marca Budget<br>
+Analisando a variação das estratégias em dois anos, identificamos que a marca budget possivelmente é uma marca de combate por que :<br>
+.comparando com as outras marcas : o valor da média é a mais inferior, o desvio-padrão esta zerado, o coeficiente de variação é o mais baixo
+.comparando entre os anos : o preço cobrado é o mesmo nos dois anos, a media = mediana com desvio padrão 0 no segundo ano<br>
+Marca Cadbury foi a lider de preço no primeiro ano, e lider de preço no segundo ano com outras duas marcas. Possivelmente esta relacionado ao desvio padrão que no primeiro ano foi menor que as demais e no segundo ano foi maior e/ou ao coeficiente de variação que no primeiro ano foi bem maior que as demais e igualou ou ficou com distância bem menor no segundo ano.</p>
+
 <p>Atenção :<p>
 <p>- A maioria das técnicas, das mais simples as mais complexas em estatísticas trabalham com dois conceitos básicos que é  centralidade e variabilidade/distância.<br>
 Por exemplo : Análise de agrupamento que não é análise de dependência aonde trabalhamos análise fatorial, cluster vamos concentrar coisas parecidas e separar de coisas não parecidas.<br>
@@ -85,33 +96,21 @@ Se eu somar todas as distâncias e o resultado for 0, utilizaremos uma regra mat
 
 <p>- O desvio padrão é a raiz quadrada da variância, por que para gerar a distância deve-se elevar ao quadrado. Por exemplo o salário elevado ao quadrado em relação a média é superinflacionando/superestimando o salário, então deve-se voltar o salário como uma medida de variabilidade em relação a média deve-se extrair a raiz quadrada sobre o salário.</p>
 
-<p>Informação importante a extrair em modelos estatísticos, principalmente em time series é detectar se a variação da variavel em relação a média é constante ou não.</p>
+<p>- Informação importante a extrair em modelos estatísticos, principalmente em time series é detectar se a variação da variavel em relação a média é constante ou não.</p>
 
 <p>- As técnicas da variância são aplicadas em variáveis qualitativas como venda, preço, salário.</p>
 
-<p>O coeficiente de variação (cv) é a medida padronizada de quanto o desvio padrão da variável varia em relação a média multiplicado por 100.<br>
+<p>- O coeficiente de variação (cv) é a medida padronizada de quanto o desvio padrão da variável varia em relação a média multiplicado por 100.<br>
 O coeficiente de variação significa que a variação em relação a média do preço atual da budget é 0.0083335%</p>
 
-<p>Estatisticamente em geral se c.v. < 25% é homogêneo se maior é heterogêneo. Deve-se ficar atento por que esta regra pode mudar de acordo com a natureza da varíavel.</p>
+<p>- Estatisticamente em geral se c.v. < 25% é homogêneo se maior é heterogêneo. Deve-se ficar atento por que esta regra pode mudar de acordo com a natureza da varíavel.</p>
 
-<p>A estatistica é uma área que se utiliza de diversas medidas de padronizadas para obter resultados.<br>
+<p>- A estatistica é uma área que se utiliza de diversas medidas de padronizadas para obter resultados.<br>
 Por exemplo o z-score, a correlação (padronizada em -1 e 1) por que a covariância (mãe da correlação) não é. Estas padronizações são necessárias para conseguir comprar duas medidas diferentes como metros e altura.</p>
 
-<p>Utilizar o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/0-documentation">01-Report_Descritivo.docx</a> como apoio para analisar as média, mediana, desvio-padrão, coeficiente de variação, no primeiro ano e no segundo ano por marca e extrair informações.</p>
+<p>- A estatística descritiva nos dão idéia das estratégias de marketing</p>
 
-<p>52 semanas para cada ano, as variáveis de preço variam ao longo do tempo e dependendem de alguns acontecimentos.<br>
-Anotar todos os valores de todas as marcas das 52 semanas.<br>
-É possível detectar : <br>
-Marca Budget<br>
-Analisando a variação das estratégias em dois anos, identificamos que a marca budget possivelmente é uma marca de combate por que :<br>
-.comparando com as outras marcas : o valor da média é a mais inferior, o desvio-padrão esta zerado, o coeficiente de variação é o mais baixo
-.comparando entre os anos : o preço cobrado é o mesmo nos dois anos, a media = mediana com desvio padrão 0 no segundo ano<br>
-Marca Cadbury foi a lider de preço no primeiro ano, e lider de preço no segundo ano com outras duas marcas. Possivelmente esta relacionado ao desvio padrão que no primeiro ano foi menor que as demais e no segundo ano foi maior e/ou ao coeficiente de variação que no primeiro ano foi bem maior que as demais e igualou ou ficou com distância bem menor no segundo ano.<br>
-</p>
-
-<p>A estatistica descritiva nos dão idéia das estratégias de marketing</p>
-
-<p>O Gretl não calcula moda (20201202 03:12pm)</p>
+<p>- O Gretl não calcula moda (20201202 03:12pm)</p>
 
 <h4>SOFTWARE A UTILIZAR E LINGUAGEM DE PROGRAMAÇÃO</h4>
 <p>Nesta aula aprenderemos a instalar o RStudio para programar na linguagem R e utilizaremos o Gretl para aprender estatística descritiva.</p>
