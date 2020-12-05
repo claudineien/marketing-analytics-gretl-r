@@ -22,6 +22,7 @@
 <hr>
 <h2><a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/0-documentation/mrktng_anlzng_01.md">AULA 1 - MARKETING ANALYTICS</a></h2>
 <h2><a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/0-documentation/mrktng_anlzng_02.md">AULA 2 - MARKETING ANALYTICS</a></h2>
+<h2><a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/0-documentation/mrktng_anlzng_03.md">AULA 3 - MARKETING ANALYTICS</a></h2>
 <p>Para acompanhar as aulas do youtube baixe os datasets e documentos disponibilizados no meu github <a href="https://github.com/claudineien/marketing-analytics-gretl-r">Claudinei - marketing-analytics-gretl-r</a>.
 
 Também documentei links de sites mencionados durante as aulas para ajudar.<br></p>
