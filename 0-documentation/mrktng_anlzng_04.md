@@ -47,7 +47,7 @@ Analisando a coluna Vendas_Budget valores em kilo entendemos :<br>
 103.36 : vendas que alcançaram 3o quartil/75% do total<br>
 132.00 : vendas máxima<br>
 Os valores exibidos serão parecidos com a imagem a seguir :<br>
-<img src="smmryDtSt0.png" width='700'><br>
+<img src="/3-img/smmryDtSt0.png" width='700'><br>
 O comando <strong>d = describe(dados_choc)</strong> exibirá alguns dados resumidos por coluna-variável. Na coluna Vendas_Budget por exemplo :<br>
 n = 104 : quantidade de elementos = linhas que contém dados para esta coluna<br>
 missing = 0 : não há dados faltantes para esta coluna<br>
