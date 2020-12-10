@@ -59,11 +59,11 @@ value : lowest + highest<br>
 frequency : quantidade absoluta a cada lowest e highest do total<br>
 proportion : proporção absoluta a cada lowest e highest do total<br>
 Os valores exibidos serão parecidos com a imagem a seguir :<br>
-<img src="dscbDtSt0.png" width='700'><br>
+<img src="/3-img/dscbDtSt0.png" width='700'><br>
 </p>
 
 <p>Estes valores podem ser representados graficamente pelo gráfico boxplot. Conforme a seguir :<br>
-<img src="boxplotVdsBdgt0.png" width='300'><br>
+<img src="/3-img/boxplotVdsBdgt0.png" width='300'><br>
 Observar que o 2o quartil esta mais próximo do primeiro do que do terceiro significando que a distribuição é assimétrica negativa e indica que as vendas se concentram mais nos maiores valores.</p>
 
 <p>Importante : <br>
@@ -73,8 +73,8 @@ Aqui mencionei os que eu julguei conceitualmente importantes relacionados ao Mar
 
 <p>
 Considerando os dois anos que estão no dataset vamos plotar gráfio time series para analisar coluna-variável Preço_atual de cada marca : <br>
-<img src="tmsrsDtSt0.png" width='900'><br>
-<img src="tmsrsDtSt1.png" width='900'><br>
+<img src="/3-img/tmsrsDtSt0.png" width='900'><br>
+<img src="/3-img/tmsrsDtSt1.png" width='900'><br>
 No gráfico é possível verificar que o preço não varia muito na marca Budget em relação às outras marcas.<br>
 </p>
 
@@ -85,14 +85,14 @@ A variabilidade do preço influência no resultado das vendas.
 
 <p>
 Analisar em um gráfico dinâmico que ao passar o mouse são exibidas as informações programadas de um perído das primeiras 52 semana por marca.<br>
-<img src="ggplotVndsTtlsAno.png" width='900'><br>
+<img src="/3-img/ggplotVndsTtlsAno.png" width='900'><br>
 Possível entender que um desvio padrão interno de uma marca é maior que o desvio padrão interno da outra marca.<br>
 Quando pegamos várias observações ao longo do tempo analisamos os dados que é conhecido como painel, considerando dois desvios-padrão : 1 a variabilidade do interior das observações e o desvio-padrão between que é o desvio padrão entre as observações para cada período de tempo.<br>
 </p>
 
 <p>
 Analisar evolução do preço atual de chocolate por semana em um gráfico dinâmico de área que ao passar o mouse são exibidas as informações programadas de um perído das primeiras 52 semana por marca.<br>
-<img src="ggplotVndsTtlsAnoArea.png" width='900'><br>
+<img src="/3-img/ggplotVndsTtlsAnoArea.png" width='900'><br>
 </p>
 
 <br><br>
