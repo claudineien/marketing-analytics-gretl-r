@@ -31,7 +31,7 @@
 <p>Modelos inferenciais são modelos de dependência como por exemplo análise de regressão. Nestes há variáveis que são dependentes/respostas de variáveis independentes/explicativas.<br>
 Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que depende das outras variáveis independentes/explicativas que explicam o seu resultado.</p>
 
-<p>Serão gerados estatísticas descritivas no software <strong>RStudio em Fontes de estudo</strong> utilizando a linguagem R e o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/0-documentation">01-Report_Descritivo-atualizado_0411.docx</a> como apoio para analisar as média, mediana, desvio-padrão, coeficiente de variação, no primeiro ano e no segundo ano por marca e extrair outras informações.</p>
+<p>Serão gerados estatísticas descritivas no software <strong>RStudio</strong> utilizando a linguagem R e o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/0-documentation">01-Report_Descritivo-atualizado_0411.docx</a> como apoio para analisar as média, mediana, desvio-padrão, coeficiente de variação, no primeiro ano e no segundo ano por marca e extrair outras informações.</p>
 
 <p>Importante : <br>
 Dentro do fonte <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/1-source-code">Marketing Analytics - Preco_atual.R</a> estão anotados muitos outros detalhes.<br>
@@ -79,7 +79,7 @@ No gráfico é possível verificar que o preço não varia muito na marca Budget
 </p>
 
 <p>Importante : <br>
-Interpretação econônica e mercadológica : O segredo da relação entre o preço e as vendas esta na variação do preço, e não no preço baixo.<br>
+Interpretação econômica e mercadológica : O segredo da relação entre o preço e as vendas esta na variação do preço, e não no preço baixo.<br>
 A variabilidade do preço influência no resultado das vendas.
 </p>
 
