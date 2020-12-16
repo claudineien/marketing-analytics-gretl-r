@@ -108,7 +108,7 @@ São as vendas / total de vendas no periodo de tempo<br></p>
 <p>O desvio padrão da participação de mercado de todas as marcas reduziram consideravelmente de primeiro ano ao segundo, ainda que a média tenha aumentado para algumas marcas.</p>
 
 <p>Drivers variáveis de marketing determinantes que geraram toda esta mudança.</p>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <p><strong>Situação da Receita :</strong><br></p>
 <p>Vendas x Preço</p>
 <p>Budget :<br>
