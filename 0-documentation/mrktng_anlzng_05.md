@@ -184,7 +184,7 @@ Cada player/marca vai buscar novos usos para este produto como : lançar embalag
 <p>Fontes de estudo
     <ul>
         <li>Aula 04 : <a href="https://youtu.be/6VoKWYZdBzg">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
-        <li><a href="https://youtu.be/WaEz_Gk4RpA">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
+        <li><a href="https://youtu.be/WaEz_Gk4RpA">Vejo Marketing em tudo! / Marketing everywhere! : Aula 04</a></li>
         <li>Phillip Kotler</li>
     </ul>
 </p>
