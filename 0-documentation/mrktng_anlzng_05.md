@@ -32,7 +32,7 @@
 <p>Modelos inferenciais são modelos de dependência como por exemplo análise de regressão. Nestes há variáveis que são dependentes/respostas de variáveis independentes/explicativas.<br>
 Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que depende das outras variáveis independentes/explicativas que explicam o seu resultado.</p>
 
-<p>Utilizaremos o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">01-Report_Descritivo-atualizado_0411.docx</a> para analisar conteúdo relacionado às variáveis de desempenho e entender como o as variáveis de marketing influenciam o desempenho mercadológico. A seguir parte do documento que será analisado: <img src="/3-img/mktAnltcs_dctwrd_dsmpMrcd.png"><br></p>
+<p>Utilizaremos o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">01-Report_Descritivo-atualizado_0411.docx</a> para analisar conteúdo relacionado às variáveis de desempenho e entender como o as variáveis de marketing influenciam o desempenho mercadológico. A seguir parte do documento que será analisado:<br> <img src="/3-img/aula05mktAnltcs_dctwrd_dsmpMrcd.png"><br></p>
 
 <p>O Desempenho Mercadológico esta refletido nas variáveis vendas, participação de mercado, receita, compra, lealdade comportamental, lealdade atitudinal.<br>
 Os modelos analíticos mercadológicos inferênciais devem considerar variáveis de desempenho como variáveis de resposta também conhecidas como variáveis dependentes.</p>
