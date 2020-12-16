@@ -32,7 +32,7 @@
 <p>Modelos inferenciais são modelos de dependência como por exemplo análise de regressão. Nestes há variáveis que são dependentes/respostas de variáveis independentes/explicativas.<br>
 Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que depende das outras variáveis independentes/explicativas que explicam o seu resultado.</p>
 
-<p>Utilizaremos o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">01-Report_Descritivo-atualizado_0411.docx</a> para analisar conteúdo relacionado às variáveis de desempenho e entender como o as variáveis de marketing influenciam o desempenho mercadológico. A seguir parte do documento que será analisado: <img src="mktAnltcs_dctwrd_dsmpMrcd.png"><br></p>
+<p>Utilizaremos o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">01-Report_Descritivo-atualizado_0411.docx</a> para analisar conteúdo relacionado às variáveis de desempenho e entender como o as variáveis de marketing influenciam o desempenho mercadológico. A seguir parte do documento que será analisado: <img src="/3-img/mktAnltcs_dctwrd_dsmpMrcd.png"><br></p>
 
 <p>O Desempenho Mercadológico esta refletido nas variáveis vendas, participação de mercado, receita, compra, lealdade comportamental, lealdade atitudinal.<br>
 Os modelos analíticos mercadológicos inferênciais devem considerar variáveis de desempenho como variáveis de resposta também conhecidas como variáveis dependentes.</p>
@@ -129,7 +129,7 @@ São as vendas / total de vendas no periodo de tempo<br></p>
 <p>Gráfico de série temporal para a variável de mercado<br>
 Estatísticamente a posição final é parecida com a posição inicial.<br>
 Esta série temporal possui alguns picos, mas retorna à sua média e isto a define como Série Estacionária ao longo do tempo que é um processo que a média retorna ao centro. Percebe-se que há alguns padrões de sazonalidade<br>
-<img src="aula05VarMrcPlot.png"></p>
+<img src="/3-img/aula05VarMrcPlot.png"></p>
 
 <p>Modelos em séries temporais tem que ter pressuposto de estacionariedade para conseguir previsão mais acurada possível.
 Importante utilizar métodos de suavização, aplicar modelos de Holt-Winters ou Arima para sazonalidade por que elas pressupoe estacionariedade da série.<br>
@@ -137,7 +137,7 @@ Se houver algum ruido (sujeira) na série temporal torna difícil captar a varia
 
 <p>Matriz BCG<br>
 O primeiro modelo e também o mais básico é a Matriz de Crescimento versus Participação de Mercado. Elaborada pelo Boston Consulting Group (Hooley, Sauders, Piercy, 2005)<br>
-<img src="aula05MtrzBCG0.png"><br>
+<img src="/3-img/aula05MtrzBCG0.png"><br>
 São gráficos de dispersão em quatro quadrantes, para analisar unidades estratégicas de negócio.<br>
 Esta ferramenta também admite a existência de duas dimensões : Externa e Interna<br>
 Dimensão Externa : Taxa de crescimento do mercado<br>
