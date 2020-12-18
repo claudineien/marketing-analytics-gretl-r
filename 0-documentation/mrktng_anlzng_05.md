@@ -175,7 +175,7 @@ Participação de mercado pequena em uma taxa de crescimento baixa a unidade est
 
 <p>O Boston Consulting Group-BCG define como grande participação de mercado quando o percentual é superior a 22%. Este é o limiar entre a vaca leiteira e o abacaxi.</p>
 
-<p>Mercado em Marketing é diferente de Mercado em Economia.<br>
+<p>Mercado em Marketing é diferente de Mercado em Microeconomia.<br>
 O Mercado em microeconomia não se interessa por preferências qualitativas individuais de um individuo para outro.<br>
 O Mercado em Marketing deve ser tratado separadamente o indivíduo que prefere marca A de cerveja do que prefere marca B de cerveja.<br>
 O Marketing analisa o segmento demografico, psicográfica comportamental e outras atribuições diferentes.</p>
@@ -210,7 +210,7 @@ Cada player/marca vai buscar novos usos para este produto como : lançar embalag
 Em mercado estabilizado a guerra de preço não funciona como um atrativo, por que o mercado não é orientado apenas a preço.</p>
 
 <p>Importante : <br>
-Marketing trabalha com comportamento do consumidor e a percepção muda.</p>
+Marketing trabalha com comportamento do consumidor e a percepção humana muda.</p>
 
 <p>O mercado de chocolate é um mercado que não cresce muito então o ideal é encontrar novos usos para o produto.<br>
 Uma idéia por exemplo é a marca Budget entrar para o mercado de picoles/sorvete, lançar o produto com uma fórmula diferente ou chocolate funcional. Estas ações significar aumentar o escopo de atuação da marca que esta em um mercado que não cresce.</p>
