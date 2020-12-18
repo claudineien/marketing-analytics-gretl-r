@@ -32,7 +32,7 @@
 <p>Modelos inferenciais são modelos de dependência como por exemplo análise de regressão. Nestes há variáveis que são dependentes/respostas de variáveis independentes/explicativas.<br>
 Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que depende das outras variáveis independentes/explicativas que explicam o seu resultado.</p>
 
-<p>Utilizaremos o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">01-Report_Descritivo-atualizado_0411.docx</a> para analisar conteúdo relacionado às variáveis de desempenho e entender como o as variáveis de marketing influenciam o desempenho mercadológico. A seguir parte do documento que será analisado:<br> <img src="/3-img/aula05mktAnltcs_dctwrd_dsmpMrcd.png"><br></p>
+<p>Utilizaremos o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">01-Report_Descritivo-atualizado_0411.docx</a> para analisar conteúdo relacionado às variáveis de desempenho e entender como o as variáveis de marketing influenciam o desempenho mercadológico. A seguir parte do documento que será analisado: <img src="/3-img/aula05mktAnltcs_dctwrd_dsmpMrcd.png"><br></p>
 
 <p>O Desempenho Mercadológico esta refletido nas variáveis vendas, participação de mercado, receita, compra, lealdade comportamental, lealdade atitudinal.<br>
 Os modelos analíticos mercadológicos inferênciais devem considerar variáveis de desempenho como variáveis de resposta também conhecidas como variáveis dependentes.</p>
@@ -84,7 +84,8 @@ Budget :<br>
 
 <p><strong>Situação Participação de Mercado :</strong><br>
 Esta variável foi criada no Gretl para possibilitar esta análise.<br>
-São as vendas / total de vendas no periodo de tempo<br></p>
+São as vendas / total de vendas no periodo de tempo<br>
+</p>
 
 <p>Budget :<br>
 -aumentou menos de 1 ponto percentual a sua participação</p>
@@ -129,19 +130,22 @@ São as vendas / total de vendas no periodo de tempo<br></p>
 <p>Gráfico de série temporal para a variável de mercado<br>
 Estatísticamente a posição final é parecida com a posição inicial.<br>
 Esta série temporal possui alguns picos, mas retorna à sua média e isto a define como Série Estacionária ao longo do tempo que é um processo que a média retorna ao centro. Percebe-se que há alguns padrões de sazonalidade<br>
-<img src="/3-img/aula05VarMrcPlot.png"></p>
+<img src="aula05VarMrcPlot.png"></p>
 
 <p>Modelos em séries temporais tem que ter pressuposto de estacionariedade para conseguir previsão mais acurada possível.
 Importante utilizar métodos de suavização, aplicar modelos de Holt-Winters ou Arima para sazonalidade por que elas pressupoe estacionariedade da série.<br>
 Se houver algum ruido (sujeira) na série temporal torna difícil captar a variação da variável, então é necessário suavizar e/ou eliminar o ruido.</p>
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <p>Matriz BCG<br>
 O primeiro modelo e também o mais básico é a Matriz de Crescimento versus Participação de Mercado. Elaborada pelo Boston Consulting Group (Hooley, Sauders, Piercy, 2005)<br>
-<img src="/3-img/aula05MtrzBCG0.png"><br>
-São gráficos de dispersão em quatro quadrantes, para analisar unidades estratégicas de negócio.<br>
+<img src="aula05MtrzBCG0.png"><br>
+São gráficos de dispersão em quatro quadrantes, para analisar Unidades Estratégicas de Negócio-UEN.<br>
 Esta ferramenta também admite a existência de duas dimensões : Externa e Interna<br>
 Dimensão Externa : Taxa de crescimento do mercado<br>
 Dimensão Interna : Taxa de crescimento do mercado</p>
+
+<p>Através da Matriz BCG é possível analisar as marcas aonde o mercado cresce que estão na parte superior.</p>
 
 <p>Analisar a taxa de crescimento do mercado aonde a unidade estratégica de negócio esta incluida. Se for baixa classificar nos quadrantes inferiores, caso contrário nos quadrantes superiores.<br>
 Para esta classificação é necessário analisar a segunda dimensão, a horizontal, no qual analisamos a minha participação no mercado.</p>
@@ -170,21 +174,55 @@ Participação de mercado pequena em uma taxa de crescimento baixa a unidade est
 
 <p>Trazendo todo o conceito BCG as marcas de chocolate são ou 'vacas leiteira' ou 'abacaxis', por que a taxa de crescimento do mercado em estudo é pequena.</p>
 
-<p>Se o mercado parar de consumir pode haver guerras de preço ?<br>
-Mercado estabilizado no contexto aqui é aonde a Taxa de crescimento do mercado é pequena. Se o produto não é de tecnologia significa que o mercado é mais perene do que os outros. Os grandes players já possuem participação de mercado e é difícil encontrar uma inovação naquele mercado especificamente e possivelmente este mercado será microsegmentado.
-</p>
-<p>Exemplo :<br>
-Produto Refrigerante Carbonatado com players formados e o mercado maduro e estável.<br>
-Cada player/marca vai buscar novos usos para este produto como : lançar embalagem de um litro, um litro e meio, dois litros, com sabores ainda não existentes, entre outras ações.</p>
+<p>O Boston Consulting Group-BCG define como grande participação de mercado quando o percentual é superior a 22%. Este é o limiar entre a vaca leiteira e o abacaxi.</p>
 
-<p>Em mercado estabilizado a guerra de preço não funciona como um atrativo, por que o mercado não é orientado apenas a preço.</P>
+<p>Mercado em Marketing é diferente de Mercado em Economia.<br>
+O Mercado em microeconomia não se interessa por preferências qualitativas individuais de um individuo para outro.<br>
+O Mercado em Marketing deve ser tratado separadamente o indivíduo que prefere marca A de cerveja do que prefere marca B de cerveja.<br>
+O Marketing analisa o segmento demografico, psicográfica comportamental e outras atribuições diferentes.</p>
+
+<p>A Budget tinha participação média de mercado de 10.41% no primeiro ano em um mercado que não cresceu, para o BCG significa que esta marca é um abacaxi e no segundo ano continua sendo um abacaxi por sua participação teve um aumento quase inexistente.<br>
+A variação de preço nos dois anos é quase inexistente, as estatísticas de anúncio de display é quase inexistente. Estas informações confirmam que esta é uma marca de combate. Provavelmente continuara desta forma todo os anos.</p>
+
+<p>Manter uma marca abacaxi pode ser muito vantajoso por que há mercado consumidor. Talvez não seja vantajoso investir em esforço promocional, a não ser que faça um grande posicionamento de marca.</p>
+
+<p>Um exemplo de reposicionamento de marca brasileira é uma sandália conhecida como 'sandália de dedo', que na década de 80 e 90 era percebida como de baixo valor e vendia pouco então a empresa fez um reposicionamento de marca que a tornou um produto de luxo e atualmente 2020, é considerada uma marca premium.</p>
+
+<p>A Whittaker era uma vaca leiteira no primeiro ano, e no segundo ano quase se tornou um abacaxi com seus 22.92% de participação do mercado.</p>
+
+<p>A lógica da vaca leiteira é utilizar recursos daquela unidade estratégica de negócio para desenvolver produtos e lançar produtos aonde você vai gastar dinheiro para mantê-lo que é aonde a taxa de crescimento do mercado é alta. <br>
+Se a taxa de crescimento do mercado é alta haverá novos consumidores e estes consumidores entram no mercado e então você precisa promover o produto, desenvolver novas linhas e desenvolver novas versões.</p>
+
+<p>Há uma técnica métrica em que o cliente é qualificado como detrator e promotor conhecida como Net Promoter Score-NPS. Esta técnica ajuda a detectar o cliente mais importante e o cliente que precisa ser mais trabalhado.</p>
+
+<p>A métrica curva ABC é a curva 80-20 e ajuda a detectar qual a parte pequena dos produtos que retorna significamente a receita para o négócio.</P>
+
+<p>Condições matemáticas ideais para tomar a decisão de um reposicionamento de marca é muito díficil por que trabalhar com pesquisa quantitativa é trabalhar com números exatos.<br>
+Admininstração, Marketing é ciência social aplicada e como tal trabalha com pessoas, para pessoas então o que hoje é verdade pode não ser daqui a alguns anos.<br>
+Vamos pensar :<br>
+Voltando à década de 90 e ano 2000 aonde haviam a grande quantidade uso de cd, dvd e blue ray, qual seria o grande concorrente destes produtos ?<br>
+Quem poderia advinhar que algo semelhante ao netflix seria o concorrente direto e que os substituiram?</p>
+
+<p>Se o mercado parar de consumir pode haver guerras de preço ?<br>
+Resposta : Mercado estabilizado no contexto aqui é aonde a Taxa de crescimento do mercado é pequena. Se o produto não é de tecnologia significa que o mercado é mais perene do que os outros. Os grandes players já possuem participação de mercado e é difícil encontrar uma inovação naquele mercado especificamente e possivelmente este mercado será microsegmentado.<br>
+Exemplo :<br>
+Produto Refrigerante Carbonatado com players formados e o mercado maduro e estável.<br>
+Cada player/marca vai buscar novos usos para este produto como : lançar embalagem de um litro, um litro e meio, dois litros, com sabores ainda não existentes, acrescentar cafeína, entre outras ações.<br>
+Em mercado estabilizado a guerra de preço não funciona como um atrativo, por que o mercado não é orientado apenas a preço.</p>
+
+<p>Importante : <br>
+Marketing trabalha com comportamento do consumidor e a percepção muda.</p>
+
+<p>O mercado de chocolate é um mercado que não cresce muito então o ideal é encontrar novos usos para o produto.<br>
+Uma idéia por exemplo é a marca Budget entrar para o mercado de picoles/sorvete, lançar o produto com uma fórmula diferente ou chocolate funcional. Estas ações significar aumentar o escopo de atuação da marca que esta em um mercado que não cresce.</p>
 
 <br><br>
 <hr>
 <p>Fontes de estudo
     <ul>
         <li>Aula 04 : <a href="https://youtu.be/6VoKWYZdBzg">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
-        <li><a href="https://youtu.be/WaEz_Gk4RpA">Vejo Marketing em tudo! / Marketing everywhere! : Aula 04</a></li>
-        <li>Phillip Kotler</li>
+        <li><a href="https://youtu.be/WaEz_Gk4RpA">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Philip_Kotler">Phillip Kotler</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Net_Promoter_Score">Net Promoter Score</a></li>
     </ul>
 </p>
