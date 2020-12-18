@@ -130,16 +130,15 @@ São as vendas / total de vendas no periodo de tempo<br>
 <p>Gráfico de série temporal para a variável de mercado<br>
 Estatísticamente a posição final é parecida com a posição inicial.<br>
 Esta série temporal possui alguns picos, mas retorna à sua média e isto a define como Série Estacionária ao longo do tempo que é um processo que a média retorna ao centro. Percebe-se que há alguns padrões de sazonalidade<br>
-<img src="aula05VarMrcPlot.png"></p>
+<img src="/3-img/aula05VarMrcPlot.png"></p>
 
 <p>Modelos em séries temporais tem que ter pressuposto de estacionariedade para conseguir previsão mais acurada possível.
 Importante utilizar métodos de suavização, aplicar modelos de Holt-Winters ou Arima para sazonalidade por que elas pressupoe estacionariedade da série.<br>
 Se houver algum ruido (sujeira) na série temporal torna difícil captar a variação da variável, então é necessário suavizar e/ou eliminar o ruido.</p>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <p>Matriz BCG<br>
 O primeiro modelo e também o mais básico é a Matriz de Crescimento versus Participação de Mercado. Elaborada pelo Boston Consulting Group (Hooley, Sauders, Piercy, 2005)<br>
-<img src="aula05MtrzBCG0.png"><br>
+<img src="/3-img/aula05MtrzBCG0.png"><br>
 São gráficos de dispersão em quatro quadrantes, para analisar Unidades Estratégicas de Negócio-UEN.<br>
 Esta ferramenta também admite a existência de duas dimensões : Externa e Interna<br>
 Dimensão Externa : Taxa de crescimento do mercado<br>
