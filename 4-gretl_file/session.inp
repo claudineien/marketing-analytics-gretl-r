@@ -1,0 +1,21 @@
+# Log started 2020-12-17 21:05
+# Record of session commands.  Please note that this will
+# likely require editing if it is to be run as a script.
+open \
+  C:\zclass\marketinanalytcs\youtube\20201022\BD_marcas_de_chocolate_2210.gdt
+var_percentual = 100*(mercado/mercado(-1)-1)
+# store "C:\zclass\marketinanalytcs\youtube\20201022\BD_marcas_de_chocolate_2210.gdt" --gzipped
+gnuplot  var_percentual participac_little
+gnuplot  var_percentual participacao_Budget
+gnuplot  var_percentual participac_little
+setinfo participac_little \
+  --description="(Vendas_Budget + Vendas_Whittaker + Vendas_Pams + Vendas_Donovan)"
+setinfo participac_little \
+  --description="= Vendas_Budget + Vendas_Whittaker + Vendas_Pams + Vendas_Donovan"
+# store "C:\zclass\marketinanalytcs\youtube\20201022\BD_marcas_de_chocolate_2210.gdt" --gzipped
+delete participa1_small
+# store "C:\zclass\marketinanalytcs\youtube\20201022\BD_marcas_de_chocolate_2210.gdt" --gzipped
+setinfo participac_little \
+  --description="=Vendas_Budget + Vendas_Whittaker + Vendas_Pams + Vendas_Donovan"
+setinfo participac_little --description="= Vendas_Budget"
+# store "C:\zclass\marketinanalytcs\youtube\20201022\BD_marcas_de_chocolate_2210.gdt" --gzipped
