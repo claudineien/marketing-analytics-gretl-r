@@ -96,25 +96,25 @@ O alfa depende muito do negócio em que uma hipótese esta sendo testada.</p>
 É possível identificar que a marca Donavan tem suas vendas mais influenciadas pelo preço do que as outras marcas, por que sua correlação é negativamente mais forte.<br>
 Também é possivel identificar que a marca Pams tem suas vendas menos influenciadas pelo preço do que as outras marcas, por que sua correlação é negativamente mais fraca.</p>
 
-<p>Ao gerar o gráfico de dispersão da marca Budget percebemos que não á linha de melhor ajuste, por que não há variação entre as variáveis.
+<p>Ao gerar o gráfico de dispersão da marca Budget percebemos que não á linha de melhor ajuste, por que não há variação entre as variáveis.<br>
 <img src="/3-img/aula06marketinganalytics4.png"><br>
 Para acontecer um gráfico de dispersão as variáveis devem variar para conseguirmos capturar a dispersão.<br>
 A análise de correlação diz que conforme X se distância em relação a média y se distância em relação a média também.<br>
 Por exemplo :
 Correlação negativa que dizer : enquanto as vendas se distanciam em relação a média positivamente o preço se distância em relação a sua própria média negativamente.</p>
 
-<p>A Matriz de Correlação da Budget
+<p>A Matriz de Correlação da Budget<br>
 <img src="/3-img/aula06marketinganalytics5.png"><br>
 A correlação de -0.1070 é muito fraca e não foi estatística significativa, por que seu p-value de 0.2796 esta acima de 0.05 que é a significância, então a é hipótese é nula, que não há correlação significativa entre as variáveis preço e venda e que o preço não influencia as vendas.<br>
 Por fim podemos considerar que correlação igual a 0 'zero', por estar a correlação muito próxima de 0.</p>
 
-<p><strong>p-value</strong> : Para reforçar o entendimento, utilizaremos a imagem da distribuição normal a seguir :
+<p><strong>p-value</strong> : Para reforçar o entendimento, utilizaremos a imagem da distribuição normal a seguir :<br>
 <img src="/3-img/aula06marketinganalytics6.png"><br>
 O p-value é uma pequena área debaixo da curva (ou calda). Se o p-value for inferior a alfa rejeitamos a hipótese nula (H0) e aceitamos hipótese alternativa (Ha), se o p-value for superior a alfa aceitamos a hipótese nula.<br>
 O p-value existe tanto na calda à esquerda quanto na calda à direita.</p>
 
 <p><strong>Correlação Vendas e Anúncio e Display</strong></p>
-<p>A seguir esta a Matriz de Correlação entre as variáveis Vendas e Anúncio e Display de todas as marcas, exceto da marca Budget que não possui varição alguma entre estas variáveis.
+<p>A seguir esta a Matriz de Correlação entre as variáveis Vendas e Anúncio e Display de todas as marcas, exceto da marca Budget que não possui varição alguma entre estas variáveis.<br>
 <img src="/3-img/aula06marketinganalytics7.png"><br>
 Analisando estes valores identificamos rapidamente que a Pams esta com uma correlação positiva e fraca bastante diferente das demais marcas.</p>
 
