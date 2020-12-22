@@ -22,7 +22,7 @@
 <hr>
 <h2>AULA 6 - MARKETING ANALYTICS</h2>
 <h4>DATASET VENDAS CHOCOLATE</h4>
-<h4>INTERPRETAR A CORRELAÇÃO ENTRE AS VARIÁVEIS MERCADOLÓGICAS</h4>
+<h4>INTERPRETAR A CORRELAÇÃO ENTRE VARIÁVEIS MERCADOLÓGICAS</h4>
 <p>A análise descritiva é o coração da análise estatística.</p>
 <p>Desempenho Mercadológico é o coração do Marketing Analytics.</p>
 <p>Utilizaremos o dataset <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.csv</a> ou <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.xlsx</a> com dados agregados de todas as informações consolidadas das vendas de determinadas marcas de chocolate de todas as lojas de uma grande rede de varejo dentro de um período de 104 semanas, aproximadamente dois anos.</p>
