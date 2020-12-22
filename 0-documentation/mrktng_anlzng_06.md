@@ -85,47 +85,63 @@ Hipótese alternativa é o que você testa contra a hipótese nula para verifica
 Testar o valor da correlação que obtivermos entre as duas variáveis contra zero (hipótese nula). Se este valor estiver muito distante de 0 negativamente ou positivamente então rejeitamos a hipótese nula, isto é, algo esta acontecendo então temos a hipótese alternativa.<br>
 O valor muito distante significa a probabilidade é muito pequena, fora do intervalo de confiança a ponto de rejeitarmos a hipótese nula a favor da hipótese alternativa.<br>
 A figura a seguir mostrar o Teste Bilateral usado para ver se a média real da amostra não é igual ao que é reivindicado na média da hipótese.<br>
-<img src='./aula06marketinganalytics2.png'><br>
+<img src='/3-img/aula06marketinganalytics2.png'><br>
 A parte central também é conhecida como nível de confiança, a parte mais a esquerda e a parte mais a direita também são conhecidos de alfa ou nível de significância do teste.<br>
 Se o valor da estatística de teste associado ao valor de probabilidade estiver na parte central aceita a hipótese nula, caso este valor seja muito distante de 0 negativamente (à esquerda) ou positivamente (á direita) então rejeitamos a hipótese nula que significa que há correlação entre as variáveis.<br>
 O alfa é definido por nós e isto significa que confiamos 95% e 5% é a significância para rejeitar ou aceitar a hipótese nula.<br>
 O alfa depende muito do negócio em que uma hipótese esta sendo testada.</p>
 
 <p>A imagem a seguir mostrar a Matriz de Correlação das demais marcas para analisarmos o contexto geral :<br>
-<img src="./aula06marketinganalytics3.png"><br>
+<img src="/3-img/aula06marketinganalytics3.png"><br>
 É possível identificar que a marca Donavan tem suas vendas mais influenciadas pelo preço do que as outras marcas, por que sua correlação é negativamente mais forte.<br>
 Também é possivel identificar que a marca Pams tem suas vendas menos influenciadas pelo preço do que as outras marcas, por que sua correlação é negativamente mais fraca.</p>
 
 <p>Ao gerar o gráfico de dispersão da marca Budget percebemos que não á linha de melhor ajuste, por que não há variação entre as variáveis.
-<img src="./aula06marketinganalytics4.png"><br>
+<img src="/3-img/aula06marketinganalytics4.png"><br>
 Para acontecer um gráfico de dispersão as variáveis devem variar para conseguirmos capturar a dispersão.<br>
 A análise de correlação diz que conforme X se distância em relação a média y se distância em relação a média também.<br>
 Por exemplo :
 Correlação negativa que dizer : enquanto as vendas se distanciam em relação a média positivamente o preço se distância em relação a sua própria média negativamente.</p>
 
 <p>A Matriz de Correlação da Budget
-<img src="./aula06marketinganalytics5.png"><br>
+<img src="/3-img/aula06marketinganalytics5.png"><br>
 A correlação de -0.1070 é muito fraca e não foi estatística significativa, por que seu p-value de 0.2796 esta acima de 0.05 que é a significância, então a é hipótese é nula, que não há correlação significativa entre as variáveis preço e venda e que o preço não influencia as vendas.<br>
 Por fim podemos considerar que correlação igual a 0 'zero', por estar a correlação muito próxima de 0.</p>
 
 <p><strong>p-value</strong> : Para reforçar o entendimento, utilizaremos a imagem da distribuição normal a seguir :
-<img src="./aula06marketinganalytics6.png"><br>
+<img src="/3-img/aula06marketinganalytics6.png"><br>
 O p-value é uma pequena área debaixo da curva (ou calda). Se o p-value for inferior a alfa rejeitamos a hipótese nula (H0) e aceitamos hipótese alternativa (Ha), se o p-value for superior a alfa aceitamos a hipótese nula.<br>
 O p-value existe tanto na calda à esquerda quanto na calda à direita.</p>
 
 <p><strong>Correlação Vendas e Anúncio e Display</strong></p>
 <p>A seguir esta a Matriz de Correlação entre as variáveis Vendas e Anúncio e Display de todas as marcas, exceto da marca Budget que não possui varição alguma entre estas variáveis.
-<img src="./aula06marketinganalytics7.png"><br>
+<img src="/3-img/aula06marketinganalytics7.png"><br>
 Analisando estes valores identificamos rapidamente que a Pams esta com uma correlação positiva e fraca bastante diferente das demais marcas.</p>
 
-<p>Aqui entendemos melhor a importância da Estatística Descritiva ao fornecer indicios a construção de um modelagem.</p>
+<p>Aqui entendemos melhor a importância da Estatística Descritiva ao nos fornecer indicios à construção de um modelo de regressão das vendas.<br>
+A estatística descritiva permite identificar as variáveis que explicam determinados fenômenos e com estas variáveis conseguimos construir o melhor modelo de regressão.</p>
 
-<p></p>
+<p>Atenção :
+Tudo que esta relacionamento é de uma marca apenas : as vendas da marca contra o preco da marca<br>
+As marcas são concorrentes<br>
+Em aulas anteriores foi gerado o grafico de evolução do mercado<br>
+Nós sabemos que este mercado é estacionário ao longo do tempo<br>
+As marcas estão pegando o mercado entre elas<br>
+Provavelmente o aumento de preço de uma das marcas aumenta a venda de uma ou mais marcas concorrentes. Esta poderia ser a variável 'Z', já mencionada anteriormente.</p>
 
+<p><strong>Correlação Preço Atual entre as marcas</strong></p>
+<p>Budget-> Whittaker 0.0000<br>
+Cadbury-> Whittaker 0.1472<br>
+Donavan-> Whittaker 0.0368<br>
+Pams-> Whittaker 0.0075<br>
+Aqui é possível identificar que a concorrente mais forte da Whittaker é a Cadbury<br>
+<p>Budget-> Cadbury 0.0000<br>
+Donavan-> Cadbury 0.0400<br>
+Pams-> Cadbury 0.2765<br>
+Aqui é possível identificar que a concorrente mais forte da Cadbury é a Pams<br>
+Atenção : A comparação de correlação forte é entre as marcas. Não é correlação referente ao p-value mencionado anteriormente.</p>
 
-
-
-
+<p><strong>* Tente executar as outras correlações você mesmo.</strong></p>
 
 <br><br>
 <hr>
