@@ -38,7 +38,7 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 
 <p><strong>Correlação Preco Atual versus Vendas</strong></p>
 <p>A primeira análise será sob a correlação linear entre duas variáveis quantitativas utilizando um gráfico de dispersão. As variáveis serão : Preco_atual_Whittaker no eixo X e Vendas_Whittaker no eixo y.<br>
-<img src="./aula06marketinganalytics0.png"><br>
+<img src="/3-img/aula06marketinganalytics0.png"><br>
 Ainda não foi realizado a medida de relacionamento por ainda não ter feito uma análise de correlação entre estas variáveis, mesmo assim o gráfico permite identificar o relacionamento entre as variáveis, que neste caso é um relacionamento negativo.<br>
 A linha gerada é a linha dos mínimos quadrados ordinários também conhecida como linha de melhor ajuste. Esta linha possibilita mostrar a menor distância entre ela e os pontos.<br>
 Este relacionamento é negativo do ponto de vista das vendas, por que o aumento das variáveis de preço no eixo X diminui as variáveis vendas no eixo y, que significa preço alto menos vendas.<br>
