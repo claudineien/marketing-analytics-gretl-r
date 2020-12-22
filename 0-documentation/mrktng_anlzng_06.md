@@ -149,6 +149,6 @@ Atenção : A comparação de correlação forte é entre as marcas. Não é cor
 <p>Fontes de estudo
     <ul>
         <li>Aula 06 : <a href="https://youtu.be/fQkeDjgSSgs">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
-        <li><a href="https://www.youtube.com/channel/UCyYHddVgHXAwDJ27-JxWqBA">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
+        <li><a href="https://youtu.be/VBRlT1jQiv8">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
     </ul>
 </p>
