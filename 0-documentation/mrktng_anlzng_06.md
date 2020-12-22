@@ -64,7 +64,7 @@ A teoria também indica dependências que podem não fazer sentido como por exem
 <p>Atenção com variáveis ao longo do tempo, por que o tempo pode funcionar como uma terceira variável 'Z' influenciando a relação entre duas várias.</p>
 
 <p>A figura a seguir mostra a Matriz de Correlação e o teste de hipótese :<br>
-<img src="./aula06marketinganalytics1.png"><br>
+<img src="/3-img/aula06marketinganalytics1.png"><br>
 Uma correlação entre vendas e preço foi realizada e o valor desta correlação é -0.7660.<br>
 O teste t com dois graus de liberdade, por ser dois anos é igual a -12.035<br>
 Estatística de teste com valor negativo<br>
