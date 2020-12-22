@@ -129,7 +129,8 @@ Nós sabemos que este mercado é estacionário ao longo do tempo<br>
 As marcas estão pegando o mercado entre elas<br>
 Provavelmente o aumento de preço de uma das marcas aumenta a venda de uma ou mais marcas concorrentes. Esta poderia ser a variável 'Z', já mencionada anteriormente.</p>
 
-<p><strong>Correlação Preço Atual entre as marcas</strong></p>
+<p><strong>Correlação Preço Atual entre as marcas</strong><br>
+<img src="/3-img/aula06marketinganalytics8.png"></p>
 <p>Budget-> Whittaker 0.0000<br>
 Cadbury-> Whittaker 0.1472<br>
 Donavan-> Whittaker 0.0368<br>
