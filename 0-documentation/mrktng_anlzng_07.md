@@ -109,11 +109,12 @@ A figura a seguir mostra a <strong>transformação não linear</strong> da vari�
 <img src="/3-img/aula07marketinganalytics7.png"><br>
 Conforme vai avançando para faixas de números menores de vendas a dos logaritmos é menor, conforme vai avançando para faixas de números maiores de vendas a distância entre os pontos aumenta.<br>
 Razões da transformação não linear das variáveis :<br>
-1o É devido a relação entre as variáveis de marketing normalmente não serem lineares como : preço e venda, propaganda e venda, anuncio e venda.<br>
-Um modelo de regressão linear não estará bem exato/acurado em uma relação notadamente não linear.<br>
-2o Imagine um modelo de regressão aonde a variável dependente é o faturamento e a variável independente é o número de funcionários, perceba que as variáveis estão em unidades distintas e desta forma é dificil a interpretação do beta por que os numeros estão em escalas diferentes em que um faturamento varia de dezenas à bilhões enquanto numeros de funcionarios vai variar de dezenas a centenas em uma mesma amostra. Então a transformação logaritmica comprime a série e a escala e evita perder a interpretabilidade e consegue interpretar em termos de mudança percentual.<br>
+<ol>
+  <li>É devido a relação entre as variáveis de marketing normalmente não serem lineares como : preço e venda, propaganda e venda, anuncio e venda.<br>
+Um modelo de regressão linear não estará bem exato/acurado em uma relação notadamente não linear.</li>
+  <li>Imagine um modelo de regressão aonde a variável dependente é o faturamento e a variável independente é o número de funcionários, perceba que as variáveis estão em unidades distintas e desta forma é dificil a interpretação do beta por que os numeros estão em escalas diferentes em que um faturamento varia de dezenas à bilhões enquanto numeros de funcionarios vai variar de dezenas a centenas em uma mesma amostra. Então a transformação logaritmica comprime a série e a escala e evita perder a interpretabilidade e consegue interpretar em termos de mudança percentual.</li>
 Com a transformação não linear o modelo de regressão interpreta o beta em termos de mudança percentual ao invés de ser interpretado em termos nominais.</p>
-
+</ol>
 
 <br><br>
 <hr>
