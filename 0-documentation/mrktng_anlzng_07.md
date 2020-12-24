@@ -63,13 +63,13 @@ O efeito do preço é conhecido por ser assimétrico em várias circunstâncias 
 Os pesquisadores orientam a criar uma variável de indexe de preço nos modelos empíricos de marketing para cada marca ou em relação ao mercado. Poderia criar uma variável de indexe de preço em relação a média de preço do mercado.<br>
 Por exemplo : Há o preço de cada marca por semana, há a média de preço na semana e a orientação é :<br>
 <ol>
-  <li>Criar uma variável de indexe de preço de cada marca em relação a esta média semanal</li>
-  <li>criar uma variável de indexe de preço por marca que contenha a divisão do Preço atual pelo preço regular</li>
+  <li>Criar uma variável indexada de preço de cada marca em relação a esta média semanal</li>
+  <li>Criar uma variável indexada de preço por marca que contenha a divisão do Preço atual pelo preço regular</li>
 </ol>
-Em nosso estudo criaremos cinco variáveis de indexe de preço, conforme imagem a seguir :<br>
+Em nosso estudo criaremos cinco variáveis indexada de preço, conforme imagem a seguir :<br>
 <img src="/3-img/aula07marketinganalytics1.png"><br>
-As variáveis indexe são conhecidas no Marketing Analytics como variáveis transformadas.<br>
-As variáveis indexe podem eliminiar a multicolinearidade, que são variáveis explicativas muito correlacionadas entre si sendo redundantes na explicação de variáveis dependentes.<br>
+As variáveis indexadas são conhecidas no Marketing Analytics como variáveis transformadas.<br>
+As variáveis indexadas podem eliminiar a multicolinearidade, que são variáveis explicativas muito correlacionadas entre si sendo redundantes na explicação de variáveis dependentes.<br>
 Um exemplo prático de multicolinearidade de duas variáveis diferentes e correlacionadas : Reduzir o preço e ao mesmo tempo investir em um encarte/display por exemplo informando que o preço esta baixo.<br>
 <strong>Atenção</strong> :<br>
 As variáveis de marketing são correlacionadas entre elas e faz parte da vida ter multicolinearidade no modelo, mas deve analisar detalhadamente para evitar que a multicolinearidade prejudique o modelo.</p>
