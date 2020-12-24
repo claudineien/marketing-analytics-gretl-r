@@ -108,7 +108,7 @@ A transformação indica que é mais difícel prever valores exponenciais do que
 A figura a seguir mostra a <strong>transformação não linear</strong> da variável de vendas, aonde a variavel vendas permanece em seu estado natural versus a variável vendas em seu estado logaritmico.<br>
 <img src="/3-img/aula07marketinganalytics7.png"><br>
 Conforme vai avançando para faixas de números menores de vendas a dos logaritmos é menor, conforme vai avançando para faixas de números maiores de vendas a distância entre os pontos aumenta.<br>
-Razões da transformação não linear das variáveis :<br>
+Razões da transformação não linear das variáveis :
 <ol>
   <li>É devido a relação entre as variáveis de marketing normalmente não serem lineares como : preço e venda, propaganda e venda, anuncio e venda.<br>
 Um modelo de regressão linear não estará bem exato/acurado em uma relação notadamente não linear.</li>
