@@ -54,7 +54,7 @@ Foram criadas as colunas mercado e participações (market share) de cada empres
 O índice de preço é o preço atual de cada marca dividido pelo sugerido (que deveria ser cobrado). Este último normalmente esta na embalagem.<br>
 <strong>Atenção :</strong> Caso a marca utilize o valor diferente do sugerido podemos identificar que a marca esta utilizando uma estratégia que se diferencia do preço sugerido.</p>
 <p>Ao executar a linha com a instrução <strong>names(dados_choc_novas_var)</strong> e depois aplicar duplo clique em uma das linhas na guia Environment (*) a imagem a seguir exibe o dataset lido pela linguagem 'r' e que será utiliza nesta aula 8.<br>
-<img src="/3-img/aula08marketinganalytics1.png"><br>
+<img src="./aula08marketinganalytics1.png"><br>
 <strong>Atenção : </strong>(*) A guia Environment pode estar localizada em local diferente do exibido aqui, por que depende da versão e/ou personalização realizada pelo usuario do RStudio. Instalação <a href="https://github.com/claudineien/marketing-analytics-gretl-r/blob/main/0-documentation/mrktng_anlzng_02.md">do r e do RStudio</a></p>
 
 <p>A variável 'dados_choc_novas_var' será o novo dataset que utilizaremos para aplicar os calculos</p>
@@ -62,10 +62,10 @@ O índice de preço é o preço atual de cada marca dividido pelo sugerido (que 
 <p>Foi aplicado o cálculo da correlação de person nas variáveis de vendas e preço atual de cada marca.</p>
 
 <p>Ao executar a linha com a instrução <strong>View(c_pearson)</strong> será exibido um dataframe com os valores da correlação de person conforme imagem a seguir :<br>
-<img src="/3-img/aula08marketinganalytics2.png"></p>
+<img src="./aula08marketinganalytics2.png"></p>
 
 <p>A instrução 'corrplot(c_pearson)' vai gerar o gráfico de correlação conforme exibido a seguir :<br>
-  <img src="/3-img/aula08marketinganalytics3.png"><br>
+  <img src="./aula08marketinganalytics3.png"><br>
   <strong>Importante :</strong>
   <ol>Um pouco de conceito sobre correlação:<br>
     <li>Correlação menor que zero:Se a correlação é menor que zero, significa que é negativo, isto é, que as variáveis são inversamente relacionadas.<br>
@@ -79,8 +79,11 @@ A direita há uma representação que lembra um termômetro onde +1 é a correla
 Algumas interpretações sobre correlação de algumas variáveis :<br>
 01- Preco_atual_Pams (horizontal) e Vendas_Pams (vertical) significa que o preço atual diminuiu um pouco as vendas.<br>
 02- Indice I_Vendas_Whittaker (horizontal) e Preco_atual_Whittaker (vertical) significa que o preço atual esta acima do preço sugerido 'inflação'.<br>
-03- Preco_atual_Pams (horizontal) e Preco_atual_Cadbury (vertical) significa que preço da Pams pode ter influenciado para colocar um bom preço na Cadbury<br></p>
+03- Preco_atual_Pams (horizontal) e Preco_atual_Cadbury (vertical) significa que preço da Pams pode ter influenciado um melhor preço na marca Cadbury.</p>
 
+<p>Também é gerado o gráfico de correlação a seguir que visualmente é mais agradável e além de melhor interpretativo :<br>
+<img src="./aula08marketinganalytics4.png"><br>
+É importante observar a correlação do Preco_atual_Donavan (horizontal) e Vendas_Budget (vertical) em que podemos entender que o preço superior da marca Donavan em relação a Budget pode ter sido o motivo do aumento das vendas da Budget.</p>
 
 
 <br><br>
