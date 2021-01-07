@@ -33,10 +33,10 @@
 Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que depende das outras variáveis independentes/explicativas que explicam o seu resultado.</p>
 
 <p>Utilizaremos o software <a href="http://gretl.sourceforge.net/pt.html">Gretl</a> para nos ajudar na interpretação dos resultados do relacionamento entre as variáveis mercadológicas.</p>
-<p>
-Utilizar o C:\zclass\marketinanalytcs\youtube\20201217\BD_marcas_de_chocolate.csv
-C:\zclass\marketinanalytcs\youtube\20201217\Marketing Analytics - Geral Transformadas e modelos.R
-</p>
+
+<p>Utilizar o ********************************
+C:\zclass\marketinanalytcs\youtube\20201217\BD_marcas_de_chocolate.csv
+C:\zclass\marketinanalytcs\youtube\20201217\Marketing Analytics - Geral Transformadas e modelos.</p>
 
 <p>Serão geradas a transforamção de variáveis, gerados os índices de preço e modelagens utilizando o arquivo <strong>Marketing Analytics - Geral Transformadas e modelos.R</strong>. Utilizaremos a linguagem R no software RStudio.</p>
 
@@ -45,9 +45,12 @@ C:\zclass\marketinanalytcs\youtube\20201217\Marketing Analytics - Geral Transfor
     <li>mercado : contendo as vendas de todas as marcas. As marcas Budget, Pams, Cadbury, Whittaker e Donovan</li>
     <li>variáveis de cada marca / pelo mercado : Market share</li>
   </ul>
-Foi criadas as colunas mercado e participações (market share) de cada empresa.</p>
+Foram criadas as colunas mercado e participações (market share) de cada empresa, para aplicar o Marketing Analytics e desenvolver um modelo mais performático.</p>
 
-<p>Foram calculados os indices de preço e o logarítmo de indice de preço, para comprimir as variáveis e facilitar a predição dos valores.<br>
+<p><a href="https://en.wikipedia.org/wiki/Market_share">Marketing Share - O que é?</a><br>
+É uma porcentagem que corresponde à relevância da sua empresa diante dos competidores da indústria em que ela atua.</p>
+
+<p>Foram calculados os índices de preço e o logarítmo de indice de preço, para comprimir as variáveis e facilitar a predição dos valores.<br>
 O índice de preço é o preço atual de cada marca dividido pelo sugerido (que deveria ser cobrado). Este último normalmente esta na embalagem.<br>
 <strong>Atenção :</strong> Caso a marca utilize o valor diferente do sugerido podemos identificar que a marca esta utilizando uma estratégia que se diferencia do preço sugerido.</p>
 <p>Ao executar a linha com a instrução <strong>names(dados_choc_novas_var)</strong> e depois aplicar duplo clique em uma das linhas na guia Environment (*) a imagem a seguir exibe o dataset lido pela linguagem 'r' e que será utiliza nesta aula 8.<br>
@@ -56,12 +59,28 @@ O índice de preço é o preço atual de cada marca dividido pelo sugerido (que 
 
 <p>A variável 'dados_choc_novas_var' será o novo dataset que utilizaremos para aplicar os calculos</p>
 
-<p>Foi aplicado o calculo da correlação de person nas variáveis de vendas e preço atual de cada marca.</p>
+<p>Foi aplicado o cálculo da correlação de person nas variáveis de vendas e preço atual de cada marca.</p>
 
 <p>Ao executar a linha com a instrução <strong>View(c_pearson)</strong> será exibido um dataframe com os valores da correlação de person conforme imagem a seguir :<br>
 <img src="/3-img/aula08marketinganalytics2.png"></p>
 
-<p></p>
+<p>A instrução 'corrplot(c_pearson)' vai gerar o gráfico de correlação conforme exibido a seguir :<br>
+  <img src="/3-img/aula08marketinganalytics3.png"><br>
+  <strong>Importante :</strong>
+  <ol>Um pouco de conceito sobre correlação:<br>
+    <li>Correlação menor que zero:Se a correlação é menor que zero, significa que é negativo, isto é, que as variáveis são inversamente relacionadas.<br>
+    Quando o valor de alguma variável é alto, o valor da outra variável é baixo. Quanto mais próximo você estiver de -1, mais clara será a covariação extrema. Se o coeficiente é igual a -1, nos referimos a uma correlação negativa perfeita.</li>
+    <li>Correlação maior que zero: Se a correlação for igual a +1, significa que é perfeito positivo. Neste caso, significa que a correlação é positiva, isto é, que as variáveis estão diretamente correlacionadas.<br>
+    Quando o valor de uma variável é alto, o valor da outra variável também é alto, o mesmo acontece quando eles são baixos. Se estiver próximo de +1, o coeficiente será covariado.</li>
+    <li>Correlação igual a zero: Quando a correlação é igual a zero, significa que não é possível determinar qualquer senso de covariação. No entanto, isso não significa que não haja relação não linear entre as variáveis.<br>
+    Quando as variáveis são independentes, significa que elas estão correlacionadas, mas isso significa que o resultado é verdadeiro.</li>
+</ol>
+A direita há uma representação que lembra um termômetro onde +1 é a correlação perfeita 0 correlação nula e -1 correlação fraca.<br>
+Algumas interpretações sobre correlação de algumas variáveis :<br>
+01- Preco_atual_Pams (horizontal) e Vendas_Pams (vertical) significa que o preço atual diminuiu um pouco as vendas.<br>
+02- Indice I_Vendas_Whittaker (horizontal) e Preco_atual_Whittaker (vertical) significa que o preço atual esta acima do preço sugerido 'inflação'.<br>
+03- Preco_atual_Pams (horizontal) e Preco_atual_Cadbury (vertical) significa que preço da Pams pode ter influenciado para colocar um bom preço na Cadbury<br></p>
+
 
 
 <br><br>
@@ -70,5 +89,6 @@ O índice de preço é o preço atual de cada marca dividido pelo sugerido (que 
     <ul>
         <li>Aula 08 : <a href="https://youtu.be/o9U9y6260cA">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
         <li><a href="https://www.youtube.com/channel/UCyYHddVgHXAwDJ27-JxWqBA">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Market_share">Marketing Share - O que é?</a></li>
     </ul>
 </p>
