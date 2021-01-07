@@ -52,7 +52,7 @@ Foi criadas as colunas mercado e participações (market share) de cada empresa.
 O índice de preço é o preço atual de cada marca dividido pelo sugerido (que deveria ser cobrado). Este último normalmente esta na embalagem.<br>
 <strong>Atenção :</strong> Caso a marca utilize o valor diferente do sugerido podemos identificar que a marca esta utilizando uma estratégia que se diferencia do preço sugerido.</p>
 <p>Ao executar a linha com a instrução <strong>names(dados_choc_novas_var)</strong> e depois aplicar duplo clique em uma das linhas na guia Environment (*) a imagem a seguir exibe o dataset lido pela linguagem 'r' e que será utiliza nesta aula 8.<br>
-<img src="./3-img/aula08marketinganalytics1.png"><br>
+<img src="/3-img/aula08marketinganalytics1.png"><br>
 <strong>Atenção : </strong>(*) A guia Environment pode estar localizada em local diferente do exibido aqui, por que depende da versão e/ou personalização realizada pelo usuario do RStudio. Instalação <a href="https://github.com/claudineien/marketing-analytics-gretl-r/blob/main/0-documentation/mrktng_anlzng_02.md">do r e do RStudio</a></p>
 
 <p>A variável 'dados_choc_novas_var' será o novo dataset que utilizaremos para aplicar os calculos</p>
