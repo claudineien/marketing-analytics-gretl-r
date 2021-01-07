@@ -1,4 +1,3 @@
-
 <h5><a href="blank_">[en]</a> | <a href="blank_">[pt-br]</a>
 </h5>
 <h5>
@@ -58,6 +57,11 @@ O índice de preço é o preço atual de cada marca dividido pelo sugerido (que 
 <p>A variável 'dados_choc_novas_var' será o novo dataset que utilizaremos para aplicar os calculos</p>
 
 <p>Foi aplicado o calculo da correlação de person nas variáveis de vendas e preço atual de cada marca.</p>
+
+<p>Ao executar a linha com a instrução <strong>View(c_pearson)</strong> será exibido um dataframe com os valores da correlação de person conforme imagem a seguir :<br>
+<img src="/3-img/aula08marketinganalytics2.png"></p>
+
+<p></p>
 
 
 <br><br>
