@@ -37,16 +37,14 @@
 <p>Modelos inferenciais são modelos de dependência como por exemplo análise de regressão. Nestes há variáveis que são dependentes/respostas de variáveis independentes/explicativas.<br>
 Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que depende das outras variáveis independentes/explicativas que explicam o seu resultado.</p>
 
-<p>Utilizaremos o software <a href="http://gretl.sourceforge.net/pt.html">Gretl</a> para nos ajudar na interpretação dos resultados do relacionamento entre as variáveis mercadológicas.</p>
-
-<p>Serão geradas a transforamção de variáveis, gerados os índices de preço e modelagens utilizando o arquivo <strong>Marketing Analytics - Geral Transformadas e modelos.R</strong>. Utilizaremos a linguagem R no software RStudio.</p>
-
-<p>Com a linguagem r aplicaremos a <strong>transformação de Variáveis (Feature Engineering)</strong> criando as variáveis:<br>
+<p>Utilizaremos a linguagem R no software RStudio para aplicarmos a <strong>transformação de Variáveis (Feature Engineering)</strong> e desenvolver um modelo linear. Variáveis que serão criadas:<br>
   <ul>
     <li>mercado : contendo as vendas de todas as marcas. As marcas Budget, Pams, Cadbury, Whittaker e Donovan</li>
-    <li>variáveis de cada marca / pelo mercado : Market share</li>
+    <li>variáveis de cada marca / pelo mercado : Market share de todas as marcas</li>
   </ul>
-Foram criadas as colunas mercado e participações (market share) de cada empresa, para aplicar o Marketing Analytics e desenvolver um modelo mais performático.</p>
+Estas variáveis serão novas colunas para cada marca, para aplicar o Marketing Analytics e desenvolver um modelo mais performático.</p>
+
+<p>Fazer download do arquivo fonte <a href="https://github.com/claudineien/marketing-analytics-gretl-r/blob/main/2-codigo/Marketing Analytics - Geral Transformadas e modelos.R">Marketing Analytics - Geral Transformadas e modelos.R</a></p>
 
 <p><a href="https://en.wikipedia.org/wiki/Market_share">Marketing Share - O que é?</a><br>
 É uma porcentagem que corresponde à relevância da sua empresa diante dos competidores da indústria em que ela atua.</p>
