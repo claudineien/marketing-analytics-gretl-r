@@ -222,7 +222,7 @@ O investimento em midia tradicional em unidade dinheiro-moeda é 0.02%<br>
 O logaritmo natural os transformam em coeficiente de mudança percentual possibilitando comparar, analisar e tomar decisões.<br>
 Neste exemplo diriamos que as acoes em rede social produzem efeito maior que a midia tradicional mesmo em medidas diferentes.</p>
 
-<p><strong>INTERPRETAÇÃO MARKETING ANALYTICS</strong><br>
+<p><strong>INTERPRETAÇÃO MARKETING ANALYTICS COM RELAÇÃO AO MODELO GERADO</strong><br>
 Em ambos os gráficos é possível entender que quando o índice de preço aumenta (é inflacionado) as vendas diminuem.<br>
 Indice de preço = Preço atual / Pelo preço sugerido</p>
 
