@@ -119,7 +119,7 @@ O p-value é do teste F, significância conjunta dos parâmetros da regressão, 
 O valor y2400 é o coeficiente linear da reta
 O valor 2300x é o coeficiente angular da reta 
 
-<img src="/3-img/aula08marketinganalytics6.png"></p>
+<img src="/3-img/aula08marketinganalytics7.png"></p>
 
 <br><br>
 <hr>
