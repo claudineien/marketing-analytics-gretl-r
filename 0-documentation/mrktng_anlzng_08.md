@@ -88,7 +88,7 @@ Algumas interpretações sobre correlação de algumas variáveis :<br>
 Plotaremos e analisaremos primeiramente os gráficos com valor e em escala original e depois sob cálculos em logarítmo natural também conhecido como logaritmo neperiano.</p>
 
 <p><strong>Gráficos de dispersão com valores em escala originais</strong>:<br>
-<img src="/3-img/aula08marketinganalytics5.png">
+<img src="/3-img/aula08marketinganalytics5.png"><br>
 O gráfico de dispersão a seguir contém os mesmos dados do anterior sendo exibido a correlação de pearson de -0,82 que significa correlação forte e negativa, o p-value da regressão exibe os valores da regressão que são o coeficiente linear da reta 2400 que é onde toca o eixo y e o coeficiente angular da reta 2300.<br>
 <img src="/3-img/aula08marketinganalytics7.png"><br>
 Motivo da reta de melhor ajuste não tocar no valor 2400 no eixo y :<br>
@@ -135,7 +135,7 @@ Analisar também se o R2 esta próximo do R2 ajustado, por que penaliza a quanti
 <p>O p-value é do teste F, significância conjunta dos parâmetros da regressão, em que pelo menos um beta é estatísticamente diferente de zero.</p>
 
 <p><strong>Coferindo os valores da correlação exibida nos gráficos de dispersão :</strong><br>
-Na regressão linear simples se elevar ao quadrado o coeficiente de Pearson o resultado é R2.
+Na regressão linear simples se elevar ao quadrado o coeficiente de Pearson o resultado é R2.<br>
 Instrução em r :<br>
 
 ```
@@ -216,20 +216,19 @@ F-statistic: 682.6 on 1 and 102 DF,  p-value: < 2.2e-16
 ```
 <p><strong>Benefício do Logaritmo Natural </strong> :<br>
 Utilizar o coeficiente em logaritmo natural ou neperiano possibilita comparar coeficientes de variáveis em escalas diferentes ou comparar unidades de medidas diferente.<br>
-Por exemplo:
-As ações na rede social em unidade de intensidade de interação é 0.04%
-O investimento em midia tradicional em unidade dinheiro-moeda é 0.02%
-O logaritmo natural os transformam em coeficiente de mudança percentual possibilitando comparar, analisar e tomar decisões.
+Por exemplo:<br>
+As ações na rede social em unidade de intensidade de interação é 0.04%<br>
+O investimento em midia tradicional em unidade dinheiro-moeda é 0.02%<br>
+O logaritmo natural os transformam em coeficiente de mudança percentual possibilitando comparar, analisar e tomar decisões.<br>
 Neste exemplo diriamos que as acoes em rede social produzem efeito maior que a midia tradicional mesmo em medidas diferentes.</p>
 
 <p><strong>INTERPRETAÇÃO MARKETING ANALYTICS</strong><br>
 Em ambos os gráficos é possível entender que quando o índice de preço aumenta (é inflacionado) as vendas diminuem.<br>
-Indice de preço = Preço atual / Pelo preço sugerido
-</p>
+Indice de preço = Preço atual / Pelo preço sugerido</p>
 
 <hr>
 <p><strong>Entender Regressão Linear com coeficiente diferente de zero</strong><br>
-As instruções a seguir geram dados com valores zerados, para que didáticamente entendermos que ao considerar 0 no X a reta de melhor ajuste tocará no valor exato de y que é o coeficiente linear da reta.
+As instruções a seguir geram dados com valores zerados, para que didáticamente entendermos que ao considerar 0 no X a reta de melhor ajuste tocará no valor exato de y que é o coeficiente linear da reta.<br>
 Executar em r :<br>
 
 ```
@@ -268,15 +267,13 @@ F-statistic: 67.47 on 1 and 103 DF,  p-value: 6.614e-13
 ```
 Um gráfico semelhante a figura a seguir será apresentado :<br>
 <img src="/3-img/aula08marketinganalytics10.png"><br>
-A interpretação do coeficiente linear tocar o eixo y só vale quando a variável explicativa tem o valor mínimo igual a 0 em seu intervalo.
-</p>
+A interpretação do coeficiente linear tocar o eixo y só vale quando a variável explicativa tem o valor mínimo igual a 0 em seu intervalo.</p>
 
-<p><strong>Atenção . . .</strong>
+<p><strong>Atenção . . .</strong><br>
 O R2 pode ter poder de explicação, mas o modelo pode não existir.<br>
 Discussão importante entre os pesquisadores :<br>
 Se o objetivo do modelo é fazer previsão, então calcula, considera analisa o R2.<br>
-Se o objetivo do modelo é identificar influência conhecido pelos economistas como 'efeito marginal' de uma variável na outra o R2 pode ser próximo de zero.
-</p>
+Se o objetivo do modelo é identificar influência conhecido pelos economistas como 'efeito marginal' de uma variável na outra o R2 pode ser próximo de zero.</p>
 
 <br><br>
 <hr>
