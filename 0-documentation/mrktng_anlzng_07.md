@@ -77,9 +77,9 @@ As variáveis de marketing são correlacionadas entre elas e faz parte da vida t
 <p>Vamos analisar as informações com gráfico de dispersão entre as variáveis Vendas_Whittaker no eixo X e Index_preco_Whittaker no eixo y a seguir :<br>
 <img src="/3-img/aula07marketinganalytics2.png"><br>
 Este gráfico mostra relação negativa entre as duas variáveis e exibe a função na parte superior que é Y = 2.38e+003 - 2.34e+003X que são o coeficiente linear da função e o coeficiente angular respectivamente. Lembrando que a reta é conhecida como reta de melhor ajuste, que apresenta a menor distância dos pontos em relação a ela.<br>
-Ao posicionar o mouse sobre o ponto mais alto em relação a reta aparece o valor 37 que é o indexe de preço x vendas na semana 37, descendo em direção a reta em cima da reta esta a previsão de vendas para este ponto.<br>
+Ao posicionar o mouse sobre o ponto mais alto em relação a reta aparece o valor 37 que é o indice de preço x vendas na semana 37, descendo em direção a reta em cima da reta esta a previsão de vendas para este ponto.<br>
 Por exemplo :<br>
-Qual será as vendas previstas quando o indexe de preço é 0.3?Para esta situação talvez este modelo não seja bom, por que 0.3 esta fora do intervalo (fora do range) dos valores x observados no dataset então estará estrapolando um valor que esta fora do intervalo.<br>
+Qual será as vendas previstas quando o indice de preço é 0.3?Para esta situação talvez este modelo não seja bom, por que 0.3 esta fora do intervalo (fora do range) dos valores x observados no dataset então estará estrapolando um valor que esta fora do intervalo.<br>
 É certo dizer que entre o ponto e a previsão do ponto, existe uma distância/dispersão.<br>
 Minimos quadrados ordinários por que se 'n' variáveis forem quantitativas vamos estimar um modelo funcional em que quero encontrar a reta que melhor se ajusta aos dados, que é a reta que tem a menor distância quadrada em relação aos pontos. A menor distância quadrada devido aos pontos que estão acima da reta, que significa que para alguns pontos o modelo subestimou e para outros superestimou.<br>
 Somando as medidas de distância acima da reta e abaixo da reta o resultado é zero, por serem valores positivos menos valores negativos.<br>
@@ -98,9 +98,9 @@ Aqui a correlação é linear e positiva e é erroneo acreditar que conforme vai
 <p><strong>Tarefa : Pesquisar</strong> o motivo de não utilizar o módulo ao invés dos mínimos quadrados ordinários.</p>
 
 <p>Aplicar transformação não linear nas váriaveis. Como as variáveis são quantitativas (venda e preço) podemos utilizar um artifício matemático para tirar estas variáveis da linearidade e quando estimar o modelo de regressão ela vai estar estimando um modelo não linear.<br>
-A transformação será a logarítmica natural sobre todas as váriaveis venda e sobre as variáveis de indexe de preço. A figura a seguir mostra os valores de venda e a mesma variável transformada em logaritmo natural (software Gretl).<br>
+A transformação será a logarítmica natural sobre todas as váriaveis venda e sobre as variáveis de indice de preço. A figura a seguir mostra os valores de venda e a mesma variável transformada em logaritmo natural (software Gretl).<br>
 <img src="/3-img/aula07marketinganalytics4.png"><br>
-A seguir as figuras mostram em gráfico de dispersão a regressão linear entre as variáveis vendas e indexe de preço normais e as variáveis transformadas vendas e indexe de preço ambas em logaritmo natural, respectivamente :<br>
+A seguir as figuras mostram em gráfico de dispersão a regressão linear entre as variáveis vendas e indice de preço normais e as variáveis transformadas vendas e indice de preço ambas em logaritmo natural, respectivamente :<br>
 <img src="/3-img/aula07marketinganalytics5.png"><br>
 <img src="/3-img/aula07marketinganalytics6.png"><br>
 A função logaritmica comprimiu os dados, ajustou os dados e aproximou as observações da reta de previsão e consequentemente diminui a distância e diminui o erro.<br>
