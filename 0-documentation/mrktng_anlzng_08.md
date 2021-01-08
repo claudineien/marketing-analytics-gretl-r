@@ -65,7 +65,7 @@ O índice de preço é o preço atual de cada marca dividido pelo sugerido (que 
 <img src="/3-img/aula08marketinganalytics2.png"></p>
 
 <p>A instrução 'corrplot(c_pearson)' vai gerar o gráfico de correlação conforme exibido a seguir :<br>
-  <img src="/3-img/aula08marketinganalytics3.png"><br>
+  <img src="./aula08marketinganalytics3.png"><br>
   <strong>Importante :</strong>
   <ol>Um pouco de conceito sobre correlação:<br>
     <li>Correlação menor que zero:Se a correlação é menor que zero, significa que é negativo, isto é, que as variáveis são inversamente relacionadas.<br>
@@ -85,11 +85,17 @@ Algumas interpretações sobre correlação de algumas variáveis :<br>
 <img src="/3-img/aula08marketinganalytics4.png"><br>
 É importante observar a correlação do Preco_atual_Donavan (horizontal) e Vendas_Budget (vertical) em que podemos entender que o preço superior da marca Donavan em relação a Budget pode ter sido o motivo do aumento das vendas da Budget.</p>
 
-<p>O de dispersão a seguir :<br>
+<p>O gráfico de dispersão também conhecido como scatterplot a seguir nos mostra a relação ou associação entre as variáveis Vendas e Indice de preços da Marca Whittaker :<br>
 <img src="/3-img/aula08marketinganalytics5.png"><br>
-É importante observar a correlação do Preco_atual_Donavan (horizontal) e Vendas_Budget (vertical) em que podemos entender que o preço superior da marca Donavan em relação a Budget pode ter sido o motivo do aumento das vendas da Budget.</p>
+Este gráfico esta com os dados em seu valor original.</p>
 
-Na aula 7 foi abordado sobre as variáveis em logaritimo natual 
+<p>Na <a href="https://github.com/claudineien/marketing-analytics-gretl-r/blob/main/0-documentation/mrktng_anlzng_07.md">aula 7</a> foi abordado sobre as variáveis em logaritimo natural também conhecido como logaritmo neperiano que possibilita estudar fenômenos que evoluem de maneira exponencial.<br>
+Com a aplicação do logaritmo natural a dispersão tende a ficar dentro do intervalo de confiança da previsão e a reta de melhor ajuste será mais performática ao modelo. Aproximação para dentro da área do intervalo.</p>
+
+<p>O gráfico de dispersão a seguir esta sob o cálculo de logaritmo natural ou neperiano :<br>
+<img src="/3-img/aula08marketinganalytics6.png"></p>
+
+<p>Em ambos os gráficos é possível entender que enquanto o índice de preço que é o preço atual divivido pelo preço sugerido aumenta (é inflacionado) as vendas diminuem, porém no último gráfico temos uma modelo mais ajustado.</p>
 
 
 <br><br>
@@ -99,5 +105,6 @@ Na aula 7 foi abordado sobre as variáveis em logaritimo natual
         <li>Aula 08 : <a href="https://youtu.be/o9U9y6260cA">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
         <li><a href="https://www.youtube.com/channel/UCyYHddVgHXAwDJ27-JxWqBA">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
         <li><a href="https://en.wikipedia.org/wiki/Market_share">Marketing Share - O que é?</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/John_Napier">John Napier - Logaritmo Natural ou Neperiano</a></li>
     </ul>
 </p>
