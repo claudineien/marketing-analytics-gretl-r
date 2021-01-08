@@ -100,9 +100,9 @@ Com a aplicação do logaritmo natural a dispersão tende a ficar dentro do inte
 <p>A inclinação deve continuar a mesma, se aplicar o coeficiente de correlação de Pearson deve continuar negativa.<br>
 A transformação das variáveis para logaritmo natural conserva a inclinação e a correlação, ainda que aproxime os valores para um melhor ajuste.</p>
 
-<p>Um outro gráfico de dispersão exibe a correlação de pearson -0,82 que significa correlação forte e negativa. Exibe o p-value da regressão e exibe os valores da regressão que são o coeficiente linear da reta que é onde toca o eixo y 
-
-O motivo de reta de melhor ajuste não tocar no 2400 no eixo y é por conta 
+<p>O gráfico de dispersão a seguir exibe a correlação de pearson -0,82 que significa correlação forte e negativa, o p-value da regressão e exibe os valores da regressão que são o coeficiente linear da reta que é onde toca o eixo y.<br>
+<img src="/3-img/aula08marketinganalytics7.png"><br>
+O motivo de reta de melhor ajuste não tocar no valor 2400 no eixo y é por conta.<br>
 
 Quando faz o modelo de regressão as suas variaveis explicativas
 que é as variaveis que voce esta explicando o fenômeno por exemplos vendas Estou tentando explicar as vendas pelo indice de preco O indice de preco é a variavel explicativa e ai esta variavel 
@@ -114,12 +114,50 @@ summary(dados$index_preco_Whittaker)
   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
  0.5882  0.7684  0.9770  0.8837  0.9923  1.0000 
 ```
+Se colocar 0 no x o y sera 2400 
+ mas o menor valor é maior que zero 0.5882
+
+Não é correto interpretar extrapolando a variável
+
+A regressão existe na interpolação dos valores que voce criou, nos valores da tua variavel explicativa
+
+Se fosse regressão linear multipla todos os valores da variavel explicativa tem que estar dentro do range, por isto não faz sentido 2400 por não conter o zero 
+Tambem não pode colocar zero para dar 2400
+
+a reta esta um pouco acima de 1000 por que é onde o 0.5882 vai
+
+Não pode ter zero por senão extrapola 
+
+Quando a variavel explicativa não contem o zero não pode interpretar o coeficiente linear
+<br>
+----<br>
+Vamos analisar as variáveis transformadas em logaritmo natural<br>
+<img src="/3-img/aula08marketinganalytics8.png"><br>
+
+Utilizar o coeficiente em log é possivel comparar coeficientes de variáveis em escalas diferentes, unidades de medidas diferente 
+Por exemplo efeito de ações na rede social é 0.04% de intensidade de intereação consegue comparar com investimento em reais de midia tradicional se transformar em log por que vira coeficiente de mudanca percentual Ai la vai estar 0.02% Então as acoes em rede social produzem efeito maior que midia traditional mesmo tendo medidas diferente 
+
+Modelo melhorou por que as variaveis estao transformadas
+A correlação ficou mais forte
+
+R2
+Poder explicativo do modelo O quanto variavel explicativa explica a variavel resposta Ou seja o quanto o indice de preco esta explicando da venda
+Regressão linear simples posso interpretar o R2 como aplicando coeficiente de pearson ao quadrado 
+-0.82^2 = 0.6724 que é o valor do R2
+a variavel X explica 67.24% da variavel y -pode de explicação do modelo
+No caso do logaritmo o poder de explicação aumenta
+-0.93^2 = 0.8649 queé o valor do R2
+a variavel X explica 86.49% da variavel y
+
+
+
+
 O p-value é do teste F, significância conjunta dos parâmetros da regressão, em que pelo menos um beta é estatisticamente diferente de zero.
 
 O valor y2400 é o coeficiente linear da reta
 O valor 2300x é o coeficiente angular da reta 
 
-<img src="/3-img/aula08marketinganalytics7.png"></p>
+<img src="/3-img/aula08marketinganalytics8.png"></p>
 
 <br><br>
 <hr>
