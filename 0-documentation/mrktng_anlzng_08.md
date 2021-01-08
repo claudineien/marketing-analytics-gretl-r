@@ -85,6 +85,12 @@ Algumas interpretações sobre correlação de algumas variáveis :<br>
 <img src="/3-img/aula08marketinganalytics4.png"><br>
 É importante observar a correlação do Preco_atual_Donavan (horizontal) e Vendas_Budget (vertical) em que podemos entender que o preço superior da marca Donavan em relação a Budget pode ter sido o motivo do aumento das vendas da Budget.</p>
 
+<p>O de dispersão a seguir :<br>
+<img src="/3-img/aula08marketinganalytics5.png"><br>
+É importante observar a correlação do Preco_atual_Donavan (horizontal) e Vendas_Budget (vertical) em que podemos entender que o preço superior da marca Donavan em relação a Budget pode ter sido o motivo do aumento das vendas da Budget.</p>
+
+Na aula 7 foi abordado sobre as variáveis em logaritimo natual 
+
 
 <br><br>
 <hr>
