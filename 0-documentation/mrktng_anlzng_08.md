@@ -54,7 +54,7 @@ Foram criadas as colunas mercado e participações (market share) de cada empres
 O índice de preço é o preço atual de cada marca dividido pelo sugerido (que deveria ser cobrado). Este último normalmente esta na embalagem.<br>
 <strong>Atenção :</strong> Caso a marca utilize o valor diferente do sugerido podemos identificar que a marca esta utilizando uma estratégia que se diferencia do preço sugerido.</p>
 <p>Ao executar a linha com a instrução <strong>names(dados_choc_novas_var)</strong> e depois aplicar duplo clique em uma das linhas na guia Environment (*) a imagem a seguir exibe o dataset lido pela linguagem 'r' e que será utiliza nesta aula 8.<br>
-<img src="/3-img/aula08marketinganalytics1.png"><br>
+<img src="./aula08marketinganalytics1.png"><br>
 <strong>Atenção : </strong>(*) A guia Environment pode estar localizada em local diferente do exibido aqui, por que depende da versão e/ou personalização realizada pelo usuario do RStudio. Instalação <a href="https://github.com/claudineien/marketing-analytics-gretl-r/blob/main/0-documentation/mrktng_anlzng_02.md">do r e do RStudio</a></p>
 
 <p>A variável 'dados_choc_novas_var' será o novo dataset que utilizaremos para aplicar os calculos</p>
@@ -62,7 +62,7 @@ O índice de preço é o preço atual de cada marca dividido pelo sugerido (que 
 <p>Foi aplicado o cálculo da correlação de person nas variáveis de vendas e preço atual de cada marca.</p>
 
 <p>Ao executar a linha com a instrução <strong>View(c_pearson)</strong> será exibido um dataframe com os valores da correlação de person conforme imagem a seguir :<br>
-<img src="/3-img/aula08marketinganalytics2.png"></p>
+<img src="./aula08marketinganalytics2.png"></p>
 
 <p>A instrução 'corrplot(c_pearson)' vai gerar o gráfico de correlação conforme exibido a seguir :<br>
   <img src="./aula08marketinganalytics3.png"><br>
@@ -82,21 +82,45 @@ Algumas interpretações sobre correlação de algumas variáveis :<br>
 03- Preco_atual_Pams (horizontal) e Preco_atual_Cadbury (vertical) significa que preço da Pams pode ter influenciado um melhor preço na marca Cadbury.</p>
 
 <p>Também é gerado o gráfico de correlação a seguir que visualmente é mais agradável e além de melhor interpretativo :<br>
-<img src="/3-img/aula08marketinganalytics4.png"><br>
+<img src="./aula08marketinganalytics4.png"><br>
 É importante observar a correlação do Preco_atual_Donavan (horizontal) e Vendas_Budget (vertical) em que podemos entender que o preço superior da marca Donavan em relação a Budget pode ter sido o motivo do aumento das vendas da Budget.</p>
 
 <p>O gráfico de dispersão também conhecido como scatterplot a seguir nos mostra a relação ou associação entre as variáveis Vendas e Indice de preços da Marca Whittaker :<br>
-<img src="/3-img/aula08marketinganalytics5.png"><br>
+<img src="./aula08marketinganalytics5.png"><br>
 Este gráfico esta com os dados em seu valor original.</p>
 
 <p>Na <a href="https://github.com/claudineien/marketing-analytics-gretl-r/blob/main/0-documentation/mrktng_anlzng_07.md">aula 7</a> foi abordado sobre as variáveis em logaritimo natural também conhecido como logaritmo neperiano que possibilita estudar fenômenos que evoluem de maneira exponencial.<br>
 Com a aplicação do logaritmo natural a dispersão tende a ficar dentro do intervalo de confiança da previsão e a reta de melhor ajuste será mais performática ao modelo. Aproximação para dentro da área do intervalo.</p>
 
 <p>O gráfico de dispersão a seguir esta sob o cálculo de logaritmo natural ou neperiano :<br>
-<img src="/3-img/aula08marketinganalytics6.png"></p>
+<img src="./aula08marketinganalytics6.png"></p>
 
-<p>Em ambos os gráficos é possível entender que enquanto o índice de preço que é o preço atual divivido pelo preço sugerido aumenta (é inflacionado) as vendas diminuem, porém no último gráfico temos uma modelo mais ajustado.</p>
+<p>Em ambos os gráficos é possível entender que enquanto o índice de preço que é o preço atual divivido pelo preço sugerido aumenta (é inflacionado) as vendas diminuem, porém no último gráfico temos uma modelo ajustado.</p>
 
+<p>A inclinação deve continuar a mesma, se aplicar o coeficiente de correlação de Pearson deve continuar negativa.<br>
+A transformação das variáveis para logaritmo natural conserva a inclinação e a correlação, ainda que aproxime os valores para um melhor ajuste.</p>
+
+<p>Um outro gráfico de dispersão exibe a correlação de pearson -0,82 que significa correlação forte e negativa. Exibe o p-value da regressão e exibe os valores da regressão que são o coeficiente linear da reta que é onde toca o eixo y 
+
+O motivo de reta de melhor ajuste não tocar no 2400 no eixo y é por conta 
+
+Quando faz o modelo de regressão as suas variaveis explicativas
+que é as variaveis que voce esta explicando o fenômeno por exemplos vendas Estou tentando explicar as vendas pelo indice de preco O indice de preco é a variavel explicativa e ai esta variavel 
+So é possivel estimar o modelo interpretar o modelo dentro do range que a variavel explicativa foi construida 
+Ela pertence ao conjunto
+```
+#Explica o motivo da reta não tocar o 2400
+summary(dados$index_preco_Whittaker)
+  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.5882  0.7684  0.9770  0.8837  0.9923  1.0000 
+```
+
+O p-value é do teste F, significância conjunta dos parâmetros da regressão, em que pelo menos um beta é estatisticamente diferente de zero.
+
+O valor y2400 é o coeficiente linear da reta
+O valor 2300x é o coeficiente angular da reta 
+
+<img src="./aula08marketinganalytics6.png"></p>
 
 <br><br>
 <hr>
