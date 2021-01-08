@@ -270,7 +270,7 @@ Um gráfico semelhante a figura a seguir será apresentado :<br>
 A interpretação do coeficiente linear tocar o eixo y só vale quando a variável explicativa tem o valor mínimo igual a 0 em seu intervalo.</p>
 
 <p><strong>Atenção . . .</strong><br>
-<strong>prof Thiago Marques informa :</strong><br
+<strong>prof Thiago Marques informa :</strong><br>
 O R2 pode ter poder de explicação, mas o modelo pode não existir.<br>
 <strong>prof Marcos Severo informa :</strong><br>
 Discussão importante entre os pesquisadores :<br>
