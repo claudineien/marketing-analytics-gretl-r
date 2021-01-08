@@ -44,7 +44,7 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
   </ul>
 Estas variáveis serão novas colunas para cada marca, para aplicar o Marketing Analytics e desenvolver um modelo mais performático.</p>
 
-<p>Fazer download do arquivo fonte <a href="https://github.com/claudineien/marketing-analytics-gretl-r/blob/main/2-codigo/Marketing Analytics - Geral Transformadas e modelos.R">Marketing Analytics - Geral Transformadas e modelos.R</a></p>
+<p>Fazer download do arquivo fonte <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/1-source-code/Marketing Analytics - Geral Transformadas e modelos.R">Marketing Analytics - Geral Transformadas e modelos.R</a></p>
 
 <p><a href="https://en.wikipedia.org/wiki/Market_share">Marketing Share - O que é?</a><br>
 É uma porcentagem que corresponde à relevância da sua empresa diante dos competidores da indústria em que ela atua.</p>
