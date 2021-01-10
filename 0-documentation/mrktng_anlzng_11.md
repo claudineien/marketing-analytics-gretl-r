@@ -198,24 +198,17 @@ Qual filme fatura mais no Domestic ?, Qual filme fatura mais no Foreign ?, Traba
 
 <h3>O que produzir e entregar ?</h3>
 <p>
-Report : Relatório de Análise de dados com no máximo 15 páginas<br>
-Linguagem de programação utilizada<br>
-Software utilizado<br>
-Análises relacionadas ao Marketing associado a Estatistica<br>
-Justificar a escolha da base de dados<br>
-Técnicas a aplicar : O que foi ensinado nas aulas 01 a 10<br>
-Conteudo do report : Análise descritiva, Explorar dados/variáveis, Modelo Regressão Simples/ Não Linear/ Log-Log, Modelo Regressão Multipla, Descrever o Sentido da Análise de Dados em Desenvolvimento, Informar o que a variavel explicativa diz sobre o fenomeno, Correlação, Graficos, Explicar os gráficos, Informar a escolha do gráfico, Teste de hipótese (pearson) para comprovar Estatistica Descritiva, Dashboard, Explicar com base em Meta-Analysis, Betas, Variaveis fazem sentido ?, Quando uma variával x é alterada altera variável y, Contexto Descritivo Este é um relatório de análise, a base de dados usada foi tal, as variaveis escolhidas foram tal por que elas funcionas assim..., a media é tal, o desvio padrão é tal, condicionada a tal caracteristica acontecera x, y, z... , este é o grafico que evidencia x acontecimento, a transformação dos dados aplicada foi x, os possiveis padrões são x,y<br>
+Report : Relatório de Análise de dados com no máximo 15 páginas com seguinte conteúdo : <br>
+.Linguagem de programação utilizada<br>
+.Software utilizado<br>
+.Análises relacionadas ao Marketing associado a Estatistica<br>
+.Justificar a escolha da base de dados<br>
+.Técnicas a aplicar : O que foi ensinado nas aulas 01 a 10<br>
+.Conteúdo do report : Análise descritiva, Explorar dados/variáveis, Modelo Regressão Simples/ Não Linear/ Log-Log, Modelo Regressão Multipla, Descrever o Sentido da Análise de Dados em Desenvolvimento, Informar o que a variavel explicativa diz sobre o fenomeno, Correlação, Graficos, Explicar os gráficos, Informar a escolha do gráfico, Teste de hipótese (pearson) para comprovar Estatistica Descritiva, Dashboard, Explicar com base em Meta-Analysis, Betas, Variaveis fazem sentido ?, Quando uma variával x é alterada altera variável y, Contexto Descritivo Este é um relatório de análise, a base de dados usada foi tal, as variaveis escolhidas foram tal por que elas funcionas assim..., a media é tal, o desvio padrão é tal, condicionada a tal caracteristica acontecera x, y, z... , este é o grafico que evidencia x acontecimento, a transformação dos dados aplicada foi x, os possiveis padrões são x,y<br>
 </p>
 
 <h3>Método de correção :</h3>
 <p>O método de Correção será comparativa, quanto mais completo o report melhor a nota.</p>
-
-Grafo no Marketing Analytics
- https://www.youtube.com/watch?v=VdSqwZ-w9Kw
-
-Previsão de dados com Python
- https://youtu.be/ifaNfzRZW3U
-
 
 <br><br>
 <hr>
