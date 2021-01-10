@@ -41,7 +41,7 @@ Abrir o programa Gretl instalado em seu computador, abrir a base de dados, procu
 <img src="/3-img/aula09marketinganalytics00.png"><br></p>
 
 <p>Nesta aula aprenderemos a criar um modelo de regressão não linear, também conhecido como modelo log-log. Este modelo é citado em livros de econometria. Um aspecto importante do modelo log-log é o cálculo da elasticidade de Y em relação a X. As variáveis estarão transformadas em logaritmo natural por que pressupõe um efeito não linear das variáveis, efeitos decrescentes da escala e significa que conforme há aumento dos volumes da variável X ocorre um aumento na variável Y até certo ponto e este aumento vai diminuindo conforme há aumento na variável X isto significa efeito descrecente a escala.<br>
-Pensando em um modelo estritamente linear, quanto mais propaganda, mais anuncios as vendas sempre aumentam... mas na prática isto não ocorre.</p>
+Se persarmos em um modelo estritamente linear, quanto mais propaganda, mais anuncios então... as vendas sempre aumentariam. Na prática isto não ocorre.</p>
 
 <p>Vamos aprender a prever a influência do preço nas vendas e estimar o modelo de regressão de mínimos quadrados para marca Whittaker.<br>
 Executar procedimentos no software Gretl conforme imagem a seguir :<br>
