@@ -1,4 +1,3 @@
-
 <h5><a href="blank_">[en]</a> | <a href="blank_">[pt-br]</a>
 </h5>
 <h5>
@@ -31,11 +30,14 @@
 <p>Modelos inferenciais são modelos de dependência como por exemplo análise de regressão. Nestes há variáveis que são dependentes/respostas de variáveis independentes/explicativas.<br>
 Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que depende das outras variáveis independentes/explicativas que explicam o seu resultado.</p>
 
-<p><strong>Datasets</strong><br>
-Escolher uma dos datasets a seguir :<br>
-01  <a href="/2-dataset/listings-RIo_de_Janeiro.csv">listings-RIo_de_Janeiro.csv</a><br>
+<h3><strong>Datasets</strong></h3>
+
+<p>Escolher uma dos datasets a seguir :</p>
+
+<p>
+01 <a href="/2-dataset/listings-RIo_de_Janeiro.csv">listings-RIo_de_Janeiro.csv</a><br>
 Tamanho : aproximadamente 35870 registros/linhas<br>
-Fonte origem : http://insideairbnb.com/get-the-data.html<br>
+Fonte origem : <a href="http://insideairbnb.com/get-the-data.html">http://insideairbnb.com/get-the-data.html</a><br>
 <div>
   <table>
     <tr>
@@ -112,11 +114,33 @@ Fonte origem : http://insideairbnb.com/get-the-data.html<br>
     </tr>
   </table>
 </div>
-Alguns Insights:
-Preco : por regiao (geolocalização), bairro, tipos de propriedades, quantidade de reviews, sera que mais reviews aumenta o preço ? por que se beneficia de mais comentarios ?
-Review : padrao de intensidade na plataforma/rede social
-Relacionar preco com reviews
+Alguns Insights que podem ser extraidos :<br>
+Preço : Por região (geolocalização), Por bairro, Por tipos de propriedades, Por quantidade de reviews, Será que mais reviews aumenta o preço? Será que mais reviews aumenta o preço? Será a quantidade de comentários aumenta o preço?<br>
+Review : Padrão de intensidade na plataforma/rede social, Relacionar preço com reviews</p>
 
+<p>
+02 <a href="/2-dataset/HollywoodMovies.csv">HollywoodMovies.xlsx</a><br>
+Tamanho : aproximadamente 970 registros/linhas<br>
+Fontes origem : <a href="https://www.lock5stat.com/datapage.html">https://www.lock5stat.com/datapage.html</a><br>
+Dataset para r : <a href="https://cran.r-project.org/web/packages/Lock5Data/index.html">https://cran.r-project.org/web/packages/Lock5Data/index.html</a>
+Description of the Columns : https://rdrr.io/cran/Lock5Data/man/HollywoodMovies.html<br>
+<div>
+  <table>
+    <tr>
+      <th>Campo</th>
+      <th>Descrição</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+Alguns Insights que podem ser extraidos :<br>
+Preço : Por região (geolocalização), Por bairro, Por tipos de propriedades, Por quantidade de reviews, Será que mais reviews aumenta o preço? Será que mais reviews aumenta o preço? Será a quantidade de comentários aumenta o preço?<br>
+Review : Padrão de intensidade na plataforma/rede social, Relacionar preço com reviews</p>
+
+<p>
 02  HollywoodMovies.xlsx - 970 registros/linhas/filmes - Fonte origem : https://www.lock5stat.com/datapage.html - Data set para r :  https://cran.r-project.org/web/packages/Lock5Data/index.html, Data set Describe Column : https://rdrr.io/cran/Lock5Data/man/
 Movie	LeadStudio    Studio that released the movie
 RottenTomatoes      Rotten Tomatoes rating (reviewers) Classificação/Pontuação criticos de filme no https://www.rottentomatoes.com/
@@ -142,10 +166,10 @@ Metodo de correção : Correção é comparativa, quanto mais completo o report 
 
 Conteudo do report : Abordado nas aulas 01 a 10
 Análise descritiva, Modelo Regressão Simples/ Não Linear/ Log-Log, Modelo Regressão Multipla, Descrever o Sentido da Análise de Dados em Desenvolvimento, Justificar a Escolha da Base de dados
-Explorar as Variáveis, Informar o que a variavel explicativa diz sobre o fenomeno, Correlação, Graficos, Teste de hipotese (pearson) para comprovar Estatistica Descritiva, Dashboard, Explicar com base em Meta-Analysis, Betas, Variaveis fazem sentido ?, 
+Explorar as Variáveis, Informar o que a variavel explicativa diz sobre o fenomeno, Correlação, Graficos, Teste de hipotese (pearson) para comprovar Estatistica Descritiva, Dashboard, Explicar com base em Meta-Analysis, Betas, Variaveis fazem sentido ?
+</p>
 
-
- Base de dados :
+Projeto
  Desenvolver no máximo 15 páginas
   Relatorio utilizado para tal
   Grafico mostra tal coisa
