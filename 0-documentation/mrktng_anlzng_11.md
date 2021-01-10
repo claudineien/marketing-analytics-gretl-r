@@ -122,8 +122,8 @@ Review : Padrão de intensidade na plataforma/rede social, Relacionar preço com
 02 <a href="/2-dataset/HollywoodMovies.xlsx">HollywoodMovies.xlsx</a><br>
 Tamanho : aproximadamente 970 registros/linhas<br>
 Fontes origem : <a href="https://www.lock5stat.com/datapage.html">https://www.lock5stat.com/datapage.html</a><br>
-Dataset para r : <a href="https://cran.r-project.org/web/packages/Lock5Data/index.html">https://cran.r-project.org/web/packages/Lock5Data/index.html</a>
-Description of the Columns : https://rdrr.io/cran/Lock5Data/man/HollywoodMovies.html<br>
+Dataset para r : <a href="https://cran.r-project.org/web/packages/Lock5Data/index.html">https://cran.r-project.org/web/packages/Lock5Data/index.html</a><br>
+Description of the Columns : <a href="https://rdrr.io/cran/Lock5Data/man/HollywoodMovies.html">https://rdrr.io/cran/Lock5Data/man/HollywoodMovies.html</a><br>
 <div>
   <table>
     <tr>
@@ -131,53 +131,84 @@ Description of the Columns : https://rdrr.io/cran/Lock5Data/man/HollywoodMovies.
       <th>Descrição</th>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>Movie	LeadStudio</td>
+      <td>Studio that released the movie</td>
+    </tr>
+    <tr>
+      <td>RottenTomatoes</td>
+      <td>Rotten Tomatoes rating (reviewers) Classificação/Pontuação criticos de filme no <a href="https://www.rottentomatoes.com/">https://www.rottentomatoes.com/</a></td>
+    </tr>
+    <tr>
+      <td>AudienceScore</td>
+      <td>Audience rating (via Rotten Tomatoes) Pontuação da audiencia/de quem assistiu</td>
+    </tr>
+    <tr>
+      <td>Story</td>
+      <td>General theme - one of 21 themes - História</td>
+    </tr>
+    <tr>
+      <td>Genre</td>
+      <td>One of 14 possible genres - Genero/Segmento : Ação, Animação, Aventura</td>
+    </tr>
+    <tr>
+      <td>TheatersOpenWeek</td>
+      <td>Number of screens for opening weekend - Faturamento Na Semana de Abertura</td>
+    </tr>
+    <tr>
+      <td>OpeningWeekend</td>
+      <td>Opening weekend gross (in $ millions) - Faturamento No Fim de Semana de Abertura</td>
+    </tr>
+    <tr>
+      <td>BOAvgOpenWeekend</td>
+      <td>Average opening week box office income (per theater) - Faturamento Médio Na Semana de Abertura</td>
+    </tr>
+    <tr>
+      <td>DomesticGross</td>
+      <td>Gross income for domestic viewers (in $ millions) - Faturamento Bruto Domestico-No pais de origem</td>
+    </tr>
+    <tr>
+      <td>ForeignGross</td>
+      <td>Gross income for foreign viewers (in $ millions) - Faturamento Bruto em paises no exterior</td>
+    </tr>
+    <tr>
+      <td>WorldGross</td>
+      <td>Gross income for all viewers (in $ millions) - Faturamento Mundial</td>
+    </tr>
+    <tr>
+      <td>Budget</td>
+      <td>Production budget (in $ millions) - Preço Gasto para produzir o filme</td>
+    </tr>
+    <tr>
+      <td>Profitability</td>
+      <td>WorldGross as a percentage of Budget - Lucros do Filme</td>
+    </tr>
+    <tr>
+      <td>OpenProfit</td>
+      <td>Percentage of budget recovered on opening weekend - Lucro no dia Abertura/Lançamento</td>
+    </tr>
+    <tr>
+      <td>Year</td>
+      <td>Year the movie was released - Ano produção do filme</td>
     </tr>
   </table>
 </div>
 Alguns Insights que podem ser extraidos :<br>
-Preço : Por região (geolocalização), Por bairro, Por tipos de propriedades, Por quantidade de reviews, Será que mais reviews aumenta o preço? Será que mais reviews aumenta o preço? Será a quantidade de comentários aumenta o preço?<br>
-Review : Padrão de intensidade na plataforma/rede social, Relacionar preço com reviews</p>
-
-<p>
-02  HollywoodMovies.xlsx - 970 registros/linhas/filmes - Fonte origem : https://www.lock5stat.com/datapage.html - Data set para r :  https://cran.r-project.org/web/packages/Lock5Data/index.html, Data set Describe Column : https://rdrr.io/cran/Lock5Data/man/
-Movie	LeadStudio    Studio that released the movie
-RottenTomatoes      Rotten Tomatoes rating (reviewers) Classificação/Pontuação criticos de filme no https://www.rottentomatoes.com/
-AudienceScore       Audience rating (via Rotten Tomatoes) Pontuação da audiencia/de quem assistiu
-Story               General theme - one of 21 themes - História
-Genre               One of 14 possible genres - Genero/Segmento : Ação, Animação, Aventura
-TheatersOpenWeek    Number of screens for opening weekend - Faturamento Na Semana de Abertura
-OpeningWeekend      Opening weekend gross (in $ millions) - Faturamento No Fim de Semana de Abertura
-BOAvgOpenWeekend    Average opening week box office income (per theater) - Faturamento Médio Na Semana de Abertura
-DomesticGross       Gross income for domestic viewers (in $ millions) - Faturamento Bruto Domestico-No pais de origem
-ForeignGross        Gross income for foreign viewers (in $ millions) - Faturamento Bruto em paises no exterior
-WorldGross          Gross income for all viewers (in $ millions) - Faturamento Mundial
-Budget              Production budget (in $ millions) - Preço Gasto para produzir o filme
-Profitability       WorldGross as a percentage of Budget - Lucros do Filme
-OpenProfit          Percentage of budget recovered on opening weekend - Lucro no dia Abertura/Lançamento
-Year                Year the movie was released - Ano produção do filme
-
-Alguns Insights:
-Muitas variaveis resposta, Qual filme fatura mais no Domestic ? Qual filme fatura mais no Foreign ?, Trabalhar somente com receita Domestic, Trabalhar somente com receita Foreign, Comparar Faturamentos de Domestic e Foreign, Analise global do mercado mundial, Relacionar mercado mundial com budget, Relacionar mercado mundial por ano, Desempenho dos estudos por ano, 
-
-Produzir um Report : Relatório de Análise de dados
-Metodo de correção : Correção é comparativa, quanto mais completo o report melhor a nota
-
-Conteudo do report : Abordado nas aulas 01 a 10
-Análise descritiva, Modelo Regressão Simples/ Não Linear/ Log-Log, Modelo Regressão Multipla, Descrever o Sentido da Análise de Dados em Desenvolvimento, Justificar a Escolha da Base de dados
-Explorar as Variáveis, Informar o que a variavel explicativa diz sobre o fenomeno, Correlação, Graficos, Teste de hipotese (pearson) para comprovar Estatistica Descritiva, Dashboard, Explicar com base em Meta-Analysis, Betas, Variaveis fazem sentido ?
+Qual filme fatura mais no Domestic ?, Qual filme fatura mais no Foreign ?, Trabalhar somente com receita Domestic, Trabalhar somente com receita Foreign, Comparar Faturamentos entre Domestic e Foreign, Análise global do mercado mundial, Relacionar mercado mundial com budget, Relacionar mercado mundial por ano, Desempenho dos estudos por ano.
 </p>
 
-Projeto
- Desenvolver no máximo 15 páginas
-  Relatorio utilizado para tal
-  Grafico mostra tal coisa
-  Quando uma variával x é alterada altera variável y
---------------------------
+<h3>O que produzir e entregar ?</h3>
+<p>
+Report : Relatório de Análise de dados com no máximo 15 páginas<br>
+Linguagem de programação utilizada<br>
+Software utilizado<br>
+Análises relacionadas ao Marketing associado a Estatistica<br>
+Justificar a escolha da base de dados<br>
+Técnicas a aplicar : O que foi ensinado nas aulas 01 a 10<br>
+Conteudo do report : Análise descritiva, Explorar dados/variáveis, Modelo Regressão Simples/ Não Linear/ Log-Log, Modelo Regressão Multipla, Descrever o Sentido da Análise de Dados em Desenvolvimento, Informar o que a variavel explicativa diz sobre o fenomeno, Correlação, Graficos, Explicar os gráficos, Informar a escolha do gráfico, Teste de hipótese (pearson) para comprovar Estatistica Descritiva, Dashboard, Explicar com base em Meta-Analysis, Betas, Variaveis fazem sentido ?, Quando uma variával x é alterada altera variável y, Contexto Descritivo Este é um relatório de análise, a base de dados usada foi tal, as variaveis escolhidas foram tal por que elas funcionas assim..., a media é tal, o desvio padrão é tal, condicionada a tal caracteristica acontecera x, y, z... , este é o grafico que evidencia x acontecimento, a transformação dos dados aplicada foi x, os possiveis padrões são x,y<br>
+</p>
 
-Análise estatistica é desestruturada
-
+<h3>Método de correção :</h3>
+<p>O método de Correção será comparativa, quanto mais completo o report melhor a nota.</p>
 
 Grafo no Marketing Analytics
  https://www.youtube.com/watch?v=VdSqwZ-w9Kw
@@ -185,77 +216,6 @@ Grafo no Marketing Analytics
 Previsão de dados com Python
  https://youtu.be/ifaNfzRZW3U
 
-
-
-
-
-
-
-
-
-<p>Serão gerados estatísticas descritivas no software <strong>RStudio</strong> utilizando a linguagem R e o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/0-documentation">01-Report_Descritivo-atualizado_0411.docx</a> como apoio para analisar as média, mediana, desvio-padrão, coeficiente de variação, no primeiro ano e no segundo ano por marca e extrair outras informações.</p>
-
-<p>Importante : <br>
-Dentro do fonte <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/1-source-code">Marketing Analytics - Preco_atual.R</a> estão anotados muitos outros detalhes.<br>
-Aqui mencionei os que eu julguei conceitualmente importantes relacionados ao Marketing Analytics.
-</p>
-
-<p>A Instrução <strong>s = summary(dados_choc)</strong> exibirá os valores minimo, 1o quartil, mediana, media, 3o quartil, valor máximo por coluna-variavel.<br>
-Analisando a coluna Vendas_Budget valores em kilo entendemos :<br>
-62.32 : vendas mínimas<br>
-88.13 : vendas que alcançaram o 1o quartil/25% do total<br>
-96.23 : vendas que alcançaram aproximadamente 50% das vendas<br>
-95.53 : vendas médias ou ponto de equilíbio<br>
-103.36 : vendas que alcançaram 3o quartil/75% do total<br>
-132.00 : vendas máxima<br>
-Os valores exibidos serão parecidos com a imagem a seguir :<br>
-<img src="/3-img/smmryDtSt0.png" width='700'><br>
-O comando <strong>d = describe(dados_choc)</strong> exibirá alguns dados resumidos por coluna-variável. Na coluna Vendas_Budget por exemplo :<br>
-n = 104 : quantidade de elementos = linhas que contém dados para esta coluna<br>
-missing = 0 : não há dados faltantes para esta coluna<br>
-distinct = 99 : 99 valores de dados iguais<br>
-Interessante saber que são informados valores a cada 1/2% a partir de 0.05 à 0.95.<br>
-lowest : são os 5 menores valores<br>
-highest : são os 5 maiores valores<br>
-value : lowest + highest<br>
-frequency : quantidade absoluta a cada lowest e highest do total<br>
-proportion : proporção absoluta a cada lowest e highest do total<br>
-Os valores exibidos serão parecidos com a imagem a seguir :<br>
-<img src="/3-img/dscbDtSt0.png" width='700'><br>
-</p>
-
-<p>Estes valores podem ser representados graficamente pelo gráfico boxplot. Conforme a seguir :<br>
-<img src="/3-img/boxplotVdsBdgt0.png" width='300'><br>
-Observar que o 2o quartil esta mais próximo do primeiro do que do terceiro significando que a distribuição é assimétrica negativa e indica que as vendas se concentram mais nos maiores valores.</p>
-
-<p>Importante : <br>
-Dentro do fonte <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/1-source-code">Marketing Analytics - Preco_atual.R</a> estão anotados muitos outros detalhes.<br>
-Aqui mencionei os que eu julguei conceitualmente importantes relacionados ao Marketing Analytics.
-</p>
-
-<p>
-Considerando os dois anos que estão no dataset vamos plotar gráfio time series para analisar coluna-variável Preço_atual de cada marca : <br>
-<img src="/3-img/tmsrsDtSt0.png" width='900'><br>
-<img src="/3-img/tmsrsDtSt1.png" width='900'><br>
-No gráfico é possível verificar que o preço não varia muito na marca Budget em relação às outras marcas.<br>
-</p>
-
-<p>Importante : <br>
-Interpretação econômica e mercadológica : O segredo da relação entre o preço e as vendas esta na variação do preço, e não no preço baixo.<br>
-A variabilidade do preço influência no resultado das vendas.
-</p>
-
-<p>
-Analisar em um gráfico dinâmico que ao passar o mouse são exibidas as informações programadas de um perído das primeiras 52 semana por marca.<br>
-<img src="/3-img/ggplotVndsTtlsAno.png" width='900'><br>
-Possível entender que um desvio padrão interno de uma marca é maior que o desvio padrão interno da outra marca.<br>
-Quando pegamos várias observações ao longo do tempo analisamos os dados que é conhecido como painel, considerando dois desvios-padrão : 1 a variabilidade do interior das observações e o desvio-padrão between que é o desvio padrão entre as observações para cada período de tempo.<br>
-</p>
-
-<p>
-Analisar evolução do preço atual de chocolate por semana em um gráfico dinâmico de área que ao passar o mouse são exibidas as informações programadas de um perído das primeiras 52 semana por marca.<br>
-<img src="/3-img/ggplotVndsTtlsAnoArea.png" width='900'><br>
-</p>
 
 <br><br>
 <hr>
