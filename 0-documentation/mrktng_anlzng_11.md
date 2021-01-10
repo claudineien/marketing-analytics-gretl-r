@@ -119,7 +119,7 @@ Preço : Por região (geolocalização), Por bairro, Por tipos de propriedades, 
 Review : Padrão de intensidade na plataforma/rede social, Relacionar preço com reviews</p>
 
 <p>
-02 <a href="/2-dataset/HollywoodMovies.csv">HollywoodMovies.xlsx</a><br>
+02 <a href="/2-dataset/HollywoodMovies.xlsx">HollywoodMovies.xlsx</a><br>
 Tamanho : aproximadamente 970 registros/linhas<br>
 Fontes origem : <a href="https://www.lock5stat.com/datapage.html">https://www.lock5stat.com/datapage.html</a><br>
 Dataset para r : <a href="https://cran.r-project.org/web/packages/Lock5Data/index.html">https://cran.r-project.org/web/packages/Lock5Data/index.html</a>
