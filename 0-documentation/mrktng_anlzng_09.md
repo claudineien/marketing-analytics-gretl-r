@@ -38,19 +38,19 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 
 <p>Criar o logaritmo natural das vendas e do indice de preço de todas as marcas.<br>
 Abrir o programa Gretl instalado em seu computador, abrir a base de dados, procurar cada uma das variáveis Vendas_['nome_marca'], pressionar o botão esquerdo do mouse e selecionar Add Log, depois procurar cada uma das variáveis Index_preco_['nome_marca'] pressionar o botão esquerdo do mouse e selecionar Add Log. Figura ilustrativa a seguir:
-<img src="./aula09marketinganalytics00.png"><br></p>
+<img src="/3-img/aula09marketinganalytics00.png"><br></p>
 
 <p>Nesta aula aprenderemos a criar um modelo de regressão não linear, também conhecido como modelo log-log. Este modelo é citado em livros de econometria. Um aspecto importante do modelo log-log é o cálculo da elasticidade de Y em relação a X. As variáveis estarão transformadas em logaritmo natural por que pressupõe um efeito não linear das variáveis, efeitos decrescentes da escala e significa que conforme há aumento dos volumes da variável X ocorre um aumento na variável Y até certo ponto e este aumento vai diminuindo conforme há aumento na variável X isto significa efeito descrecente a escala.<br>
 Pensando em um modelo estritamente linear, quanto mais propaganda, mais anuncios as vendas sempre aumentam... mas na prática isto não ocorre.</p>
 
 <p>Vamos aprender a prever a influência do preço nas vendas e estimar o modelo de regressão de mínimos quadrados para marca Whittaker.<br>
 Executar procedimentos no software Gretl conforme imagem a seguir :<br>
-<img src="./aula09marketinganalytics01.png"><br>
+<img src="/3-img/aula09marketinganalytics01.png"><br>
 01- Model\OLS-Ordinary Least squares regression<br>
 02- Selecionar a variável dependente/de resposta l_Vendas_Whittaker e clicar na seta na parte superior para ser incluida no campo Dependent variable.<br>
 03- Selecionar a variável independente/explicativa l_Index_preco_Whittaker e clicar na seta na parte superior para ser incluida no campo Regressors.<br>
 Uma janela semelhante a janela a seguir será exibida :<br>
-<img src="./aula09marketinganalytics02.png"></p>
+<img src="/3-img/aula09marketinganalytics02.png"></p>
 
 <p>Vamos analisar as informações calculadas da regressão :<br> 
 1o<br>
@@ -70,6 +70,7 @@ Os três asterísticos do p-value associado ao t-ratio é estatísticamente sign
   ---------------------------------------------------------------
   l_Index_preco_Wh~    −5.89903    0.225781    −26.13   5.46e-047 ***
 ```
+
 O indice do preço tem o coeficiente negativo.<br>
 Como as variáveis estão em logaritmo natural, matematicamente podemos interpretar em termos de mudança percentual.<br>
 O p-value é muito pequeno isto significa que o beta é estatisticamente diferente de zero.<br>
@@ -156,11 +157,11 @@ O teste-F testa tudo de uma vez.</p>
 <p><strong>Regressão Múltipla</strong>
 Vamos tentar melhorar o modelo em estudo<br>
 Executar procedimentos no software Gretl conforme imagem a seguir :<br>
-<img src="./aula09marketinganalytics03.png"><br>
+<img src="/3-img/aula09marketinganalytics03.png"><br>
 01- Selecionar a variável dependente/de resposta l_Vendas_Whittaker e clicar na seta na parte superior para ser incluida no campo Dependent variable.<br>
 02- Selecionar as variáveis independentes/explicativas l_Index_preco_Whittaker e clicar na seta na parte superior para ser incluida no campo Regressors, depois a variável AD_Whittaker.<br>
 Uma janela semelhante a janela a seguir será exibida :<br>
-<img src="./aula09marketinganalytics04.png"><br>
+<img src="/3-img/aula09marketinganalytics04.png"><br>
 As vendas provavelmente variam sob influência do preço e sob influência do anuncio e display. Anuncio e display é uma variável ponderada e esta em percentual, portanto não precisa ser aplicado o logartimo natural por que já esta na mesma escala percentual.<br>
 
 1o Teste F faz sentido?<br>
@@ -205,7 +206,7 @@ Se o coeficiente que estiver interpretando estiver difícil de ser explicado sig
 <p>Homocedasticidade (Homoscedasticity)<br>
 Erros normalmente distribuidos em torno da reta de regressão, significa que a mesma proporção de pontos acima da reta tem que estar abaixo da reta caso contrário haverá um problema no coeficiente em si.<br>
 Talvez o modelo não esteja captando e ai ocorre um problema que para alguns valores o modelo de regressão superestima o efeito do preço e para outros valores ele subestima.<br>
-<img src="./aula09marketinganalytics05.png"><br>
+<img src="/3-img/aula09marketinganalytics05.png"><br>
 Estes são modelos preditivos para y em função de X.
 A linha vermelha é a linha de melhor ajuste/regressão/previsão e os pontos azuis são as observações/amostras. Relação entre X e y conforme avança nos valores X há um aumento nos valores y.<br>
 1a Figura - Homocedásticos<br>
@@ -217,9 +218,9 @@ Ocorre o inverso da 2a Figura<br>
 O interessante é que ambas as situações formam um cone.</p>
 
 <p>Sobre a janela com os cálculos estatísticos abertos clicar em Tests\Heteroskedasticity\Koenker conforme imagem a seguir :<br>
-<img src="./aula09marketinganalytics06.png"><br>
+<img src="/3-img/aula09marketinganalytics06.png"><br>
 A informação Breusch-Pagan test for heteroskedasticity (robust variant) - é exibida na parte inferior.<br>
-<img src="./aula09marketinganalytics07.png"><br>
+<img src="/3-img/aula09marketinganalytics07.png"><br>
 
 ```
 Breusch-Pagan test for heteroskedasticity (robust variant) -
@@ -234,7 +235,7 @@ Hipotese alternativa esta com Heterocedasticidade<br>
 Conclusão : O modelo é heterocedastico por que aceitamos a hipotese alternativa que é heterocedastica. Então é necessário melhorar.</p>
 
 <p>Executar o mesmo procedimento informado anteriormente sobre a janela dos cálculos de regressão múltipla, que deve estar aberta.<br>
-<img src="./aula09marketinganalytics08.png"><br>
+<img src="/3-img/aula09marketinganalytics08.png"><br>
 
 ```
 Breusch-Pagan test for heteroskedasticity (robust variant) -
