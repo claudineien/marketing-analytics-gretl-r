@@ -76,7 +76,7 @@ Como as variáveis estão em logaritmo natural, matematicamente podemos interpre
 O p-value é muito pequeno isto significa que o beta é estatisticamente diferente de zero.<br>
 O coeficiente -5.89903 é diferente de zero então é possivel interpretar diretamente que o beta é estatisticamente diferente de zero.<br>
 Para cada acréscimo de 1% no indice de preço eu tenho uma redução nas vendas de -5.89903 em média.<br>
-Temos aqui uma demanda é elástica.<br>
+Temos aqui uma demanda que é elástica.<br>
 Se esse beta fosse <-1 (entre -0.1 e -0.9) seria uma demanda inelástica.<br>
 O aumento de 1% no preço provoca uma redução na demanda mas < 1%, mas não é o caso aqui.<br>
 O caso aqui é eu tenho um acréscimo de 1% no preço e tenho uma redução na demanda maior que 1%.<br>
