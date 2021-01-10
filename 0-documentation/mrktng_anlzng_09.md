@@ -36,7 +36,7 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 
 <p>Serão estimados os modelos de regressão no software <a href="http://gretl.sourceforge.net/pt.html">Gretl</a>.</p>
 
-<p>Criar o logaritmo natural das vendas e do indice de preço de todas as marcas.<br>
+<p><strong>Criar o logaritmo natural das vendas e do indice de preço de todas as marcas</strong>.<br>
 Abrir o programa Gretl instalado em seu computador, abrir a base de dados, procurar cada uma das variáveis Vendas_['nome_marca'], pressionar o botão esquerdo do mouse e selecionar Add Log, depois procurar cada uma das variáveis Index_preco_['nome_marca'] pressionar o botão esquerdo do mouse e selecionar Add Log. Figura ilustrativa a seguir:
 <img src="/3-img/aula09marketinganalytics00.png"><br></p>
 
