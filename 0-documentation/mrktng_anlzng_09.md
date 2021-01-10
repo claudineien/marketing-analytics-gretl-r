@@ -91,7 +91,8 @@ Vale lembrar que o produto aqui em estudo é chocolate, que é um produto de alt
 Para melhor entendimento sobre o que pode estar contido no coeficiente, imagine o dono de uma loja quando reduz o preço ele divulga de alguma forma a redução nos preços e isto indica que há muitas outras variáveis para ajudar o coeficiente se ajustar. Isto significa que quando o preço é reduzido outra ação é realizada para compensar.</p>
 
 <p><strong>Importante :</strong><br>
-Antes de interpretar o coeficiente, como foi feito aqui, deve-se 1st-Primeira análise é interpretar se a regressão faz sentido e isto significa fazer um teste de hipótese para saber se o modelo global faz sentido. O modelo global divide a variação na parte não explicada e na parte explicada, e com base nestas é aplicado o teste F.<br>
+Antes de interpretar o coeficiente, como foi feito aqui, deve-se :<br>
+1o Interpretar se a regressão faz sentido e isto significa fazer um teste de hipótese para saber se o modelo global faz sentido. O modelo global divide a variação na parte não explicada e na parte explicada, e com base nestas é aplicado o teste F.<br>
 Com as 104 observações do dataset utilizado aqui fazemos o teste F com grau de liberdade, conforme a linha a seguir, extraida dos calculos do Gretl :<br>
 
 ```
@@ -104,7 +105,7 @@ Sendo um dos betas diferente de zero haverá uma relação/associação com um s
 Neste caso o modelo global faz sentido estatístico, por que ao menos um dos betas é estatisticamente diferente de zero e também significa que há modelo.<br>
 É importante destacar que o beta do coeficiente linear não é considerado, somente os outros betas são considerados.</p>
 
-<p>2sd-Secunda análise é interpretar as Estatisticas Descritivas básicas total. Lembando que aqui estamos analisando valores em logaritmo.<br>
+<p>2o Interpretar as Estatisticas Descritivas básicas totais. Lembando que aqui estamos analisando valores em logaritmo.<br>
 
 ```
 Mean dependent var   5.236838   S.D. dependent var   0.952753
