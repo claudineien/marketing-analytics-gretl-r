@@ -38,18 +38,19 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 
 <p>Criar o logaritmo natural das vendas e do indice de preço de todas as marcas.<br>
 Abrir o programa Gretl instalado em seu computador, abrir a base de dados, procurar cada uma das variáveis Vendas_['nome_marca'], pressionar o botão esquerdo do mouse e selecionar Add Log, depois procurar cada uma das variáveis Index_preco_['nome_marca'] pressionar o botão esquerdo do mouse e selecionar Add Log. Figura ilustrativa a seguir:
-<img src="/3-img/aula09marketinganalytics00.png"><br></p>
+<img src="./aula09marketinganalytics00.png"><br></p>
 
-<p>Nesta aula aprenderemos a criar um modelo de regressão não linear, também conhecido como modelo log-log. Este modelo é citado em livros de econometria. Um aspecto importante do modelo log-log é o cálculo da elasticidade de Y em relação a X. As variáveis estarão transformadas em logaritmo natural por que pressupõe um efeito não linear das variáveis, efeitos decrescentes da escala e significa que conforme há aumento dos volumes da variávei X ocorre um aumento na variável Y até certo ponto e este aumento vai diminuindo conforme há aumento na variável X isto significa efeito descrecente a escala.<br>
+<p>Nesta aula aprenderemos a criar um modelo de regressão não linear, também conhecido como modelo log-log. Este modelo é citado em livros de econometria. Um aspecto importante do modelo log-log é o cálculo da elasticidade de Y em relação a X. As variáveis estarão transformadas em logaritmo natural por que pressupõe um efeito não linear das variáveis, efeitos decrescentes da escala e significa que conforme há aumento dos volumes da variável X ocorre um aumento na variável Y até certo ponto e este aumento vai diminuindo conforme há aumento na variável X isto significa efeito descrecente a escala.<br>
 Pensando em um modelo estritamente linear, quanto mais propaganda, mais anuncios as vendas sempre aumentam... mas na prática isto não ocorre.</p>
 
 <p>Vamos aprender a prever a influência do preço nas vendas e estimar o modelo de regressão de mínimos quadrados para marca Whittaker.<br>
 Executar procedimentos no software Gretl conforme imagem a seguir :<br>
-<img src="/3-img/aula09marketinganalytics01.png"><br>
-01- Selecionar a variável dependente/de resposta l_Vendas_Whittaker e clicar na seta na parte superior para ser incluida no campo Dependent variable.<br>
-02- Selecionar a variável independente/explicativa l_Index_precoWhittaker e clicar na seta na parte superior para ser incluida no campo Regressors.<br>
+<img src="./aula09marketinganalytics01.png"><br>
+01- Model\OLS-Ordinary Least squares regression<br>
+02- Selecionar a variável dependente/de resposta l_Vendas_Whittaker e clicar na seta na parte superior para ser incluida no campo Dependent variable.<br>
+03- Selecionar a variável independente/explicativa l_Index_preco_Whittaker e clicar na seta na parte superior para ser incluida no campo Regressors.<br>
 Uma janela semelhante a janela a seguir será exibida :<br>
-<img src="/3-img/aula09marketinganalytics02.png"></p>
+<img src="./aula09marketinganalytics02.png"></p>
 
 <p>Vamos analisar as informações calculadas da regressão :<br> 
 1o<br>
@@ -69,7 +70,6 @@ Os três asterísticos do p-value associado ao t-ratio é estatísticamente sign
   ---------------------------------------------------------------
   l_Index_preco_Wh~    −5.89903    0.225781    −26.13   5.46e-047 ***
 ```
-
 O indice do preço tem o coeficiente negativo.<br>
 Como as variáveis estão em logaritmo natural, matematicamente podemos interpretar em termos de mudança percentual.<br>
 O p-value é muito pequeno isto significa que o beta é estatisticamente diferente de zero.<br>
@@ -82,10 +82,11 @@ O caso aqui é eu tenho um acréscimo de 1% no preço e tenho uma redução na d
 É possível fazer um intervalo de confiança esperado para onde vai variar, e para isto basta usar o erro padrão. Considerando dois erros padrão para cima ou para baixo e com isto produzimos um intervalo de onde vai variar o intervalo do efeito do preço nas vendas, a influência do preço nas vendas.<br>
 
 <strong>-5.89903 Faz Sentido ?</strong><br>
-O resultado de -5.8903 faz sentido por conta de uma meta-analysis incluindo 1851 elasticidades de preços entre 1961 e 2004 (43 anos de dados) das influências de preço nas vendas publicada no American Marketing Association, em que a distribuição é centrada no valor negativo.<br>
-Confira no documento <a href="/2-dataset/Bijmolt_et_al_2005.pdf">Bijmolt_et_al_2005.pdf</a> disponibilizado <a href="/2-dataset/Bijmolt_et_al_2005.pdf">aqui</a>.
+O resultado de -5.8903 faz sentido por conta de uma meta-analysis realizado por diversos pesquisadores em que foram considerados 1851 elasticidades de preços entre 1961 e 2004 (43 anos de dados) das influências de preço nas vendas publicada no American Marketing Association, em que provarão que a distribuição é centrada no valor negativo.<br>
+Confira no documento <a href="/2-dataset/Bijmolt_et_al_2005.pdf">Bijmolt_et_al_2005.pdf</a> disponibilizado <a href="/2-dataset/Bijmolt_et_al_2005.pdf">aqui</a>.<br>
+Vale lembrar que o produto aqui em estudo é chocolate, que é um produto de alta frequência, portanto na média um aumento no preço implica na redução das vendas.</p>
 
-Talvez o coeficiente -5.89903 se ajuste mais quando for considerados outras variáveis, e faz sentido por ser uma regressão simples. É possível que o coeficiente esteja considerando o preço e outro valor, e/ou que significa que pode estar considerando quase todo o erro padrão.<br>
+<p>Talvez o coeficiente -5.89903 se ajuste mais quando for considerados outras variáveis, e faz sentido por ser uma regressão simples. É possível que o coeficiente esteja considerando o preço e outro valor, e/ou que significa que pode estar considerando quase todo o erro padrão.<br>
 Para melhor entendimento sobre o que pode estar contido no coeficiente, imagine o dono de uma loja quando reduz o preço ele divulga de alguma forma a redução nos preços e isto indica que há muitas outras variáveis para ajudar o coeficiente se ajustar. Isto significa que quando o preço é reduzido outra ação é realizada para compensar.</p>
 
 <p><strong>Importante :</strong><br>
@@ -152,36 +153,103 @@ O teste-F testa tudo de uma vez.</p>
   </ol>
 </p>
 
+<p><strong>Regressão Múltipla</strong>
+Vamos tentar melhorar o modelo em estudo<br>
+Executar procedimentos no software Gretl conforme imagem a seguir :<br>
+<img src="./aula09marketinganalytics03.png"><br>
+01- Selecionar a variável dependente/de resposta l_Vendas_Whittaker e clicar na seta na parte superior para ser incluida no campo Dependent variable.<br>
+02- Selecionar as variáveis independentes/explicativas l_Index_preco_Whittaker e clicar na seta na parte superior para ser incluida no campo Regressors, depois a variável AD_Whittaker.<br>
+Uma janela semelhante a janela a seguir será exibida :<br>
+<img src="./aula09marketinganalytics04.png"><br>
+As vendas provavelmente variam sob influência do preço e sob influência do anuncio e display. Anuncio e display é uma variável ponderada e esta em percentual, portanto não precisa ser aplicado o logartimo natural por que já esta na mesma escala percentual.<br>
+
+1o Teste F faz sentido?<br>
+```
+F(2, 101)            554.9428   P-value(F)           3.32e-55
+```
+Análise Resposta : Sim. O teste F possui um valor alto e o p-value associado é baixo. Será rejeitado hipótese nula e ao menos um dos betas da regressão é estatisticamente diferente de zero.<br>
+2o Variáveis Explicativas melhoraram?<br>
+```
+R-squared            0.916590   Adjusted R-squared   0.914938
+```
+Resposta : Sim. Agora 91.49% da variável resposta é explicada pelas variáveis explicativas. Houve melhora com a inclusão da variável explicativa Anuncio e Display.<br>
+
+O R2 ajustado sempre vai aumentar independente de qualquer variável que seja incluida. O que deve ser entendido é se o aumento é significativo ou não significativo. No caso de aumento não significativo e que aumentou a complexidade do modelo deve ser avaliado se será o custo-benefício em incluir esta variável pouco aumentou no R2.<br>
+
+3o Qual o valor do coeficiente individual da variável indice de preco nas vendas?<br>
+```
+                    coefficient  std. error  t-ratio   p-value 
+l_Index_preco_Wh~    −4.70154    0.241768    −19.45   6.35e-036 ***
+```
+Resposta : Analisando o documento meta-análise <a href="/2-dataset/Bijmolt_et_al_2005.pdf">Bijmolt_et_al_2005.pdf</a> página 145, concluimos que valor esta próximo da média central. Aqui entendemos que houve ajustes com base em estudos ciêntíficos empíricos.<br>
+
+4o Qual o valor do coeficiente individual da variável anúncio e display nas vendas? <br>
+```
+AD_Whittaker          0.868475   0.115631      7.511  2.41e-011 ***
+```
+Para cada 1% de acrescimo de anúncio e display nas lojas haverá aumento de 0.8684% nas vendas da marca Whittaker.<br>
+É interpretado em percentual por que esta em decimal, se fosse inteiro a interpretação seria outra.<br>
+
+A variável indice de preço deve ser negativa e a variável anuncio e display deve ser positiva, caso contrário revisar tudo desde o início.</p>
+
+<h3>Um Intervalo Importante</h3>
 <p><strong>Estatística Descritiva</strong><br>
--
-  -
-  -
-</p>
+A estatistica descritiva é a base da construção de um modelo performático, por que é com ela que aprendemos o que é, como usar e para que serve Média Aritmética, Média Ponderada, Desvio padrão, Explorar comportamento de variáveis explicativas, Explorar comportamento de variáveis resposta, Explorar fenômeno que esta estudando, Outliers, Medidas de tendência central, Dispersão, Curtose, Coeficiente de assimetria, Probabilidade, Histograma, Box-Plot, Variaveis Discretas, Variaveis Continuas
+Inferencia Estatistica, Noções de Amostragem de estimação, Amostragem Probabilística, Amostragem Não Probabilística, Minimos Quadrados Ordinais</p>
 
+<p>Antes de estudar regressão linear entenda primeiro tudo sobre Estatística Básica</p>
 
-<p>Model 1: OLS : Ordinary Least squares regression
-using observations 1-104 : 104 amostras
-Dependent variable: l_Vendas_Whittaker : variavel resposta
-const : Há uma constante que é o beta zero e associado a este temos 
-coefficient 4.44344 : coeficiente linear
-std. error 0.0454744 : erro padrão associado ao coeficiente
-t-ratio 97.71 : teste t
-p-value 1.34e-102 * * * : 
+<p>Ao pegar uma base de dados para estimar um modelo iniciar passo-a-passo, validar o modelo a cada passo que o constroi assim terá um modelo com uma validade de face ou face validity (em inglês), termo originado dos modelos de econometria aplicada de marketing.<br>
+Se o coeficiente que estiver interpretando estiver difícil de ser explicado significa que o modelo esta errado ou que você não conhece o básico da estatistica descritiva.</p>
 
-                      coefficient  std. error  t-ratio   p-value 
-    const                 4.44344    0.0454744    97.71   1.34e-102 * * *
-  l_Index_preco_Wh~    −5.89903    0.225781    −26.13   5.46e-047 * * *
-Mean dependent var   5.236838   S.D. dependent var   0.952753
-Sum squared resid    12.15436   S.E. of regression   0.345196
-R-squared            0.870003   Adjusted R-squared   0.868728
-F(1, 102)            682.6323   P-value(F)           5.46e-47
-Log-likelihood      −35.94107   Akaike criterion     75.88215
-Schwarz criterion    81.17093   Hannan-Quinn         78.02479
-rho                  0.251536   Durbin-Watson        1.492843
-Log-likelihood for Vendas_Whittaker = −580.572
-Aqui é esperado uma relação negativa, por que a maioria dos efeitos de preço já estudados por diversos pesquisados provaram que o efeito é negativo.
-Vale lembrar que o produto aqui em estudo é chocolate que é um produto de alta frequencia, portanto na média um aumento no preco implica na redução das vendas.</p>
+<p>Homocedasticidade (Homoscedasticity)<br>
+Erros normalmente distribuidos em torno da reta de regressão, significa que a mesma proporção de pontos acima da reta tem que estar abaixo da reta caso contrário haverá um problema no coeficiente em si.<br>
+Talvez o modelo não esteja captando e ai ocorre um problema que para alguns valores o modelo de regressão superestima o efeito do preço e para outros valores ele subestima.<br>
+<img src="./aula09marketinganalytics05.png"><br>
+Estes são modelos preditivos para y em função de X.
+A linha vermelha é a linha de melhor ajuste/regressão/previsão e os pontos azuis são as observações/amostras. Relação entre X e y conforme avança nos valores X há um aumento nos valores y.<br>
+1a Figura - Homocedásticos<br>
+A distância dos valores observados/amostras (pontos azuis) e a previsão (linha vermelha/reta de melhor ajuste) é constante ao longo da previsão.<br>
+2a Figura - Heterocedásticos<br>
+A distância dos valores observados/amostras (pontos azuis) e a previsão (linha vermelha/reta de melhor ajuste) diminui ao longo da previsão.<br>
+3a Figura - Heterocedásticos<br>
+Ocorre o inverso da 2a Figura<br>
+O interessante é que ambas as situações formam um cone.</p>
 
+<p>Sobre a janela com os cálculos estatísticos abertos clicar em Tests\Heteroskedasticity\Koenker conforme imagem a seguir :<br>
+<img src="./aula09marketinganalytics06.png"><br>
+A informação Breusch-Pagan test for heteroskedasticity (robust variant) - é exibida na parte inferior.<br>
+<img src="./aula09marketinganalytics07.png"><br>
+
+```
+Breusch-Pagan test for heteroskedasticity (robust variant) -
+  Null hypothesis: heteroskedasticity not present
+  Test statistic: LM = 7.5884
+  with p-value = P(Chi-square(1) > 7.5884) = 0.00587449
+```
+O valor de p-value nos permite rejeitar a hipótese nula<br>
+A Hipotese nula esta sem Heterocedasticidade<br>
+Hipotese alternativa esta com Heterocedasticidade<br>
+
+Conclusão : O modelo é heterocedastico por que aceitamos a hipotese alternativa que é heterocedastica. Então é necessário melhorar.</p>
+
+<p>Executar o mesmo procedimento informado anteriormente sobre a janela dos cálculos de regressão múltipla, que deve estar aberta.<br>
+<img src="./aula09marketinganalytics08.png"><br>
+
+```
+Breusch-Pagan test for heteroskedasticity (robust variant) -
+  Null hypothesis: heteroskedasticity not present
+  Test statistic: LM = 6.19689
+  with p-value = P(Chi-square(2) > 6.19689) = 0.0451193
+```
+O valor de p-value nos permite rejeitar a hipótese nula<br>
+A Hipotese nula esta sem Heterocedasticidade<br>
+Hipotese alternativa esta com Heterocedasticidade<br>
+Observar o p-value passou de 0.00587449 para 0.0451193 e isto significa que o modelo esta sendo melhorado.<br>
+Conclusão : O modelo é heterocedastico por que aceitamos a hipotese alternativa que é heterocedastica. Ainda é necessário melhorar.</p>
+
+<p><strong>Modelo Heterocedastico :</strong>
+Em um modelo heterocedastico é muito provável que uma variável muito importante esteja sendo omitida. E quando esta variável é incluinda o modelo vai melhorado.</p>
 
 <br><br>
 <hr>
@@ -193,5 +261,7 @@ Vale lembrar que o produto aqui em estudo é chocolate que é um produto de alta
         <li><a href="https://en.wikipedia.org/wiki/John_Napier">John Napier - Logaritmo Natural ou Neperiano</a></li>
         <li><a href="https://www.ama.org/">American Marketing Association</a></li>
         <li><a href="https://www.estudar.com.vc/cursos/49-econometria">Estudar com você</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Heteroscedasticidade">Heteroscedasticidade</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Homoscedasticity">Homoscedasticity</a></li>
     </ul>
 </p>
