@@ -155,7 +155,7 @@ O teste-F testa tudo de uma vez.</p>
   </ol>
 </p>
 
-<p><strong>Regressão Múltipla</strong>
+<p><strong>Regressão Múltipla</strong><br>
 Vamos tentar melhorar o modelo em estudo<br>
 Executar procedimentos no software Gretl conforme imagem a seguir :<br>
 <img src="/3-img/aula09marketinganalytics03.png"><br>
@@ -163,13 +163,13 @@ Executar procedimentos no software Gretl conforme imagem a seguir :<br>
 02- Selecionar as variáveis independentes/explicativas l_Index_preco_Whittaker e clicar na seta na parte superior para ser incluida no campo Regressors, depois a variável AD_Whittaker.<br>
 Uma janela semelhante a janela a seguir será exibida :<br>
 <img src="/3-img/aula09marketinganalytics04.png"><br>
-As vendas provavelmente variam sob influência do preço e sob influência do anuncio e display. Anuncio e display é uma variável ponderada e esta em percentual, portanto não precisa ser aplicado o logartimo natural por que já esta na mesma escala percentual.<br>
+As vendas provavelmente variam sob influência do preço e sob influência do anuncio e display. Anuncio e display é uma variável ponderada e esta em percentual, portanto não precisa ser aplicado o logaritmo natural por que já esta na mesma escala percentual.<br>
 
 1o Teste F faz sentido?<br>
 ```
 F(2, 101)            554.9428   P-value(F)           3.32e-55
 ```
-Análise Resposta : Sim. O teste F possui um valor alto e o p-value associado é baixo. Será rejeitado hipótese nula e ao menos um dos betas da regressão é estatisticamente diferente de zero.<br>
+Resposta : Sim. O teste F possui um valor alto e o p-value associado é baixo. Será rejeitado hipótese nula e ao menos um dos betas da regressão é estatisticamente diferente de zero.<br>
 2o Variáveis Explicativas melhoraram?<br>
 ```
 R-squared            0.916590   Adjusted R-squared   0.914938
