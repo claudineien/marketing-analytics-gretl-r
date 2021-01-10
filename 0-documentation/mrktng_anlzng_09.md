@@ -37,7 +37,7 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 <p>Serão estimados os modelos de regressão no software <a href="http://gretl.sourceforge.net/pt.html">Gretl</a>.</p>
 
 <p><strong>Criar o logaritmo natural das vendas e do indice de preço de todas as marcas</strong>.<br>
-Abrir o programa Gretl instalado em seu computador, abrir a base de dados, procurar cada uma das variáveis Vendas_['nome_marca'], pressionar o botão esquerdo do mouse e selecionar Add Log, depois procurar cada uma das variáveis Index_preco_['nome_marca'] pressionar o botão esquerdo do mouse e selecionar Add Log. Figura ilustrativa a seguir:
+Abrir o programa Gretl instalado em seu computador, abrir a base de dados, procurar cada uma das variáveis Vendas_Whittaker, pressionar o botão esquerdo do mouse e selecionar Add Log, depois procurar cada uma das variáveis Index_preco_Whittaker pressionar o botão esquerdo do mouse e selecionar Add Log. Figura ilustrativa a seguir:
 <img src="/3-img/aula09marketinganalytics00.png"><br></p>
 
 <p>Nesta aula aprenderemos a criar um modelo de regressão não linear, também conhecido como modelo log-log. Este modelo é citado em livros de econometria. Um aspecto importante do modelo log-log é o cálculo da elasticidade de Y em relação a X. As variáveis estarão transformadas em logaritmo natural por que pressupõe um efeito não linear das variáveis, efeitos decrescentes da escala e significa que conforme há aumento dos volumes da variável X ocorre um aumento na variável Y até certo ponto e este aumento vai diminuindo conforme há aumento na variável X isto significa efeito descrecente a escala.<br>
