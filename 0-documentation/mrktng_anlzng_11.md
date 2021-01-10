@@ -22,28 +22,15 @@
 <hr>
 <h2>AULA 11 - MARKETING ANALYTICS</h2>
 <h4>PROJETO PRÁTICO</h4>
-<p>A análise descritiva é o coração da análise estatística.</p>
-
-<p>Desempenho Mercadológico é o coração do Marketing Analytics.</p>
-
-<p>Modelos inferenciais são modelos de dependência como por exemplo análise de regressão. Nestes há variáveis que são dependentes/respostas de variáveis independentes/explicativas.
-</p>
-
-<p>Uma das habilidades necessárias que precisamos desenvolver na estatística é saber apresentar os dados. Exibir as informações mais relevantes que trazem valor a organização.</p>
-
-<p>A decisão do gestão de marketing geralmente se baseia no curto prazo, se o resultado foi negativo entre quatro e seis semanas após sua decisão uma nova decisão será aplicada.</p>
-
-<p>Interpretação econômica e mercadológica : O segredo da relação entre o preço e as vendas esta na variação do preço, e não no preço baixo.<br>
-A variabilidade do preço influência no resultado das vendas.
-</p>
+Aplicar as técnicas aprendidas durante as 10 aulas para cumprir este projeto.
 
 <h3><strong>Datasets</strong></h3>
 
-<p>Escolher uma dos datasets a seguir :</p>
+<p>Escolher um dos datasets a seguir :</p>
 
 <p>
-01 Dataset <a href="/2-dataset/listings-RIo_de_Janeiro.csv">listings-RIo_de_Janeiro.csv</a><br>
-Tamanho : aproximadamente 35870 registros/linhas<br>
+Dataset I - <a href="/2-dataset/listings-RIo_de_Janeiro.csv">listings-RIo_de_Janeiro.csv</a><br>
+Tamanho : aproximadamente 35.870 registros/linhas<br>
 Fonte origem : <a href="http://insideairbnb.com/get-the-data.html">http://insideairbnb.com/get-the-data.html</a><br>
 <div>
   <table>
@@ -126,7 +113,7 @@ Preço : Por região (geolocalização), Por bairro, Por tipos de propriedades, 
 Review : Padrão de intensidade na plataforma/rede social, Relacionar preço com reviews</p>
 
 <p>
-02 Dataset <a href="/2-dataset/HollywoodMovies.xlsx">HollywoodMovies.xlsx</a><br>
+Dataset II - <a href="/2-dataset/HollywoodMovies.xlsx">HollywoodMovies.xlsx</a><br>
 Tamanho : aproximadamente 970 registros/linhas<br>
 Fontes origem : <a href="https://www.lock5stat.com/datapage.html">https://www.lock5stat.com/datapage.html</a><br>
 Dataset para r : <a href="https://cran.r-project.org/web/packages/Lock5Data/index.html">https://cran.r-project.org/web/packages/Lock5Data/index.html</a><br>
@@ -214,8 +201,21 @@ Report : Relatório de Análise de dados com no máximo 15 páginas com seguinte
 .Conteúdo do report : Análise descritiva, Explorar dados/variáveis, Modelo Regressão Simples/ Não Linear/ Log-Log, Modelo Regressão Multipla, Descrever o Sentido da Análise de Dados em Desenvolvimento, Informar o que a variavel explicativa diz sobre o fenomeno, Correlação, Graficos, Explicar os gráficos, Informar a escolha do gráfico, Teste de hipótese (pearson) para comprovar Estatistica Descritiva, Dashboard, Explicar com base em Meta-Analysis, Betas, Variaveis fazem sentido ?, Quando uma variával x é alterada altera variável y, Contexto Descritivo Este é um relatório de análise, a base de dados usada foi tal, as variaveis escolhidas foram tal por que elas funcionas assim..., a media é tal, o desvio padrão é tal, condicionada a tal caracteristica acontecera x, y, z... , este é o grafico que evidencia x acontecimento, a transformação dos dados aplicada foi x, os possiveis padrões são x,y<br>
 </p>
 
-<h3>Método de correção :</h3>
-<p>O método de Correção será comparativa, quanto mais completo o report melhor a nota.</p>
+<p><strong>Aprendizado durante as 10 aulas</strong></p>
+<p>A análise descritiva é o coração da análise estatística.</p>
+
+<p>Desempenho Mercadológico é o coração do Marketing Analytics.</p>
+
+<p>Modelos inferenciais são modelos de dependência como por exemplo análise de regressão. Nestes há variáveis que são dependentes/respostas de variáveis independentes/explicativas.
+</p>
+
+<p>Uma das habilidades necessárias que precisamos desenvolver na estatística é saber apresentar os dados. Exibir as informações mais relevantes que trazem valor a organização.</p>
+
+<p>A decisão do gestão de marketing geralmente se baseia no curto prazo, se o resultado foi negativo entre quatro e seis semanas após sua decisão uma nova decisão será aplicada.</p>
+
+<p>Interpretação econômica e mercadológica : O segredo da relação entre o preço e as vendas esta na variação do preço, e não no preço baixo.<br>
+A variabilidade do preço influência no resultado das vendas.
+</p>
 
 <br><br>
 <hr>
