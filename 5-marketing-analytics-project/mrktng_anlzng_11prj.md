@@ -1,4 +1,3 @@
-
 <h5><a href="blank_">[en]</a> | <a href="blank_">[pt-br]</a>
 </h5>
 <h5>
@@ -10,7 +9,7 @@
       <th>TIPO DE DADOS</th>
     </tr>
     <tr>
-      <td>Marketing Analytics do Zero</td>
+      <td>Marketing Analytics no Airbnb</td>
       <td>Aplicar Estatística descritiva, Exploração dos Dados, Análise de Regressão e Modelos básicos de Séries Temporais</td>
       <td>Time Series</td>
     </tr>
@@ -22,26 +21,9 @@
 </h5>
 <hr>
 <h2>PROJETO DESAFIO</h2>
-<h3>REGRAS</h3>
+<img src='/5-marketing-analytics-project/mrktng_anlzng_prj_img01.jpg'><br>
 
-<p>Report : Relatório de Análise de dados com no máximo 15 páginas com seguinte conteúdo :<br>
-ok .Justificar a escolha da base de dados<br>
-.Linguagem de programação utilizada<br>
-.Software utilizado<br>
-.Análises relacionadas ao Marketing associado a Estatistica<br>
-.Técnicas a aplicar : O que foi ensinado nas aulas 01 a 10<br>
-.Conteúdo do report : Análise descritiva, Explorar dados/variáveis, Modelo Regressão Simples/ Não Linear/ Log-Log, Modelo Regressão Multipla, Descrever o Sentido da Análise de Dados em Desenvolvimento, Informar o que a variavel explicativa diz sobre o fenomeno, Correlação, Graficos, Explicar os gráficos, Informar a escolha do gráfico, Teste de hipótese (pearson) para comprovar Estatistica Descritiva, Dashboard, Explicar com base em Meta-Analysis, Betas, Variaveis fazem sentido ?, Quando uma variával x é alterada altera variável y, Contexto Descritivo Este é um relatório de análise, a base de dados usada foi tal, as variaveis escolhidas foram tal por que elas funcionas assim..., a media é tal, o desvio padrão é tal, condicionada a tal caracteristica acontecera x, y, z... , este é o grafico que evidencia x acontecimento, a transformação dos dados aplicada foi x, os possiveis padrões são x,y.
-</p>
-
-<p>Modelo Preditivo Para Aumentar A locação dos Imóveis na AirBnB, por que Imóvel não visto e/ou esquecido É Imovel não alugado.<br>
-Entender o mercado imobiliário do Rio de Janeiro atraves do dataset.
-</p>
-
-Sobre Airbnb
- https://www.youtube.com/watch?v=lwwJEScMcY0
- https://www.youtube.com/watch?v=hnDAMyancQY
-
-<h4>Justifiicativa - Escolha dataset Airbnb</h4>
+<h4>1. Justifiicativa - Escolha dataset Airbnb</h4>
 <p>Escolhi o dataset <a href="/5-marketing-analytics-project/listings-RIo_de_Janeiro.csv">Airbnb Rio de Janeiro</a> por ser empresa de economia compartilhada, centrada em torno de alugar quartos das suas casas ou a casa inteira de terceiros em e de qualquer parte do mundo. Considero uma das metodologias mais inteligentes de distribuição compartilhada de renda à pessoas empreendedoras.<br>
 "Airbnb criou às pessoas de todo o mundo a oportunidade de conquistar mais independência financeira."<br>
 Airbnb recebe um percentual sobre o valor das locações.<br>
@@ -52,16 +34,70 @@ A escolha do dataset do Rio de Janeiro foi realizada pelo professor e pesquisado
 <p>Este arquivo contém informações resumidas e métricas para listagens no Rio de Janeiro <a href="http://insideairbnb.com/get-the-data.html">Inside Airbnb<a>. Procure por Rio de Janeiro.
 </p>
 
-<h4>Linguagem de programação utilizada</h4>
+<h4>2. Linguagem de programação utilizada</h4>
 <p>Python 3.7.7<br>
 <img src="/5-marketing-analytics-project/mrktng_anlzng_prj_img02.png">
 </p>
 
-<h4>Plataforma de programação utilizada</h4>
+<h4>3. Plataforma de programação utilizada</h4>
 <p><a href="https://docs.conda.io/en/latest/miniconda.html">Jupyter Notebook - Miniconda</a></p>
 
-<p>ANALISAR<BR> 
-host_id duplicado para endereços e apartamentos diferentes
+<h4>1. Objetivo do Trabalho</h4>
+<p>Aplicar analises relacionadas ao Marketing e associado a Estatística.</p>
+
+<p>Desenvolver modelo preditivo para ajudar novos locatários a decidir sobre quais valores diários que deverão colocar em seus imóveis considerando as características :
+  <ul>
+    <li>tipo de quarto</li>
+    <li>latitude e longitude</li>
+    <li>quantidade mínima de noites a locar</li>
+  </ul>
+Um bom valor aumenta a visualização do imóvel, e Imóvel visto e/ou lembrado Pode ser imóvel alugado.
+</p>
+
+<h4>Contextualização do problema</h4>
+<p>
+- contextualizando ...-<br>
+Fontes :<br>
+-/ <a href="https://www.forbes.com.br/forbeslife/2020/03/airbnb-reembolsa-hospedes-por-conta-do-coronavirus-e-cria-crise-para-anfitrioes/">Airbnb reembolsa hóspedes por conta do coronavírus e cria crise para anfitriões</a><br>
+-/ <a href="https://neofeed.com.br/blog/home/uma-das-startups-mais-afetadas-pela-crise-airbnb-corta-25-de-sua-forca-de-trabalho/">Uma das startups mais afetadas pela crise, Airbnb corta 25% de sua força de trabalho</a><br>
+-/ <a href='https://www.seudinheiro.com/2020/empresas/airbnb-ipo-10-12/'>Que crise? Airbnb precifica ações acima do teto e levanta US$ 3,5 bilhões em IPO</a>
+</p>
+
+<br><br>
+<hr>
+<p>Fontes de estudo
+    <ul>
+      <li><a href="http://insideairbnb.com/about.html">Inside Airbnb</a></li>
+    <li><a href="https://www.airbnb.com/">Airbnb</a></li>
+    <li><a href="https://cran.r-project.org/bin/windows/base/">Download R 4.0.3 Core for Windows</a></li>
+    <li>Download Software RStudio <a href="https://rstudio.com/products/rstudio/download/">RStudio</a></li>
+    </ul>
+</p>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<h3>REGRAS</h3>
+
+<p>Report : Relatório de Análise de dados com no máximo 15 páginas com seguinte conteúdo :<br>
+ok .Justificar a escolha da base de dados<br>
+ok .Linguagem de programação utilizada<br>
+ok .Software utilizado<br>
+.Análises relacionadas ao Marketing associado a Estatistica<br>
+.Técnicas a aplicar : O que foi ensinado nas aulas 01 a 10<br>
+.Conteúdo do report : Análise descritiva, Explorar dados/variáveis, Modelo Regressão Simples/ Não Linear/ Log-Log, Modelo Regressão Multipla, Descrever o Sentido da Análise de Dados em Desenvolvimento, Informar o que a variavel explicativa diz sobre o fenomeno, Correlação, Graficos, Explicar os gráficos, Informar a escolha do gráfico, Teste de hipótese (pearson) para comprovar Estatistica Descritiva, Dashboard, Explicar com base em Meta-Analysis, Betas, Variaveis fazem sentido ?, Quando uma variával x é alterada altera variável y, Contexto Descritivo Este é um relatório de análise, a base de dados usada foi tal, as variaveis escolhidas foram tal por que elas funcionas assim..., a media é tal, o desvio padrão é tal, condicionada a tal caracteristica acontecera x, y, z... , este é o grafico que evidencia x acontecimento, a transformação dos dados aplicada foi x, os possiveis padrões são x,y.
+</p>
+
+<p>ANALISAR<br>
+Entendendo o dataset<br>
+Campos/Colunas<br>
+host_id duplicado para endereços e apartamentos diferentes<br>
+host_id diretamente relacionado ao host_name. Um par aum.
+</p>
+
+<p>Insigths<br>
+Alguns Insights que podem ser extraidos :<br>
+Preço : Por região (geolocalização), Por bairro, Por tipos de propriedades, Por quantidade de reviews, Será que mais reviews aumenta o preço? Será a quantidade de comentários aumenta o preço?<br>
+Review : Padrão de intensidade na plataforma/rede social, Relacionar preço com reviews
 </p>
 
 <p>Utilizaremos o dataset <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.csv</a> ou <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.xlsx</a> com dados agregados de todas as informações consolidadas das vendas de determinadas marcas de chocolate de todas as lojas de uma grande rede de varejo dentro de um período de 104 semanas, aproximadamente dois anos.</p>
@@ -139,8 +175,9 @@ Analisar evolução do preço atual de chocolate por semana em um gráfico dinâ
 <hr>
 <p>Fontes de estudo
     <ul>
-        <li><a href="https://www.airbnb.com/">Airbnb</a></li>
-        <li><a href="https://cran.r-project.org/bin/windows/base/">Download R 4.0.3 Core for Windows</a></li>
-        <li>Download Software RStudio <a href="https://rstudio.com/products/rstudio/download/">RStudio</a></li>
+      <li><a href="http://insideairbnb.com/about.html">Inside Airbnb</a></li>
+    <li><a href="https://www.airbnb.com/">Airbnb</a></li>
+    <li><a href="https://cran.r-project.org/bin/windows/base/">Download R 4.0.3 Core for Windows</a></li>
+    <li>Download Software RStudio <a href="https://rstudio.com/products/rstudio/download/">RStudio</a></li>
     </ul>
 </p>
