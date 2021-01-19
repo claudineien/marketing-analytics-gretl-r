@@ -20,7 +20,7 @@
 </div>
 </h5>
 <hr>
-<h2>AULA 3 - MARKETING ANALYTICS</h2>
+<h2>AULA 3 - ANÁLISE DESCRITIVA II</h2>
 <h4>DATASET VENDAS CHOCOLATE</h4>
 <h4>ANÁLISE DESCRITIVA</h4>
 <p>A análise descritiva é o coração da análise estatística.</p>
