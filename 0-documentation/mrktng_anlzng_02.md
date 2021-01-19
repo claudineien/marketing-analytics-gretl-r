@@ -20,7 +20,7 @@
 </div>
 </h5>
 <hr>
-<h2>AULA 2 - ANÁLISE DESCRITIVA</h2>
+<h2>AULA 2 - ANÁLISE DESCRITIVA I</h2>
 <h4>DATASET VENDAS CHOCOLATE</h4>
 <p>Utilizaremos o dataset <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.csv</a> ou <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.xlsx</a> com dados agregados de todas as informações consolidadas das vendas de determinadas marcas de chocolate de todas as lojas de uma grande rede de varejo dentro de um período de 104 semanas, aproximadamente dois anos.</p>
 
