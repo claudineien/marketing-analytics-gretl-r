@@ -35,16 +35,13 @@
     <li>latitude e longitude</li>
     <li>quantidade mínima de noites a locar</li>
   </ul>
-Um bom valor aumenta a visualização do imóvel<br>
+Um bom preço agrega valor ao imóvel e aumenta sua visualização.<br>
 Imóvel visto e/ou lembrado, Pode ser imóvel alugado.
 </p>
 
 <h4>2. Justificativa - Escolha dataset Airbnb</h4>
 <p>Escolhi o dataset <a href="/5-marketing-analytics-project/listings-RIo_de_Janeiro.csv">Airbnb Rio de Janeiro</a> por ser empresa de economia compartilhada, centrada em torno de alugar quartos das suas casas ou a casa inteira de terceiros em e de qualquer parte do mundo. Considero uma das metodologias mais inteligentes de distribuição compartilhada de renda à pessoas empreendedoras.<br>
-"Airbnb permitiu às pessoas de todo o mundo a oportunidade de conquistar mais independência financeira."<br>
-Airbnb recebe um percentual sobre o valor das locações.<br>
-Alugar imóvel de outra pessoa e sublocar.<br>
-A escolha do dataset do Rio de Janeiro foi realizada pelo professor e pesquisador <a href="https://www.linkedin.com/in/marcos-severo-30967936/">Marcos Severo</a>
+"Airbnb permitiu às pessoas de todo o mundo a oportunidade de conquistar mais independência financeira."
 </p>
 
 <p>Este arquivo contém informações resumidas e métricas para listagens no Rio de Janeiro <a href="http://insideairbnb.com/get-the-data.html">Inside Airbnb<a>. Procure por Rio de Janeiro.
@@ -108,6 +105,7 @@ Sem um perfil de público definido, podendo atender a todas as pessoas, a plataf
 <hr>
 <p><strong>Fontes de estudo</strong>
     <ul>
+      <li>Professor e pesquisador <a href="https://www.linkedin.com/in/marcos-severo-30967936/">Marcos Severo</a>
       <li><a href="http://insideairbnb.com/about.html">Inside Airbnb</a></li>
     <li><a href="https://www.airbnb.com/">Airbnb</a></li>
     <li>Crise :<br>
