@@ -45,7 +45,7 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 
 <hr>
 <h4>ANÁLISE DESCRITIVA</h4>
-<p>1o momento da estatstica é a centralidade (média, mediana). A média é considerada uma nova observação podendo ter o poder de substituir todos os outros valores se a variável for simétrica e sua variabilidade for baixa.<br>
+<p>1o momento da estatística é a centralidade (média, mediana). A média é considerada uma nova observação podendo ter o poder de substituir todos os outros valores se a variável for simétrica e sua variabilidade for baixa.<br>
 Por exemplo :<br>
 Duas lojas em bairros diferentes <br>
 1a loja 500 mil/mês com desvio-padrão de 50 mil/mes<br>
