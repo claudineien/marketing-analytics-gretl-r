@@ -122,6 +122,7 @@ Por exemplo o z-score, a correlação (padronizada em -1 e 1) por que a covariâ
 <p>Fontes de estudo
     <ul>
         <li>Aula 02 : <a href="https://youtu.be/m4wZmFkaGQo">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 02 : <a href="https://youtu.be/5Mq2tti1AG0">Marketing Analytics-Vejo Marketing em tudo</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
         <li><a href="https://cran.r-project.org/bin/windows/base/">Download R 4.0.3 Core for Windows</a></li>
         <li>Download Software RStudio <a href="https://rstudio.com/products/rstudio/download/">RStudio</a></li>
         <li>Software Package for econometric analysis <a href="http://gretl.sourceforge.net/">Gretl</a></li>
