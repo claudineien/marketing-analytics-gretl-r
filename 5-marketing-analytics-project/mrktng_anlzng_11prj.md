@@ -22,10 +22,10 @@
 <hr>
 <h2>PROJETO DESAFIO</h2>
 <p>
-<img src='5-marketing-analytics-project
+<img src='/5-marketing-analytics-project
 /mrktng_anlzng_prj_img01.jpg'><br>
 <font size='2'>Imagem: Shuttestock</font><br>
-<img src='5-marketing-analytics-project/mrktng_anlzng_prj_img04hotel-2158962_640.png'><br>
+<img src='/5-marketing-analytics-project/mrktng_anlzng_prj_img04hotel-2158962_640.png'><br>
 Image by <a href="https://pixabay.com/users/marianka1308-3749559/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2158962">Ivana Mariankova</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2158962">Pixabay</a>
 </p>
 
@@ -127,7 +127,7 @@ Fonte Origem Dataset : <a href="http://insideairbnb.com/get-the-data.html">http:
 
 <h4>3. Linguagem de programação utilizada</h4>
 <p>Python 3.7.7<br>
-<img src="5-marketing-analytics-project/mrktng_anlzng_prj_img02.png">
+<img src="/5-marketing-analytics-project/mrktng_anlzng_prj_img02.png">
 </p>
 
 <h4>4. Plataforma de programação utilizada</h4>
