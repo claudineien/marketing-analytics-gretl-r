@@ -22,8 +22,7 @@
 <hr>
 <h2>PROJETO DESAFIO</h2>
 <p>
-<img src='/5-marketing-analytics-project
-/mrktng_anlzng_prj_img01.jpg'><br>
+<img src='/5-marketing-analytics-project/mrktng_anlzng_prj_img01.jpg'><br>
 <font size='2'>Imagem: Shuttestock</font><br>
 <img src='/5-marketing-analytics-project/mrktng_anlzng_prj_img04hotel-2158962_640.png'><br>
 Image by <a href="https://pixabay.com/users/marianka1308-3749559/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2158962">Ivana Mariankova</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2158962">Pixabay</a>
