@@ -58,7 +58,7 @@ Duas lojas em bairros diferentes <br>
 Análise :<br>
 As vendas de ambas as lojas são em média equivalentes, porém as vendas da loja 1 variam mais por algum motivo.<br>
 Para se ter uma média equivalente a 1a loja vende sempre próximo a 500mil/mes enquanto a 2a loja possivelmente vende 10mil em determinado mês, 300mil em outro mes, 750mil/mes e assim por diante.<br>
-É necessário identificar o motivo va variação da 2a loja<br>
+É necessário identificar o motivo da variação da 2a loja<br>
 </p>
 
 <p>Mediana é uma medida de centralidade mas encadeamos todos os 104 valores de preço da marca budget do menor ao maior se a quantidade de observações for ímpar considera-se o valor do meio, se a quantidade for par considera-se os dois mais centrais e calcula a média aritmética.</p>
