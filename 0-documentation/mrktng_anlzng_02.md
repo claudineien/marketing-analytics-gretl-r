@@ -88,7 +88,7 @@ Analisando a variação das estratégias em dois anos, identificamos que a marca
 Por exemplo : Análise de agrupamento que não é análise de dependência aonde trabalhamos análise fatorial, cluster vamos concentrar coisas parecidas e separar de coisas não parecidas.<br>
 Regressão por meio de mínimos quadrados ordinários ols, regressão linear para saber o ajuste do modelo então vamos trabalhar a distância das observações em relação a reta de regressão.<br></p>
 
-<p>- Mediana = Moda = Média -> é simetria. A curva é normal em forma de sino</p>
+<p>- Mediana = Moda = Média -> é simetria. A curva é normal em forma de sino.</p>
 
 <p>- Clusterização em Estatística é tornar homogêneo o conteúdo interno e heterogêneo os conteúdos entre os clusters para garantir maior variabilidade entre os clusters e minimizar a variabilidade dentro dos clusters.</p>
 
@@ -100,9 +100,9 @@ Se eu somar todas as distâncias e o resultado for 0, utilizaremos uma regra mat
 
 <p>- O desvio padrão é a raiz quadrada da variância, por que para gerar a distância deve-se elevar ao quadrado. Por exemplo o salário elevado ao quadrado em relação a média é superinflacionando/superestimando o salário, então deve-se voltar o salário como uma medida de variabilidade em relação a média deve-se extrair a raiz quadrada sobre o salário.</p>
 
-<p>- Informação importante a extrair em modelos estatísticos, principalmente em time series é detectar se a variação da variavel em relação a média é constante ou não.</p>
+<p>- Informação importante a extrair em modelos estatísticos, principalmente em time series é detectar se a variação da variável em relação a média é constante ou não.</p>
 
-<p>- As técnicas da variância são aplicadas em variáveis qualitativas como venda, preço, salário.</p>
+<p>- As técnicas da variância são aplicadas em variáveis quantitativas como venda, preço, salário. A variável qualitativa em fator é em proporção.</p>
 
 <p>- O coeficiente de variação (cv) é a medida padronizada de quanto o desvio padrão da variável varia em relação a média multiplicado por 100.<br>
 O coeficiente de variação significa que a variação em relação a média do preço atual da budget é 0.0083335%</p>
