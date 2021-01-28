@@ -35,7 +35,12 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 
 <p>A decisão do gestão de marketing geralmente se baseia no curto prazo, se o resultado foi negativo entre quatro e seis semanas após sua decisão uma nova decisão será aplicada.</p>
 
-<p>O dataset será segmentado ano a ano para identificar como as estratégias de marketing variaram entre os anos. Analisaremos preço atual, anuncio, display, anuncio de display, e depois as variáveis de resposta, situação de venda, participação de mercado e receita.</p>
+<p>O dataset será segmentado ano a ano para identificar como as estratégias de marketing variaram entre os anos. Analisaremos :
+  <ol>
+    <li>preço atual, anúncio, display, anúncio de display</li>
+    <li>variáveis de resposta : situação de venda, participação de mercado e receita</li>
+  </ol>
+</p>
 
 <p>As respostas que vão guiar o modelo inferencial estão nos nuances/na sutileza da estatística descritiva.</p>
 
