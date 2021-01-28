@@ -75,14 +75,13 @@ Observar que o desvio-padrão é quase zero, que significa que não houve varia�
 
 <p>Utilizar o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/0-documentation">01-Report_Descritivo.docx</a> como apoio para analisar as média, mediana, desvio-padrão, coeficiente de variação, no primeiro ano e no segundo ano por marca e extrair informações.</p>
 
-<p>52 semanas para cada ano, as variáveis de preço variam ao longo do tempo e dependendem de alguns acontecimentos.<br>
-Anotar todos os valores de todas as marcas das 52 semanas.<br>
-É possível detectar : <br>
-Marca Budget<br>
+<p>Anotar todos os valores de todas as marcas nas 52 semanas para cada ano, aonde as variáveis de preço variam ao longo do tempo e dependendem de alguns acontecimentos. É possível detectar : <br>
+  <strong>Marca Budget</strong><br>
 Analisando a variação das estratégias em dois anos, identificamos que a marca budget possivelmente é uma marca de combate por que :<br>
-.comparando com as outras marcas : o valor da média é a mais inferior, o desvio-padrão esta zerado, o coeficiente de variação é o mais baixo
-.comparando entre os anos : o preço cobrado é o mesmo nos dois anos, a media = mediana com desvio padrão 0 no segundo ano<br>
-Marca Cadbury foi a lider de preço no primeiro ano, e lider de preço no segundo ano com outras duas marcas. Possivelmente esta relacionado ao desvio padrão que no primeiro ano foi menor que as demais e no segundo ano foi maior e/ou ao coeficiente de variação que no primeiro ano foi bem maior que as demais e igualou ou ficou com distância bem menor no segundo ano.</p>
+1. comparando com as outras marcas : o valor da média é a mais inferior, o desvio-padrão esta zerado, o coeficiente de variação é o mais baixo<br>
+2. comparando entre os anos : o preço cobrado é o mesmo nos dois anos, a media = mediana com desvio padrão 0 no segundo ano<br>
+  <strong>Marca Cadbury</strong><br>
+  Foi a lider de preço no primeiro ano, e lider de preço no segundo ano com outras duas marcas. Possivelmente esta relacionado ao desvio padrão que no primeiro ano foi menor que as demais e no segundo ano foi maior e/ou ao coeficiente de variação que no primeiro ano foi bem maior que as demais e igualou ou ficou com distância bem menor no segundo ano.</p>
 
 <p>Atenção :<p>
 <p>- A maioria das técnicas, das mais simples as mais complexas em estatísticas trabalham com dois conceitos básicos que é  centralidade e variabilidade/distância.<br>
