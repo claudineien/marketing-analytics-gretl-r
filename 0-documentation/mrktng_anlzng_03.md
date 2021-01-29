@@ -39,8 +39,7 @@ A marca pode trabalhar o marketing com anúncio, display ou anúncio e display.
 </p>
 
 <p>
-  <strong>Relembrando :</strong><br>
-  Este é um dataset de marketing por ter variáveis de quatro p's que significa produto, preço, praça e promoção.
+  <strong>Relembrando :</strong> Este é um dataset de marketing por ter variáveis de quatro p's que significa produto, preço, praça e promoção.
 </p>
 
 <p>
