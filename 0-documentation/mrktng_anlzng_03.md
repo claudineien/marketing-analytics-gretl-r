@@ -33,12 +33,14 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 
 <p>Serão gerados estatísticas descritivas no software <a href="http://gretl.sourceforge.net/pt.html">Gretl</a> e o documento <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/0-documentation">01-Report_Descritivo-atualizado_0411.docx</a> como apoio para analisar as média, mediana, desvio-padrão, coeficiente de variação, no primeiro ano e no segundo ano por marca e extrair outras informações.</p>
 
-<p>
-<strong>Relembrando :</strong><br>
-Este é um dataset de marketing por ter variáveis de quatro p's que significa produto, preço, praça e promoção.<br>
-A distribuição de anúncio é ponderada, possui peso. Esta variável é transformada para variável dummy informando se teve ou não anúncio em determinado dia, semana, mês, ano e após esta transformação é possível ponderar a variável.
+<p>Serão gerados a análise estatística descritiva para a distribuição de anúncio, que é ponderada e isto significa que possui peso. Esta variável é transformada para variável dummy informando se teve ou não anúncio em determinado dia, semana, mês, ano e após esta transformação é possível ponderar a variável.
 A distribuição ponderada é muito utlizada em modelos econométricos de marketing.<br>
-A marca pode trabalhar o marketing com anúncio, display ou anúncio e display
+A marca pode trabalhar o marketing com anúncio, display ou anúncio e display.
+</p>
+
+<p>
+  <strong>Relembrando :</strong><br>
+  Este é um dataset de marketing por ter variáveis de quatro p's que significa produto, preço, praça e promoção.
 </p>
 
 <p>
