@@ -98,25 +98,32 @@ Para um modelo de regressão linear as variáveis tem que variar para apresentar
 Há várias medidas de 'survey' que são valores discretos (não são valores contínuos) e são valores limitados de 1 a 5. Pela caracterização na natureza do dataset o modelo de regressão linear será implicado por que as variáveis estão bem ajustadas e este modelo não apresentará<br>
 
 <strong>Variáveis mercadológicas</strong><br> 
-No mundo real são variáveis observáveis e em sua maioria contínuas e assimétricas como por exemplo preço, vendas, percentual de anúncio (esta é uma variável ponderada).<br>
+No mundo real são variáveis observáveis e em sua maioria contínuas e assimétricas como por exemplo preço, vendas, percentual de anúncio (esta é uma variável ponderada).
+</p>
 
-Obs:<br>
-Em medidas de survey é utilizado a escala de Lykert.<br>
-O tipo de variável influência no tipo de regressão a utilizar.
-Não aplicar regressão em medidas de survey, por ser medidas qualitativas ao invés de quantitativas.<br>
-Não calcular médias sobre variáveis qualitativas, somente sobre variáveis quantitativas.<br>
-Aplicar análide fatorial sobre variáveis quantitativas, e análise de correspondência sobre váriáveis qualitativas.<br>
+<p>
+  <strong>Importante </strong>:<br>
+  Em medidas de survey é utilizado a escala de Lykert.<br>
+  O tipo de variável influência no tipo de regressão a utilizar.
+  Não aplicar regressão em medidas de survey, por ser medidas qualitativas ao invés de quantitativas.<br>
+  Não calcular médias sobre variáveis qualitativas, somente sobre variáveis quantitativas.<br>
+  Aplicar análide fatorial sobre variáveis quantitativas.<br>
+  Aplicar análise de correspondência sobre váriáveis qualitativas.
+</p>
 
+<p>
 O Gretl exibe no relatório Resumo Estatístico as medidas de tendência central, medidas de dispersão, medidas separatrizes (quartis).<br>
 
-<strong>Quartis</strong><br>
-Objetivo de particionar o problema em partes, para entender cada parte, entender o comportamento de cada parte e assim entender o todo.<br>
-1o quartil =  media : 25% para baixo e 75% para cima<br>
-2o quartil = mediana : 75% para baixo e 25% para cima<br>
+<strong>Separatrizes - Quartis </strong>:<br>
+Tem como objetivo particionar o problema em partes, para entender cada parte, entender o comportamento de cada parte e assim entender o todo.<br>
+Cada quartil separa os dados em um determinado ponto, sendo :<br>
+1o quartil =  media : 25% dos dados separados a baixo e 75% dos dados separados a cima<br>
+2o quartil = mediana : 50% dos dados separados a baixo e 50% dos dados separados a cima<br>
+3o quartil = 75% dos dados separados a baixo e 25% dos dados separados a cima<br>
 
 Modelos quantitativos como análise de regressão tem o teste F para saber se a regressão como um todo faz sentido, e sua base é o particionamento da variância possivel analisar a parte explicada pelo modelo e a parte não explicada pelo modelo.<br>
 
-O teste de hipótese que faz parte da inferência estatística depende da análise descritiva, aonde detectamos as hipóteses para refutar ou não.<br>
+O teste de hipótese que faz parte da inferência estatística é identificada e depende da análise estatística descritiva, aonde detectamos as hipóteses que serão refutadas ou aceitas na inferência estatística.<br>
 
 <strong>Para executar uma boa Regressão entender sobre </strong><br>
 Medidas de tendencia central, Medidas de dispersão, Distribuição de probabilidade, Inferência estatística.<br>
