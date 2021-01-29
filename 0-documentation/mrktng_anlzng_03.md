@@ -128,7 +128,8 @@ Devemos tentar responder : <br>
 <hr>
 <p>Fontes de estudo
     <ul>
-        <li>Aula 03 : <a href="https://youtu.be/KqB3j3mDyT4">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+      <li>Aula 03 : <a href="https://youtu.be/KqB3j3mDyT4">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+      <li>Aula 03 : <a href="https://youtu.be/MVNiJ3C7S1k">Marketing Analytics-Vejo Marketing em tudo</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
         <li>Software Package for econometric analysis <a href="http://gretl.sourceforge.net/">Gretl</a></li>
     </ul>
 </p>
