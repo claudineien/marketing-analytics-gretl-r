@@ -21,7 +21,6 @@
 </h5>
 <hr>
 <h2>PROJETO DESAFIO</h2>
-$`P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{\frac{-(x-\mu)^2}{2\sigma^2}}`$
 <p>
 <img src='/5-marketing-analytics-project/mrktng_anlzng_prj_img01.jpg'><br>
 <font size='2'>Imagem: Shuttestock</font><br>
