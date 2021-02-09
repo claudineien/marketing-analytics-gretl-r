@@ -100,6 +100,7 @@ Analisar evolução do preço atual de chocolate por semana em um gráfico dinâ
 <p>Fontes de estudo
     <ul>
         <li>Aula 04 : <a href="https://youtu.be/6VoKWYZdBzg">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 04 : <a href="https://youtu.be/UjEUQGen11Y">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
         <li><a href="https://cran.r-project.org/bin/windows/base/">Download R 4.0.3 Core for Windows</a></li>
         <li>Download Software RStudio <a href="https://rstudio.com/products/rstudio/download/">RStudio</a></li>
     </ul>
