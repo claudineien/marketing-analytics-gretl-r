@@ -59,21 +59,17 @@ Sendo rigoroso : Estatisticamente o beta é igual a zero<br>
 O teste de hipótese é muito importante na estatística, por que temos que testar uma hipótese em cada beta.<br>
 A hipótese nula significa nada esta acontecendo ou beta é igual a 0 e significa que não há relação entre as variáveis
 A hipótese alternativa significa que o beta é diferente de 0, então o h0 (hipótese nula) é rejeitada dando suporte a ha (hipótese alternativa) de que um dos valores é estatisticamente diferente de zero.<br>
-
-O beta índice de preço esta com coeficiente -4.70154 deve ser testado contra 0, aonde verificamos se é estatisticamente diferente de zero.<br>
-O seu p-value é 6.35e-036 ou 0.(36s 0)635 e esta menor que 0.05 e menor que 0.01.<br>
+<strong>1. O beta índice de preço</strong><br>
+Este esta com coeficiente -4.70154 deve ser testado contra 0, aonde verificamos se é estatisticamente diferente de zero.<br>
+O seu p-value é 6.35e-036 ou 0.(36 0s)635 e esta menor que 0.05 e menor que 0.01.<br>
 O valor -4.70154 é estatisticamente diferente de zero.<br>
-
-Aqui a interpretação é que a cada 1% de aumento no indice de preço da Whittaker temos -4.70154% de redução nas vendas
+Aqui a interpretação é que a cada 1% de aumento no indice de preço da Whittaker temos -4.70154% de redução nas vendas.<br>
 A interpretação esta sendo em porcentagem por conta da transformação logarítimica das variáveis, em que suprimimos a escala da variável em quantidade e da variável em moeda pelo logatimo natural/neperiano para comparar variáveis diferentes como iguais.<br>
-
 Utilizando o estudo científico <a href="/2-dataset/Bijmolt_et_al_2005.pdf">Bijmolt_et_al_2005.pdf (página 145)</a> disponibilizado <a href="/2-dataset/Bijmolt_et_al_2005.pdf">aqui</a>, identificamos que o coeficiente -4.70154% deste modelo está entre -4.99 e -4.00 do estudo científico que o coeficiente é igual a 145 estudos documentados na literatura de marketing e desta forma identificamos que faz sentido.<br>
 Figura a seguir nos auxilia a entender:<br>
 <img src="/3-img/aula10marketinganalytics3.png"><br>
-
 <cite>Considerando apenas a variável resposta indice de preço o coeficiente fica −5.89903 e se afasta mais da centralidade do estudo científico, mesmo que ainda faça sentido ao modelo. Confirma na figura a seguir:</cite><br>
 <img src="/3-img/aula10marketinganalytics4.png"><br>
-
 O Modelo de regressão é Y = B0 - B1X1 + E onde :
 ```
 Y = variável resposta
@@ -82,169 +78,59 @@ B1X1 = coeficiente angular associado a variável explicativa
 E = erro
 ```
 O efeito da correlação esta uma parte no índice de preço e uma parte no anuncio+display, retirando uma das variáveis o coeficiente aumenta, aumentando a distância da centralidade comparando ao estudo científico <a href="/2-dataset/Bijmolt_et_al_2005.pdf">Bijmolt_et_al_2005.pdf (página 145)</a>.<br>
-
-Importante entender que no marketing não há ausência total de multicolinearidade -relacionamento entre as variáveis explicativas- por questões dinâmicas. O gestor de marketing aplica uma uma ou mais ações paralelamente. As variáveis são conhecidas como <strong>endógenas</strong>.
-
+Importante entender que no marketing não há ausência total de multicolinearidade -relacionamento entre as variáveis explicativas- por questões dinâmicas. O gestor de marketing aplica uma uma ou mais ações paralelamente. As variáveis são conhecidas como <strong>endógenas</strong>.<br>
 Há uma meta-análise em marketing que analisa o efeito da propaganda nas vendas.<br>
-Ao analisar o efeito da propaganda nas vendas até 1990 e outra a partir de 1990 foi descoberto que o efeito da propaganda diminuiu ao longo do tempo. Isto significa que as pessoas se acostumaram a propaganda.
-
+Ao analisar o efeito da propaganda nas vendas até 1990 e outra a partir de 1990 foi descoberto que o efeito da propaganda diminuiu ao longo do tempo. Isto significa que as pessoas se acostumaram a propaganda.<br>
 <strong>Importante</strong> :<br>
 Em marketing este modelo é conhecido como modelo de resposta, no qual é estimada a influência de duas variáveis do marketing mix que são os 4Ps (produto, preço, praça, promoção).<br>
-Neste caso esta estimando a influência do preço e da promoção nas vendas.
+Neste caso esta estimando a influência do preço e da promoção nas vendas.<br>
+<strong>2. O beta anúncio e display:</strong><br>
+O coeficiente é 0.868475, o p-value 2.41e-011 ou 0.(11 0s)241.Este coeficiente é significativo a 90% por ser o seu p-value menor que 0.10%, é significativo a 95% por ser o seu p-value menor que 0.05% e é significativo a 99% por ser o seu p-value menor 0.01%.<br>
+Na notação científica é muito pequeno.<br>
+No teste de hipótese o beta do anúncio e display podemos rejeitar a h0 (hipótese nula) e estatisticamente é diferente de zero, ou seja, suporta ha (hipótese alternativa).<br>
+Aqui a interpretação é que a cada 1% de aumento no anúncio e display da Whittaker há um aumento nas vendas de 0.868475% de aumento nas vendas.<br>
+Esta variável esta mensurada de forma ponderada.<br>
+</p>
 
+<p><strong>Formas de detectar se o modelo com duas variáveis de resposta é melhor que om modelo com uma variável de resposta :</strong>
+<ul>(A)
+ <li>Quantidade de variáveis no modelo</li>
+ <li>Analisar se o incremento de determinada variável foi significativo ou não</li>
+ <li>Analisar se o R2 ajustado mudou muito, por que ele penaliza a quantidade de variáveis no modelo</li>
+ <li>Utilizar meéticas como BIC-Critério de Informação Bayesiano e AIC-Critério de Informação Akaike.</li>
+</ul>
+<ul>(B)
+ <li>Utilizando o software Gretl<br>
+b.1 Selecionar Save/Salvar->Fitted Values/Valores Ajustados e inserir um nome. Esta tarefa deve ser feita no resultado da Ordinary Least Squares (figuras anteriormente exibidas), tanto no resultado com duas variáveis explicativas e quanto no resultado com apenas uma variável explicativa. Figuras ilustrativas a seguir:<br>
+<img src="/3-img/aula10marketinganalytics5.png"><br>
+Escreva um nome para que o sistema salve o valor ajustado, na pequena janela que será exibida e clique no botão [OK] :<br>
+<img src="/3-img/aula10marketinganalytics6.png"><br>
+b.2 No sistema Gretl, vamos comparar os valores das variáveis logaritmicas originais de vendas, com as variáveis ajustadas previstas do modelo 1 com apenas 1 variável explicativa, com as variáveis ajustadas previstas do modelo 2 variáveis explicativas, conforme figura a seguir :<br>
+<img src="/3-img/aula10marketinganalytics7.png"><br>
+Esta figura possui são três janelas distintas, que juntei para melhor visualização.<br>
+<strong>Analisando os valores é possivel identificar que os valores ajustados do modelo 2 com 2 variáveis explicativas (o último) esta mais próximo ao valor logaritimico original</strong><br>
+
+O ajuste aplicado sobre as variáveis é o .......<br>
+
+Graficamente fica da seguinte forma :<br>
+No sistema Gretl, selecionar View/Ver->Graph specified vars/Gráfico de Variáveis->Time Series Plot/Grafico Série Temporal no menu principal.<br>
+<img src="/3-img/aula10marketinganalytics8.png"><br>
+Selecionar as variáveis vendas, as variáveis ajustadas com uma variável e com duas variáveis explicativas da marca Whittaker. Figura a seguir :
+<img src="/3-img/aula10marketinganalytics9.png">
+Resultará no seguinte gráfico :
+<img src="/3-img/aula10marketinganalytics10.png">
+
+
+</li>
+
+</ul>
 
 </p>
 
-<p>Vamos aprender a prever a influência do preço nas vendas e estimar o modelo de regressão de mínimos quadrados para marca Whittaker.<br>
-Executar procedimentos no software Gretl conforme imagem a seguir :<br>
-<img src="/3-img/aula09marketinganalytics01.png"><br>
-01- Model\OLS-Ordinary Least squares regression<br>
-02- Selecionar a variável dependente/de resposta l_Vendas_Whittaker e clicar na seta na parte superior para ser incluida no campo Dependent variable.<br>
-03- Selecionar a variável independente/explicativa l_Index_preco_Whittaker e clicar na seta na parte superior para ser incluida no campo Regressors.<br>
-Uma janela semelhante a janela a seguir será exibida :<br>
-<img src="/3-img/aula09marketinganalytics02.png"></p>
 
-<p>Vamos analisar as informações calculadas da regressão :<br> 
-1o<br>
+<p></p>
 
-```
-                      coefficient  std. error  t-ratio   p-value 
-  ---------------------------------------------------------------
-  const                 4.44344    0.0454744    97.71   1.34e-102 ***
-```
-O coeficiente da constante é estatisticamente significativo.<br>
-Nesta linha o sistema esta testando se o beta é estatisticamente igual a zero.<br>
-No teste de hipótese a hipótese nula H0 é nada esta acontecendo, que é o mesmo que não há regressão. O X aumenta mas nada acontece em y.<br>
-Os três asterísticos do p-value associado ao t-ratio é estatísticamente significativo ao intervalo de confiança de 90% = *, 95% = * *, 99% = * * *<br>
-2o<br>
-```
-                      coefficient  std. error  t-ratio   p-value 
-  ---------------------------------------------------------------
-  l_Index_preco_Wh~    −5.89903    0.225781    −26.13   5.46e-047 ***
-```
-
-O indice do preço tem o coeficiente negativo.<br>
-Como as variáveis estão em logaritmo natural, matematicamente podemos interpretar em termos de mudança percentual.<br>
-O p-value é muito pequeno isto significa que o beta é estatisticamente diferente de zero.<br>
-O coeficiente -5.89903 é diferente de zero então é possivel interpretar diretamente que o beta é estatisticamente diferente de zero.<br>
-Para cada acréscimo de 1% no indice de preço eu tenho uma redução nas vendas de -5.89903 em média.<br>
-Temos aqui uma demanda que é elástica.<br>
-Se esse beta fosse <-1 (entre -0.1 e -0.9) seria uma demanda inelástica.<br>
-O aumento de 1% no preço provoca uma redução na demanda mas < 1%, mas não é o caso aqui.<br>
-O caso aqui é eu tenho um acréscimo de 1% no preço e tenho uma redução na demanda maior que 1%.<br>
-É possível fazer um intervalo de confiança esperado para onde vai variar, e para isto basta usar o erro padrão. Considerando dois erros padrão para cima ou para baixo e com isto produzimos um intervalo de onde vai variar o intervalo do efeito do preço nas vendas, a influência do preço nas vendas.<br>
-
-<strong>-5.89903 Faz Sentido ?</strong><br>
-O resultado de -5.8903 faz sentido por conta de uma meta-analysis realizado por diversos pesquisadores em que foram considerados 1851 elasticidades de preços entre 1961 e 2004 (43 anos de dados) das influências de preço nas vendas publicada no American Marketing Association, em que provarão que a distribuição é centrada no valor negativo.<br>
-Confira no documento <a href="/2-dataset/Bijmolt_et_al_2005.pdf">Bijmolt_et_al_2005.pdf</a> disponibilizado <a href="/2-dataset/Bijmolt_et_al_2005.pdf">aqui</a>.<br>
-Vale lembrar que o produto aqui em estudo é chocolate, que é um produto de alta frequência, portanto na média um aumento no preço implica na redução das vendas.</p>
-
-<p>Talvez o coeficiente -5.89903 se ajuste mais quando for considerados outras variáveis, e faz sentido por ser uma regressão simples. É possível que o coeficiente esteja considerando o preço e outro valor, e/ou que significa que pode estar considerando quase todo o erro padrão.<br>
-Para melhor entendimento sobre o que pode estar contido no coeficiente, imagine o dono de uma loja quando reduz o preço ele divulga de alguma forma a redução nos preços e isto indica que há muitas outras variáveis para ajudar o coeficiente se ajustar. Isto significa que quando o preço é reduzido outra ação é realizada para compensar.</p>
-
-<p><strong>Importante :</strong><br>
-Antes de interpretar o coeficiente, como foi feito aqui, deve-se :<br>
-1o Interpretar se a regressão faz sentido e isto significa fazer um teste de hipótese para saber se o modelo global faz sentido. O modelo global divide a variação na parte não explicada e na parte explicada, e com base nestas é aplicado o teste F.<br>
-Com as 104 observações do dataset utilizado aqui fazemos o teste F com grau de liberdade, conforme a linha a seguir, extraida dos calculos do Gretl :<br>
-
-```
-F(1, 102)            682.6323   P-value(F)           5.46e-47
-```
-Aqui esta o valor da estatistica do teste f e o p-value associado.<br>
-Quando há várias variaveis a hipótese alternativa (Ha) do teste F é que ao menos um dos betas é estatisticamente diferente de zero.<br>
-A hipótese nula (H0) do teste F é todos os betas são iguais a zero e a hipótese alternativa ao menos um dos betas são estatísticamente diferente de zero.<br>
-Sendo um dos betas diferente de zero haverá uma relação/associação com um sentido positivo ou negativo, ao invés de ser sentido nulo.<br>
-Neste caso o modelo global faz sentido estatístico, por que ao menos um dos betas é estatisticamente diferente de zero e também significa que há modelo.<br>
-É importante destacar que o beta do coeficiente linear não é considerado, somente os outros betas são considerados.</p>
-
-<p>2o Interpretar as Estatisticas Descritivas básicas totais. Lembando que aqui estamos analisando valores em logaritmo.<br>
-
-```
-Mean dependent var   5.236838   S.D. dependent var   0.952753
-Sum squared resid    12.15436   S.E. of regression   0.345196
-```
-S.D. = Desvio padrão da variável dependente<br>
-S.E. = Erro padrão da regressão<br>
-<strong>Atenção - Quadrado dos resíduos</strong><br>
-O residuo é o resultado da distância entre valor observado na base de dados e a previsão deste valor que esta exatamente na reta de melhor ajuste.<br>
-O quadrado dos resíduos é elevar o resíduo ao quadrado.<br>
-Temos o R-squared que é o percentual de variação da variável dependente que é explicado pela variável explicativa.
-```
-R-squared            0.870003   Adjusted R-squared   0.868728
-```
-Recapitulando o que estamos analisando :<br>
-1o Teste F faz sentido ?<br>
-Resposta : Faz<br>
-2o Qual percentual de variação da variável dependente é explicado pela variável explicativa?<br>
-Resposta : Adjusted R-squared 0.868728<br>
-Vamos considerar o Adjusted R-squared por que é ponderado (média com pesos) e aqui significa que 86,87% da variação das vendas da whittaker é explicada pelo preço da whittaker.<br>
-Este modelo é simples incompleto e temos mais informações variáveis em nossa base de dados para analisar. Em marketing é sabido que as vendas oscilam além das variáveis de preço.<br>
-Vamos a um exemplo para reforçar entendimento sobre as diversas váriaveis que podem ajudar a construir um bom modelo:<br>
-Na comunidade de estatística EstaTiDados a quantidade de vagas vendidas vão oscilar não apenas por conta do preço, mas também vão oscilar pelo padrão de intensidade das postagens que faz na rede social, pela autoridade da marca que esta construindo, pela quantidade de seguidores que teem nas redes sociais e outras variáveis.<br>
-Todas estas são variáveis explicativas do modelo.<br>
-Então se fizer um modelo de regressão se baseando apenas pelo preço, este modelo esta incompleto. É preciso mais!</p>
-
-<p>Análise sobre R2 ajustado e R2 original :<br>
-R2 ajustado sempre deve ser analisado, mas no caso de regressão simples não precisa ser fortemente considerado.<br>
-O R2 ajustado considera as outras váriaveis.<br>
-O R2 penaliza a quantidade de variáveis dentro do modelo, então quanto mais proximo o R2 ajustado do R2 original significa que o modelo esta bem especificado, o modelo não contem muitas variáveis.<br>
-O R2 ajustado muito distante do R2 original significa muitas variáveis no modelo e estas variáveis não estão ajudando a ter um bom modelo.</p>
-
-<p><strong>Teste T e Teste F</strong><br>
-O test-T para significância individual dos parâmetros. Este testa de forma individual se os betas estão significativos.<br>
-O teste-F testa tudo de uma vez.</p>
-
-<p><strong>Analisar a significância geral e individual</strong><br>
-  <ol>
-    <li>Significância geral do modelo :<br>
-    Há ao menos um dos betas estatisticamente diferente de zero ?<br>
-    Resposta : O teste F responde
-    </li>
-    <li>Análise individual dos coeficientes no modelo :<br>
-    Individualmente os betas são estatisticamente diferentes de zero ?<br>
-    Rsposta : O teste T responde
-    </li>
-  </ol>
-</p>
-
-<p><strong>Regressão Múltipla</strong><br>
-Vamos tentar melhorar o modelo em estudo<br>
-Executar procedimentos no software Gretl conforme imagem a seguir :<br>
-<img src="/3-img/aula09marketinganalytics03.png"><br>
-01- Selecionar a variável dependente/de resposta l_Vendas_Whittaker e clicar na seta na parte superior para ser incluida no campo Dependent variable.<br>
-02- Selecionar as variáveis independentes/explicativas l_Index_preco_Whittaker e clicar na seta na parte superior para ser incluida no campo Regressors, depois a variável AD_Whittaker.<br>
-Uma janela semelhante a janela a seguir será exibida :<br>
-<img src="/3-img/aula09marketinganalytics04.png"><br>
-As vendas provavelmente variam sob influência do preço e sob influência do anuncio e display. Anuncio e display é uma variável ponderada e esta em percentual, portanto não precisa ser aplicado o logaritmo natural por que já esta na mesma escala percentual.<br>
-
-1o Teste F faz sentido?<br>
-```
-F(2, 101)            554.9428   P-value(F)           3.32e-55
-```
-Resposta : Sim. O teste F possui um valor alto e o p-value associado é baixo. Será rejeitado hipótese nula e ao menos um dos betas da regressão é estatisticamente diferente de zero.<br>
-2o Variáveis Explicativas melhoraram?<br>
-```
-R-squared            0.916590   Adjusted R-squared   0.914938
-```
-Resposta : Sim. Agora 91.49% da variável resposta é explicada pelas variáveis explicativas. Houve melhora com a inclusão da variável explicativa Anuncio e Display.<br>
-
-O R2 ajustado sempre vai aumentar independente de qualquer variável que seja incluida. O que deve ser entendido é se o aumento é significativo ou não significativo. No caso de aumento não significativo e que aumentou a complexidade do modelo deve ser avaliado se será o custo-benefício em incluir esta variável pouco aumentou no R2.<br>
-
-3o Qual o valor do coeficiente individual da variável indice de preco nas vendas?<br>
-```
-                    coefficient  std. error  t-ratio   p-value 
-l_Index_preco_Wh~    −4.70154    0.241768    −19.45   6.35e-036 ***
-```
-Resposta : Analisando o documento meta-análise <a href="/2-dataset/Bijmolt_et_al_2005.pdf">Bijmolt_et_al_2005.pdf</a> página 145, concluimos que valor esta próximo da média central. Aqui entendemos que houve ajustes com base em estudos ciêntíficos empíricos.<br>
-
-4o Qual o valor do coeficiente individual da variável anúncio e display nas vendas? <br>
-```
-AD_Whittaker          0.868475   0.115631      7.511  2.41e-011 ***
-```
-Para cada 1% de acrescimo de anúncio e display nas lojas haverá aumento de 0.8684% nas vendas da marca Whittaker.<br>
-É interpretado em percentual por que esta em decimal, se fosse inteiro a interpretação seria outra.<br>
-
-A variável indice de preço deve ser negativa e a variável anuncio e display deve ser positiva, caso contrário revisar tudo desde o início.</p>
+<p></p>
 
 <h3>Um Intervalo Importante</h3>
 <p><strong>Estatística Descritiva</strong><br>
