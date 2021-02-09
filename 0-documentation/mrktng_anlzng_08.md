@@ -22,7 +22,6 @@
 <hr>
 <h2>AULA 8 - DESENVOLVENDO MODELO DE REGRESSÃO LINEAR NO R</h2>
 <h4>DATASET VENDAS CHOCOLATE</h4>
-<h4>DESENVOLVENDO MODELO DE REGRESSÃO LINEAR</h4>
 <p>A análise descritiva é o coração da análise estatística.</p>
 <p>Desempenho Mercadológico é o coração do Marketing Analytics.</p>
 <p>Utilizaremos :
