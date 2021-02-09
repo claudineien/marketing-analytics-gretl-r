@@ -34,8 +34,8 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 <p><strong>Estimar o modelo de regressão à marca Whittaker</strong>.<br>
 Abrir o programa Gretl instalado em seu computador, selecionar a base de dados do gretl (pronuncia-se grêtél) com extensão .gdt, selecionar a opção Model/Modelo->Ordinary Least Square/Minimos Quadrados Ordinários, será exibida uma janela com título specify model/especificar modelo.<br>
 Selecionar a variável log de vendas da marca Whittaker e colocá-la na Dependent Variable/Variável Dependente, depois selecionar a variável do índice de preço da Whittaker e a anúncio e display e colocá-las na Regressors/Regressores, que é variável explicativa. Figuras ilustrativas a seguir:<br>
-<img src="aula10marketinganalytics0.png"><br>
-<img src="aula10marketinganalytics1.png"><br>
+<img src="./3-img/aula10marketinganalytics0.png"><br>
+<img src="./3-img/aula10marketinganalytics1.png"><br>
 <strong>Resumindo :</strong><br>
 Variáveis Dependentes/Resposta : logaritimo de vendas Whittaker<br>
 Variáveis Independentes/Explicativas: índices de preço e anúncio e display da Whittaker</p>
