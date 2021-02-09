@@ -282,6 +282,7 @@ Se o objetivo do modelo é identificar influência conhecido pelos economistas c
 <p>Fontes de estudo
     <ul>
         <li>Aula 08 : <a href="https://youtu.be/o9U9y6260cA">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 08 : <a href="https://youtu.be/dkKoF4GxNsg">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
         <li><a href="https://www.youtube.com/channel/UCyYHddVgHXAwDJ27-JxWqBA">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
         <li><a href="https://en.wikipedia.org/wiki/Market_share">Marketing Share - O que é?</a></li>
         <li><a href="https://en.wikipedia.org/wiki/John_Napier">John Napier - Logaritmo Natural ou Neperiano</a></li>
