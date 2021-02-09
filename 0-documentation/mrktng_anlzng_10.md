@@ -29,15 +29,16 @@
 <p>Modelos inferenciais são modelos de dependência como por exemplo análise de regressão. Nestes há variáveis que são dependentes/respostas de variáveis independentes/explicativas.<br>
 Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que depende das outras variáveis independentes/explicativas que explicam o seu resultado.</p>
 
-<p>Uma das habilidades necessárias que precisamos desenvolver na estatística é saber apresentar os dados. Exibir as informações mais relevantes que trazem valor a organização.</p>
-
-<p>A decisão do gestão de marketing geralmente se baseia no curto prazo, se o resultado foi negativo entre quatro e seis semanas após sua decisão uma nova decisão será aplicada.</p>
-
 <p>Serão estimados os modelos de regressão no software <a href="http://gretl.sourceforge.net/pt.html">Gretl</a>.</p>
 
-<p><strong>Criar o logaritmo natural das vendas e do indice de preço de todas as marcas</strong>.<br>
-Abrir o programa Gretl instalado em seu computador, abrir a base de dados, procurar cada uma das variáveis Vendas_Whittaker, pressionar o botão esquerdo do mouse e selecionar Add Log, depois procurar cada uma das variáveis Index_preco_Whittaker pressionar o botão esquerdo do mouse e selecionar Add Log. Figura ilustrativa a seguir:
-<img src="/3-img/aula09marketinganalytics00.png"><br></p>
+<p><strong>Estimar o modelo de regressão à marca Whittaker</strong>.<br>
+Abrir o programa Gretl instalado em seu computador, selecionar a base de dados do gretl (pronuncia-se grêtél) com extensão .gdt, selecionar a opção Model/Modelo->Ordinary Least Square/Minimos Quadrados Ordinários, será exibida uma janela com título specify model/especificar modelo.<br>
+Selecionar a variável log de vendas da marca Whittaker e colocá-la na Dependent Variable/Variável Dependente, depois selecionar a variável do índice de preço da Whittaker e a anúncio e display e colocá-las na Regressors/Regressores, que é variável explicativa. Figuras ilustrativas a seguir:<br>
+<img src="aula10marketinganalytics0.png"><br>
+<img src="aula10marketinganalytics1.png"><br>
+<strong>Resumindo :</strong><br>
+Variáveis Dependentes/Resposta : logaritimo de vendas Whittaker<br>
+Variáveis Independentes/Explicativas: índices de preço e anúncio e display da Whittaker</p>
 
 <p>Nesta aula aprenderemos a criar um modelo de regressão não linear, também conhecido como modelo log-log. Este modelo é citado em livros de econometria. Um aspecto importante do modelo log-log é o cálculo da elasticidade de Y em relação a X. As variáveis estarão transformadas em logaritmo natural por que pressupõe um efeito não linear das variáveis, efeitos decrescentes da escala e significa que conforme há aumento dos volumes da variável X ocorre um aumento na variável Y até certo ponto e este aumento vai diminuindo conforme há aumento na variável X isto significa efeito descrecente a escala.<br>
 Se persarmos em um modelo estritamente linear, quanto mais propaganda, mais anuncios então... as vendas sempre aumentariam. Na prática isto não ocorre.</p>
