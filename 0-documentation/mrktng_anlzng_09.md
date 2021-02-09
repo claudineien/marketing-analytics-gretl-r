@@ -20,9 +20,8 @@
 </div>
 </h5>
 <hr>
-<h2>AULA 9 - MARKETING ANALYTICS</h2>
+<h2>AULA 9 - MELHORAR MODELO : MODELO DE REGRESSÃO NÃO LINEAR/LOG-LOG E REGRESSÃO MÚLTIPLA</h2>
 <h4>DATASET VENDAS CHOCOLATE</h4>
-<h4>MELHORAR MODELO : MODELO DE REGRESSÃO NÃO LINEAR/LOG-LOG E REGRESSÃO MÚLTIPLA</h4>
 <p>Utilizaremos o dataset <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.csv</a> ou <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.xlsx</a> com dados agregados de todas as informações consolidadas das vendas de determinadas marcas de chocolate de todas as lojas de uma grande rede de varejo dentro de um período de 104 semanas, aproximadamente dois anos.</p>
 
 <p>Estes dados se caracterizam como Time Series (Serie Temporal) por que ocorrem dentro de um determinado tempo, prazo controlado por semana.</p>
@@ -259,6 +258,7 @@ Em um modelo heterocedastico é muito provável que uma variável muito importan
 <p>Fontes de estudo
     <ul>
         <li>Aula 09 : <a href="https://youtu.be/DakioM831Ng">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 09 : <a href="https://youtu.be/HKAoZ6fgxoU">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
         <li>Software Package for econometric analysis <a href="http://gretl.sourceforge.net/">Gretl</a></li>
         <li><a href="https://pt.wikipedia.org/wiki/%C3%8Dndice_de_pre%C3%A7os#:~:text=Um%20%C3%8Dndice%20de%20pre%C3%A7os%20(plural,um%20determinado%20intervalo%20de%20tempo.">Índices de preços</a></li>
         <li><a href="https://en.wikipedia.org/wiki/John_Napier">John Napier - Logaritmo Natural ou Neperiano</a></li>
