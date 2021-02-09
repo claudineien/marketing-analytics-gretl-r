@@ -36,12 +36,33 @@ Abrir o programa Gretl instalado em seu computador, selecionar a base de dados d
 Selecionar a variável log de vendas da marca Whittaker e colocá-la na Dependent Variable/Variável Dependente, depois selecionar a variável do índice de preço da Whittaker e a anúncio e display e colocá-las na Regressors/Regressores, que é variável explicativa. Figuras ilustrativas a seguir:<br>
 <img src="/3-img/aula10marketinganalytics0.png"><br>
 <img src="/3-img/aula10marketinganalytics1.png"><br>
-<strong>Resumindo :</strong><br>
+<strong>Foram selecionadas :</strong><br>
 Variáveis Dependentes/Resposta : logaritimo de vendas Whittaker<br>
-Variáveis Independentes/Explicativas: índices de preço e anúncio e display da Whittaker</p>
+Variáveis Independentes/Explicativas: índices de preço e anúncio e display da Whittaker<br>
+<strong>Resultado:</strong><br>
+<img src="/3-img/aula10marketinganalytics2.png"></p>
 
-<p>Nesta aula aprenderemos a criar um modelo de regressão não linear, também conhecido como modelo log-log. Este modelo é citado em livros de econometria. Um aspecto importante do modelo log-log é o cálculo da elasticidade de Y em relação a X. As variáveis estarão transformadas em logaritmo natural por que pressupõe um efeito não linear das variáveis, efeitos decrescentes da escala e significa que conforme há aumento dos volumes da variável X ocorre um aumento na variável Y até certo ponto e este aumento vai diminuindo conforme há aumento na variável X isto significa efeito descrecente a escala.<br>
-Se persarmos em um modelo estritamente linear, quanto mais propaganda, mais anuncios então... as vendas sempre aumentariam. Na prática isto não ocorre.</p>
+<p><strong>Interpretar algumas informações da Ordinary Least Squares :</strong><br>
+1º -Teste F(2, 101) e o P-value: São dois graus de liberdade, que são as duas variáveis explicativas. 
+Verificamos se o modelo de regressão faz sentido, ou seja, se a parte da variação explicada é estatísticamente significativa. Sendo, então ao menos um dos betas estimados no modelo é estatísticamente diferente de zero.
+Se o beta for estatísticamente diferente de zero há uma relação funcional entre a variável y (vendas) e a variável x (neste caso preço + anúncio e display).
+O teste F divide a série de dados em duas partes : a variação não explicada e a variação explicada.
+
+O teste F esta com valor grande estatísticamente e o P-value/P-valor esta com valor muito pequeno.
+O P-value 3,32e-55 é 0,(55 0s)332 está é menor que 0.05 e menor que 0.01, então o h0 (hipótese nula) é rejeitada dando suporte a ha (hipótese alternativa) de que um dos valores é estatisticamente diferente de zero.
+
+2o Interpretar os betas individualmente
+
+
+O teste de hipótese é muito importante na estatística, por que temos que testar uma hipótese em cada beta.
+
+hipótese nula = nada esta acontecendo ou beta é igual a 0 e significa que não há relação entre as variáveis
+hipótese alternativa = é o beta é diferente de 0
+
+<strong>Atenção:</strong><br>
+Sendo rigoroso : Estatisticamente o beta é igual a zero
+
+</p>
 
 <p>Vamos aprender a prever a influência do preço nas vendas e estimar o modelo de regressão de mínimos quadrados para marca Whittaker.<br>
 Executar procedimentos no software Gretl conforme imagem a seguir :<br>
