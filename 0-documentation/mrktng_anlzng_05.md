@@ -219,7 +219,8 @@ Uma idéia por exemplo é a marca Budget entrar para o mercado de picoles/sorvet
 <hr>
 <p>Fontes de estudo
     <ul>
-        <li>Aula 04 : <a href="https://youtu.be/6VoKWYZdBzg">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 05: <a href="https://youtu.be/viVqepH04So">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 05 : <a href="https://youtu.be/WaEz_Gk4RpA">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
         <li><a href="https://youtu.be/WaEz_Gk4RpA">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
         <li><a href="https://pt.wikipedia.org/wiki/Philip_Kotler">Phillip Kotler</a></li>
         <li><a href="https://pt.wikipedia.org/wiki/Net_Promoter_Score">Net Promoter Score</a></li>
