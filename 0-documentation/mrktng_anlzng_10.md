@@ -35,32 +35,63 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 Abrir o programa Gretl instalado em seu computador, selecionar a base de dados do gretl (pronuncia-se grêtél) com extensão .gdt, selecionar a opção Model/Modelo->Ordinary Least Square/Minimos Quadrados Ordinários, será exibida uma janela com título specify model/especificar modelo.<br>
 Selecionar a variável log de vendas da marca Whittaker e colocá-la na Dependent Variable/Variável Dependente, depois selecionar a variável do índice de preço da Whittaker e a anúncio e display e colocá-las na Regressors/Regressores, que é variável explicativa. Figuras ilustrativas a seguir:<br>
 <img src="/3-img/aula10marketinganalytics0.png"><br>
-<img src="/3-img/aula10marketinganalytics1.png"><br>
+<img src="aula10marketinganalytics1.png"><br>
 <strong>Foram selecionadas :</strong><br>
 Variáveis Dependentes/Resposta : logaritimo de vendas Whittaker<br>
 Variáveis Independentes/Explicativas: índices de preço e anúncio e display da Whittaker<br>
 <strong>Resultado:</strong><br>
-<img src="/3-img/aula10marketinganalytics2.png"></p>
+<img src="/3-img/aula10marketinganalytics2.png">
+</p>
 
 <p><strong>Interpretar algumas informações da Ordinary Least Squares :</strong><br>
-1º -Teste F(2, 101) e o P-value: São dois graus de liberdade, que são as duas variáveis explicativas. 
-Verificamos se o modelo de regressão faz sentido, ou seja, se a parte da variação explicada é estatísticamente significativa. Sendo, então ao menos um dos betas estimados no modelo é estatísticamente diferente de zero.
-Se o beta for estatísticamente diferente de zero há uma relação funcional entre a variável y (vendas) e a variável x (neste caso preço + anúncio e display).
-O teste F divide a série de dados em duas partes : a variação não explicada e a variação explicada.
-
-O teste F esta com valor grande estatísticamente e o P-value/P-valor esta com valor muito pequeno.
-O P-value 3,32e-55 é 0,(55 0s)332 está é menor que 0.05 e menor que 0.01, então o h0 (hipótese nula) é rejeitada dando suporte a ha (hipótese alternativa) de que um dos valores é estatisticamente diferente de zero.
-
-2o Interpretar os betas individualmente
-
-
-O teste de hipótese é muito importante na estatística, por que temos que testar uma hipótese em cada beta.
-
-hipótese nula = nada esta acontecendo ou beta é igual a 0 e significa que não há relação entre as variáveis
-hipótese alternativa = é o beta é diferente de 0
+1º -Teste F(2, 101) e o P-value:<br>
+São dois graus de liberdade, que são as duas variáveis explicativas.<br>
+Verificamos se o modelo de regressão faz sentido, ou seja, se a parte da variação explicada é estatísticamente significativa. Sendo, então ao menos um dos betas estimados no modelo é estatísticamente diferente de zero.<br>
+Se o beta for estatísticamente diferente de zero há uma relação funcional entre a variável y (vendas) e a variável x (neste caso preço + anúncio e display).<br>
+O teste F divide a série de dados em duas partes : a variação não explicada e a variação explicada.<br>
+O teste F esta com valor grande estatísticamente e o P-value/P-valor esta com valor muito pequeno.<br>
+O P-value 3,32e-55 é 0,(55 0s)332 e está menor que 0.05 e menor que 0.01, então o h0 (hipótese nula) é rejeitada dando suporte a ha (hipótese alternativa) de que um dos valores é estatisticamente diferente de zero.<br>
 
 <strong>Atenção:</strong><br>
-Sendo rigoroso : Estatisticamente o beta é igual a zero
+Sendo rigoroso : Estatisticamente o beta é igual a zero<br>
+
+2o Interpretar os betas individualmente<br>
+O teste de hipótese é muito importante na estatística, por que temos que testar uma hipótese em cada beta.<br>
+A hipótese nula significa nada esta acontecendo ou beta é igual a 0 e significa que não há relação entre as variáveis
+A hipótese alternativa significa que o beta é diferente de 0, então o h0 (hipótese nula) é rejeitada dando suporte a ha (hipótese alternativa) de que um dos valores é estatisticamente diferente de zero.<br>
+
+O beta índice de preço esta com coeficiente -4.70154 deve ser testado contra 0, aonde verificamos se é estatisticamente diferente de zero.<br>
+O seu p-value é 6.35e-036 ou 0.(36s 0)635 e esta menor que 0.05 e menor que 0.01.<br>
+O valor -4.70154 é estatisticamente diferente de zero.<br>
+
+Aqui a interpretação é que a cada 1% de aumento no indice de preço da Whittaker temos -4.70154% de redução nas vendas
+A interpretação esta sendo em porcentagem por conta da transformação logarítimica das variáveis, em que suprimimos a escala da variável em quantidade e da variável em moeda pelo logatimo natural/neperiano para comparar variáveis diferentes como iguais.<br>
+
+Utilizando o estudo científico <a href="/2-dataset/Bijmolt_et_al_2005.pdf">Bijmolt_et_al_2005.pdf (página 145)</a> disponibilizado <a href="/2-dataset/Bijmolt_et_al_2005.pdf">aqui</a>, identificamos que o coeficiente -4.70154% deste modelo está entre -4.99 e -4.00 do estudo científico que o coeficiente é igual a 145 estudos documentados na literatura de marketing e desta forma identificamos que faz sentido.<br>
+Figura a seguir nos auxilia a entender:<br>
+<img src="/3-img/aula10marketinganalytics3.png"><br>
+
+<cite>Considerando apenas a variável resposta indice de preço o coeficiente fica −5.89903 e se afasta mais da centralidade do estudo científico, mesmo que ainda faça sentido ao modelo. Confirma na figura a seguir:</cite><br>
+<img src="/3-img/aula10marketinganalytics4.png"><br>
+
+O Modelo de regressão é Y = B0 - B1X1 + E onde :
+```
+Y = variável resposta
+B0 = coeficiente linear
+B1X1 = coeficiente angular associado a variável explicativa
+E = erro
+```
+O efeito da correlação esta uma parte no índice de preço e uma parte no anuncio+display, retirando uma das variáveis o coeficiente aumenta, aumentando a distância da centralidade comparando ao estudo científico <a href="/2-dataset/Bijmolt_et_al_2005.pdf">Bijmolt_et_al_2005.pdf (página 145)</a>.<br>
+
+Importante entender que no marketing não há ausência total de multicolinearidade -relacionamento entre as variáveis explicativas- por questões dinâmicas. O gestor de marketing aplica uma uma ou mais ações paralelamente. As variáveis são conhecidas como <strong>endógenas</strong>.
+
+Há uma meta-análise em marketing que analisa o efeito da propaganda nas vendas.<br>
+Ao analisar o efeito da propaganda nas vendas até 1990 e outra a partir de 1990 foi descoberto que o efeito da propaganda diminuiu ao longo do tempo. Isto significa que as pessoas se acostumaram a propaganda.
+
+<strong>Importante</strong> :<br>
+Em marketing este modelo é conhecido como modelo de resposta, no qual é estimada a influência de duas variáveis do marketing mix que são os 4Ps (produto, preço, praça, promoção).<br>
+Neste caso esta estimando a influência do preço e da promoção nas vendas.
+
 
 </p>
 
