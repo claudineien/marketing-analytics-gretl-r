@@ -20,7 +20,7 @@
 </div>
 </h5>
 <hr>
-<h2>AULA 2 - ANÁLISE DESCRITIVA I</h2>
+<h3>AULA 2 - ANÁLISE DESCRITIVA I</h3>
 <h4>DATASET VENDAS CHOCOLATE</h4>
 <p>Utilizaremos o dataset <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.csv</a> ou <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.xlsx</a> com dados agregados de todas as informações consolidadas das vendas de determinadas marcas de chocolate de todas as lojas de uma grande rede de varejo dentro de um período de 104 semanas, aproximadamente dois anos.</p>
 
@@ -125,7 +125,7 @@ Por exemplo o z-score, a correlação (padronizada em -1 e 1) por que a covariâ
 </p>
 
 <h4>SOFTWARE A UTILIZAR E LINGUAGEM DE PROGRAMAÇÃO</h4>
-<p>Nesta aula aprendemos a instalar o RStudio para programar na linguagem R e utilizaremos o Gretl para aprender estatística descritiva.</p>
+<p>Nesta aula aprenderemos a instalar o RStudio para programar na linguagem R e utilizaremos o Gretl para aprender estatística descritiva.</p>
 <p>Confira instalação do R a partir do minuto 03:56 na <a href="https://youtu.be/m4wZmFkaGQo">Aula 02: Marketing Analytics - Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</a>
 </p>
 
