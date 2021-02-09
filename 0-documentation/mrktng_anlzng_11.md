@@ -220,7 +220,8 @@ A variabilidade do preço influência no resultado das vendas.
 <hr>
 <p>Fontes de estudo
     <ul>
-        <li>Aula 04 : <a href="https://youtu.be/6VoKWYZdBzg">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 11 : <a href="https://youtu.be/D9drSROQ5F0">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 11 : <a href="https://youtu.be/ANbogy2Vx6g">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
         <li><a href="https://cran.r-project.org/bin/windows/base/">Download R 4.0.3 Core for Windows</a></li>
         <li>Download Software RStudio <a href="https://rstudio.com/products/rstudio/download/">RStudio</a></li>
         <li><a href="https://www.amazon.com/Estatstica-Revelando-Poder-dos-Dados/dp/8521633106">Estatística : Revelando o poder dos dados</a></li>
