@@ -125,7 +125,7 @@ Por exemplo o z-score, a correlação (padronizada em -1 e 1) por que a covariâ
 </p>
 
 <h4>SOFTWARE A UTILIZAR E LINGUAGEM DE PROGRAMAÇÃO</h4>
-<p>Nesta aula aprenderemos a instalar o RStudio para programar na linguagem R e utilizaremos o Gretl para aprender estatística descritiva.</p>
+<p>Nesta aula aprendemos a instalar o RStudio para programar na linguagem R e utilizaremos o Gretl para aprender estatística descritiva.</p>
 <p>Confira instalação do R a partir do minuto 03:56 na <a href="https://youtu.be/m4wZmFkaGQo">Aula 02: Marketing Analytics - Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</a>
 </p>
 
