@@ -20,7 +20,7 @@
 </div>
 </h5>
 <hr>
-<h2>AULA 7 - EM DIREÇÃO AOS MODELOS DE REGRESSÃO LINEAR/NÃO LINEAR</h2>
+<h3>AULA 7 - EM DIREÇÃO AOS MODELOS DE REGRESSÃO LINEAR/NÃO LINEAR</h3>
 <h4>DATASET VENDAS CHOCOLATE</h4>
 <p>A análise descritiva é o coração da análise estatística.</p>
 <p>Desempenho Mercadológico é o coração do Marketing Analytics.</p>
