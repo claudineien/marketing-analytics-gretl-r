@@ -20,7 +20,7 @@
 </div>
 </h5>
 <hr>
-<h3>AULA 1 - ANALISAR DATASET SOB CONCEITOS DE MARKETING</h3>
+<h3>AULA 1 - APLICANDO MARKETING ANALYTICS NO DATASET</h3>
 <h4>DATASET VENDAS CHOCOLATE</h4>
 <p>Utilizaremos um dataset classificado em marketing como dataset em nível de cadeia. Exemplo clássico em marketing de varejo.</p>
 <p>A planilha <a href="https://github.com/claudineien/marketing-analytics-gretl-r/tree/main/2-dataset">BD_marcas_de_chocolate.csv</a> contém dados agregados de todas as informações consolidadas das vendas de determinadas marcas de chocolate de todas as lojas de uma grande rede de varejo dentro de um período de 104 semanas, aproximadamente dois anos.</p>
