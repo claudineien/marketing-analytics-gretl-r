@@ -120,6 +120,7 @@ Com a transformação não linear o modelo de regressão interpreta o beta em te
 <p>Fontes de estudo
     <ul>
         <li>Aula 07 : <a href="https://youtu.be/gMovs4Y6L9Y">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 07 : <a href="https://youtu.be/VtUdPr64tSc">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
         <li><a href="https://www.youtube.com/channel/UCyYHddVgHXAwDJ27-JxWqBA">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
     </ul>
 </p>
