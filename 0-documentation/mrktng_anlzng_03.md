@@ -125,9 +125,9 @@ Modelos quantitativos como análise de regressão tem o teste F para saber se a 
 
 O teste de hipótese que faz parte da inferência estatística é identificada e depende da análise estatística descritiva, aonde detectamos as hipóteses que serão refutadas ou aceitas na inferência estatística.<br>
 
-<strong>Para executar uma boa Regressão entender sobre </strong><br>
+<strong>Para executar uma boa Regressão devemos entender:</strong><br>
 Medidas de tendencia central, Medidas de dispersão, Distribuição de probabilidade, Inferência estatística.<br>
-Devemos tentar responder : <br>
+<strong>Devemos tentar responder :</strong><br>
 01 Por que é um bom estimador ?<br>
 02 Quais são as caracteríscas que vão gerar estimativas boas o suficiente para generalizar à população da amostra ?
 </p>
