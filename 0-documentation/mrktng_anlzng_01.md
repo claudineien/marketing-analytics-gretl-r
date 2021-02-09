@@ -86,6 +86,7 @@ Os preços dos chocolates registrados nas colunas Preco_atual_Budget e Preco_reg
 <p>Fontes de estudo
     <ul>
         <li>Aula 01 : <a href="https://www.youtube.com/watch?v=lRTR7XHwOe4">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 01 : <a href="https://youtu.be/EjRz4co50Yw">Marketing Analytics-Vejo Marketing em tudo</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
         <li>Modeling Markets, Peter S.H Leeflang, Jaap E.Wieringa, Tammo H.A. Bijmolt, Koen H. Pauwels</li>
         <li>4ps do marketing, Philip Kotler, Criado por Neil Borden, em 1949, e aprimorado por Jerome McCarthy.</li>
         <li>Software Package for econometric analysis <a href="http://gretl.sourceforge.net/">Gretl</a></li>
