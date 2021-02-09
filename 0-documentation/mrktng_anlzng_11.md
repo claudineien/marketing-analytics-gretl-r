@@ -20,8 +20,8 @@
 </div>
 </h5>
 <hr>
-<h2>AULA 11 - MARKETING ANALYTICS</h2>
-<h4>PROJETO PRÁTICO</h4>
+<h3>AULA 11 - Entender como aplicar as técnicas aprendidas durante as 10 aulas para cumprir o desafio.</h3>
+<h4>PROJETO DESAFIO</h4>
 Aplicar as técnicas aprendidas durante as 10 aulas para cumprir este projeto.
 
 <h3><strong>Datasets</strong></h3>
@@ -30,7 +30,7 @@ Aplicar as técnicas aprendidas durante as 10 aulas para cumprir este projeto.
 
 <p>
 Dataset I - <a href="/2-dataset/listings-RIo_de_Janeiro.csv">listings-RIo_de_Janeiro.csv</a><br>
-Tamanho : aproximadamente 35.870 registros/linhas<br>
+Tamanho : aproximadamente 35.731 registros/linhas<br>
 Fonte origem : <a href="http://insideairbnb.com/get-the-data.html">http://insideairbnb.com/get-the-data.html</a><br>
 <div>
   <table>
@@ -48,15 +48,15 @@ Fonte origem : <a href="http://insideairbnb.com/get-the-data.html">http://inside
     </tr>
     <tr>
       <td>HOST_ID</td>
-      <td>Identificação do host</td>
+      <td>Identificação do host/locador. Relacionado ao HOST_NAME.</td>
     </tr>
     <tr>
       <td>HOST_NAME</td>
-      <td>Nome do host</td>
+      <td>Nome do host/locador. Relacionado ao HOST_ID.</td>
     </tr>
     <tr>
       <td>neighbourhood_group</td>
-      <td>Grupo de vizinhos</td>
+      <td>Grupo dos bairros vizinhos</td>
     </tr>
     <tr>
       <td>neighbourhood</td>
@@ -109,7 +109,7 @@ Fonte origem : <a href="http://insideairbnb.com/get-the-data.html">http://inside
   </table>
 </div>
 Alguns Insights que podem ser extraidos :<br>
-Preço : Por região (geolocalização), Por bairro, Por tipos de propriedades, Por quantidade de reviews, Será que mais reviews aumenta o preço? Será que mais reviews aumenta o preço? Será a quantidade de comentários aumenta o preço?<br>
+Preço : Por região (geolocalização), Por bairro, Por tipos de propriedades, Por quantidade de reviews, Será que mais reviews aumenta o preço? Será a quantidade de comentários aumenta o preço?<br>
 Review : Padrão de intensidade na plataforma/rede social, Relacionar preço com reviews</p>
 
 <p>
@@ -191,8 +191,7 @@ Qual filme fatura mais no Domestic ?, Qual filme fatura mais no Foreign ?, Traba
 </p>
 
 <h3>O que produzir e entregar ?</h3>
-<p>
-Report : Relatório de Análise de dados com no máximo 15 páginas com seguinte conteúdo : <br>
+<p>Report : Relatório de Análise de dados com no máximo 15 páginas com seguinte conteúdo : <br>
 .Linguagem de programação utilizada<br>
 .Software utilizado<br>
 .Análises relacionadas ao Marketing associado a Estatistica<br>
