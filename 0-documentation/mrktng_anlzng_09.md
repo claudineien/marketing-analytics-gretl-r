@@ -253,6 +253,7 @@ Conclusão : O modelo é heterocedastico por que aceitamos a hipotese alternativ
 <p><strong>Modelo Heterocedastico :</strong>
 Em um modelo heterocedastico é muito provável que uma variável muito importante esteja sendo omitida. E quando esta variável é incluinda o modelo vai melhorado.</p>
 
+
 <br><br>
 <hr>
 <p>Fontes de estudo
