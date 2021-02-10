@@ -97,10 +97,10 @@ Esta variável esta mensurada de forma ponderada.<br>
  <li>Quantidade de variáveis no modelo</li>
  <li>Analisar se o incremento de determinada variável foi significativo ou não</li>
  <li>Analisar se o R2 ajustado mudou muito, por que ele penaliza a quantidade de variáveis no modelo</li>
- <li>Utilizar meéticas como BIC-Critério de Informação Bayesiano e AIC-Critério de Informação Akaike.</li>
+ <li>Utilizar métricas como BIC-Critério de Informação Bayesiano e AIC-Critério de Informação Akaike.</li>
 </ul>
 <ul>(B)
- <li>Utilizando o software Gretl<br>
+ <li>Utilizando o software Gretl vamos ajustar os valores das variáveis<br>
 b.1 Selecionar Save/Salvar->Fitted Values/Valores Ajustados e inserir um nome. Esta tarefa deve ser feita no resultado da Ordinary Least Squares (figuras anteriormente exibidas), tanto no resultado com duas variáveis explicativas e quanto no resultado com apenas uma variável explicativa. Figuras ilustrativas a seguir:<br>
 <img src="/3-img/aula10marketinganalytics5.png"><br>
 Escreva um nome para que o sistema salve o valor ajustado, na pequena janela que será exibida e clique no botão [OK] :<br>
@@ -109,26 +109,32 @@ b.2 No sistema Gretl, vamos comparar os valores das variáveis logaritmicas orig
 <img src="/3-img/aula10marketinganalytics7.png"><br>
 Esta figura possui são três janelas distintas, que juntei para melhor visualização.<br>
 <strong>Analisando os valores é possivel identificar que os valores ajustados do modelo 2 com 2 variáveis explicativas (o último) esta mais próximo ao valor logaritimico original</strong><br>
-
-O ajuste aplicado sobre as variáveis é o .......<br>
-
+O ajuste aplicado é o grau de ajuste linear (R2) da reta de regressão linear. O R-quadrado é uma medida estatística de quão próximos os dados estão da linha de regressão ajustada. Ele também é conhecido como o coeficiente de determinação ou o coeficiente de determinação múltipla para a regressão múltipla.<br>
 Graficamente fica da seguinte forma :<br>
 No sistema Gretl, selecionar View/Ver->Graph specified vars/Gráfico de Variáveis->Time Series Plot/Grafico Série Temporal no menu principal.<br>
 <img src="/3-img/aula10marketinganalytics8.png"><br>
 Selecionar as variáveis vendas, as variáveis ajustadas com uma variável e com duas variáveis explicativas da marca Whittaker. Figura a seguir :
-<img src="/3-img/aula10marketinganalytics9.png">
+<img src="a/3-img/ula10marketinganalytics9.png">
 Resultará no seguinte gráfico :
 <img src="/3-img/aula10marketinganalytics10.png">
-
-
+É possível visualizar melhor que os modelos são muito próximos.<br>
+Em uma oscilação brusca ambos os modelos erram bastante.<br>
+Uma boa solução para evitar errar muito durante as quedas ou picos muito grande seria buscar variáveis dummy que indicam os períodos bruscos de queda ou pico indicados por alguma outra variável que esta tentando explicar o fenômeno.<br>
+Por exemplo uma sazonalidade pode ter uma queda brusca ou pico muito alto, se inserir uma dummy o modelo o reconhece a queda brusca ou o pico e consegue estimar melhor.<br>
+No geral o modelo 2 é melhor que o modelo 1.
 </li>
-
 </ul>
-
 </p>
 
+<p><strong>Melhorar o modelo de regressão</strong><br>
+Incluiremos log do indice de preço da Cadbury, e o anúncio e display da Cadbury
+que são variáveis de outra marca como influência das vendas da marca em análise
+Um exemplo são as concorrentes Coca-Cola e Pepsi
+Pepsi aumenta o preço então alguns consumidores migrarao para outra marca
+Então vamos verificar se as variáveis de uma marca vai influênciar na marca em análise
 
-<p></p>
+
+</p>
 
 <p></p>
 
