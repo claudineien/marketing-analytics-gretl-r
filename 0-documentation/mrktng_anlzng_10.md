@@ -114,7 +114,7 @@ Graficamente fica da seguinte forma :<br>
 No sistema Gretl, selecionar View/Ver->Graph specified vars/Gráfico de Variáveis->Time Series Plot/Grafico Série Temporal no menu principal.<br>
 <img src="/3-img/aula10marketinganalytics8.png"><br>
 Selecionar as variáveis vendas, as variáveis ajustadas com uma variável e com duas variáveis explicativas da marca Whittaker. Figura a seguir :<br>
-<img src="a/3-img/aula10marketinganalytics9.png"><br>
+<img src="/3-img/aula10marketinganalytics9.png"><br>
 Resultará no seguinte gráfico :<br>
 <img src="/3-img/aula10marketinganalytics10.png"><br>
 É possível visualizar melhor que os modelos são muito próximos.<br>
