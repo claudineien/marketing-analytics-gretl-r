@@ -113,10 +113,10 @@ O ajuste aplicado é o grau de ajuste linear (R2) da reta de regressão linear. 
 Graficamente fica da seguinte forma :<br>
 No sistema Gretl, selecionar View/Ver->Graph specified vars/Gráfico de Variáveis->Time Series Plot/Grafico Série Temporal no menu principal.<br>
 <img src="/3-img/aula10marketinganalytics8.png"><br>
-Selecionar as variáveis vendas, as variáveis ajustadas com uma variável e com duas variáveis explicativas da marca Whittaker. Figura a seguir :
-<img src="a/3-img/ula10marketinganalytics9.png">
-Resultará no seguinte gráfico :
-<img src="/3-img/aula10marketinganalytics10.png">
+Selecionar as variáveis vendas, as variáveis ajustadas com uma variável e com duas variáveis explicativas da marca Whittaker. Figura a seguir :<br>
+<img src="a/3-img/aula10marketinganalytics9.png"><br>
+Resultará no seguinte gráfico :<br>
+<img src="/3-img/aula10marketinganalytics10.png"><br>
 É possível visualizar melhor que os modelos são muito próximos.<br>
 Em uma oscilação brusca ambos os modelos erram bastante.<br>
 Uma boa solução para evitar errar muito durante as quedas ou picos muito grande seria buscar variáveis dummy que indicam os períodos bruscos de queda ou pico indicados por alguma outra variável que esta tentando explicar o fenômeno.<br>
