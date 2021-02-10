@@ -335,7 +335,7 @@ Por haver muitos modelos e cada um é utilizado numa situação especifica e por
 <hr>
 <p>Fontes de estudo
     <ul>
-        <li>Aula 10 : <a href="https://youtu.be/DakioM831Ng">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
+        <li>Aula 10 : <a href="https://youtu.be/s69b9xC6CYE">Marketing Analytics</a> - Instrutores : Prof. Thiago Marques(USP/IBGE) e Marcos Severo (UFG)</li>
         <li>Aula 10 : <a href="https://youtu.be/HxxFiUiHWQg">Vejo Marketing em tudo! / Marketing everywhere!</a></li>
         <li>Software Package for econometric analysis <a href="http://gretl.sourceforge.net/">Gretl</a></li>
         <li><a href="https://www.ama.org/">American Marketing Association</a></li>
