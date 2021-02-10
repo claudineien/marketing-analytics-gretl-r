@@ -119,7 +119,7 @@ No menu principal selecionar View/Ver->Graph specified vars/Gráfico de Variáve
 Selecionar as variáveis vendas, as variáveis ajustadas com uma variável e com duas variáveis explicativas da marca Whittaker. Figura a seguir :<br>
 <img src="/3-img/aula10marketinganalytics9.png"><br>
 Resultará no seguinte gráfico :<br>
-<img src="aula10marketinganalytics10.png"><br>
+<img src="/3-img/aula10marketinganalytics10.png"><br>
 É possível visualizar melhor que os modelos são muito próximos.<br>
 Em uma oscilação brusca ambos os modelos erram bastante.<br>
 Uma boa solução para evitar errar muito durante as quedas ou picos muito grande seria buscar variáveis dummy que indicam os períodos bruscos de queda ou pico indicados por alguma outra variável que esta tentando explicar o fenômeno.<br>
