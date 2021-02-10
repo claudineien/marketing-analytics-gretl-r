@@ -34,13 +34,13 @@ Por exemplo : A variável Vendas_Budget é a variável dependente/resposta, que 
 <p><strong>Estimar o modelo de regressão à marca Whittaker</strong>.<br>
 Abrir o programa Gretl instalado em seu computador, selecionar a base de dados do gretl (pronuncia-se grêtél) com extensão .gdt, selecionar a opção Model/Modelo->Ordinary Least Square/Minimos Quadrados Ordinários, será exibida uma janela com título specify model/especificar modelo.<br>
 Selecionar a variável log de vendas da marca Whittaker e colocá-la na Dependent Variable/Variável Dependente, depois selecionar a variável do índice de preço da Whittaker e a anúncio e display e colocá-las na Regressors/Regressores, que é variável explicativa. Figuras ilustrativas a seguir:<br>
-<img src="aula10marketinganalytics0.png"><br>
-<img src="aula10marketinganalytics1.png"><br>
+<img src="/3-img/aula10marketinganalytics0.png"><br>
+<img src="/3-img/aula10marketinganalytics1.png"><br>
 <strong>Foram selecionadas :</strong><br>
 Variáveis Dependentes/Resposta : logaritimo de vendas Whittaker<br>
 Variáveis Independentes/Explicativas: índices de preço e anúncio e display da Whittaker<br>
 <strong>Resultado:</strong><br>
-<img src="aula10marketinganalytics2.png">
+<img src="/3-img/aula10marketinganalytics2.png">
 </p>
 
 <p><strong>Interpretar algumas informações da Ordinary Least Squares :</strong><br>
@@ -67,9 +67,9 @@ Aqui a interpretação é que a cada 1% de aumento no indice de preço da Whitta
 A interpretação esta sendo em porcentagem por conta da transformação logarítimica das variáveis, em que suprimimos a escala da variável em quantidade e da variável em moeda pelo logatimo natural/neperiano para comparar variáveis diferentes como iguais.<br>
 Utilizando o estudo científico <a href="/2-dataset/Bijmolt_et_al_2005.pdf">Bijmolt_et_al_2005.pdf (página 145)</a> disponibilizado <a href="/2-dataset/Bijmolt_et_al_2005.pdf">aqui</a>, identificamos que o coeficiente -4.70154% deste modelo está entre -4.99 e -4.00 do estudo científico que o coeficiente é igual a 145 estudos documentados na literatura de marketing e desta forma identificamos que faz sentido.<br>
 Figura a seguir nos auxilia a entender:<br>
-<img src="aula10marketinganalytics3.png"><br>
+<img src="/3-img/aula10marketinganalytics3.png"><br>
 <cite>Considerando apenas a variável resposta indice de preço o coeficiente fica −5.89903 e se afasta mais da centralidade do estudo científico, mesmo que ainda faça sentido ao modelo. Confirma na figura a seguir:</cite><br>
-<img src="aula10marketinganalytics4.png"><br>
+<img src="/3-img/aula10marketinganalytics4.png"><br>
 O Modelo de regressão é Y = B0 - B1X1 + E onde :
 ```
 Y = variável resposta
@@ -100,26 +100,26 @@ Esta variável esta mensurada de forma ponderada.<br>
 - Utilizar métricas como BIC-Critério de Informação Bayesiano e AIC-Critério de Informação Akaike.</p>
 <p>(B) Utilizando o software Gretl vamos ajustar os valores das variáveis<br>
 Selecionar Save/Salvar->Fitted Values/Valores Ajustados e inserir um nome. Esta tarefa deve ser feita no resultado da Ordinary Least Squares (figuras anteriormente exibidas), tanto no resultado com duas variáveis explicativas quanto no resultado com apenas uma variável explicativa. Figuras ilustrativas a seguir :<br>
-<img src="aula10marketinganalytics5.png"><br>
+<img src="/3-img/aula10marketinganalytics5.png"><br>
 Escreva um nome para que o sistema salve o valor ajustado, na pequena janela que será exibida e clique no botão [OK] :<br>
-<img src="aula10marketinganalytics6.png"><br>
+<img src="/3-img/aula10marketinganalytics6.png"><br>
 Vamos comparar o valor das variáveis logaritimicas de :<br>
 1 Preço de vendas originais<br>
 2 Preço de vendas ajustadas no modelo 1 com apenas 1 variável explicativa<br>
 3 Preço de vendas ajustadas no modelo 2 com 2 variaveis explicativas<br>
 Figura a seguir :<br>
-<img src="aula10marketinganalytics7.png"><br>
+<img src="/3-img/aula10marketinganalytics7.png"><br>
 A figura contém três janelas distintas, unidas para melhor visualização e rápida análise.<br>
 <strong>Analisando os valores é possivel identificar que os valores ajustados do modelo 2 com 2 variáveis explicativas esta mais próximo ao valor logaritimico original</strong></p>
 <p><strong>Atenção </strong>:<br>
 O ajuste aplicado é o grau de ajuste linear (R2) da reta de regressão linear. O R-quadrado é uma medida estatística de quão próximos os dados estão da linha de regressão ajustada. Ele também é conhecido como o coeficiente de determinação ou o coeficiente de determinação múltipla para a regressão múltipla.</p>
 <p>Gráficamente fica da seguinte forma :<br>
 No menu principal selecionar View/Ver->Graph specified vars/Gráfico de Variáveis->Time Series Plot/Grafico Série Temporal.<br>
-<img src="aula10marketinganalytics8.png"><br>
+<img src="/3-img/aula10marketinganalytics8.png"><br>
 Selecionar as variáveis vendas, as variáveis ajustadas com uma variável e com duas variáveis explicativas da marca Whittaker. Figura a seguir :<br>
-<img src="aula10marketinganalytics9.png"><br>
+<img src="/3-img/aula10marketinganalytics9.png"><br>
 Resultará no seguinte gráfico :<br>
-<img src="aula10marketinganalytics10.png"><br>
+<img src="/3-img/aula10marketinganalytics10.png"><br>
 É possível visualizar melhor que os modelos são muito próximos.<br>
 Em uma oscilação brusca ambos os modelos erram bastante.<br>
 Uma boa solução para evitar errar muito durante as quedas ou picos muito grande seria buscar variáveis dummy que indicam os períodos bruscos de queda ou pico indicados por alguma outra variável que esta tentando explicar o fenômeno.<br>
@@ -142,9 +142,9 @@ Para melhor entendimento da influência das váriaveis da marca concorrente, vam
 Selecionaremos o log de venda da Whittaker como variável resposta, o log de indice de preço da Whittaker + anúncio e display da Whittaker, log de indice de preço da Cadbury, anúncio + display da Cadbury como variáveis explicativas.<br>
 Para isto selecionaremos a opção Ordinary Least Squares/Minimos Quadrados Ordinários (abordado nesta aula). Figuras a seguir :<br>
 Variáveis a selecionar :<br>
-<img src="aula10marketinganalytics11.png"><br>
+<img src="/3-img/aula10marketinganalytics11.png"><br>
 Resultado da correlação entre as variáveis :<br>
-<img src="aula10marketinganalytics12.png">
+<img src="/3-img/aula10marketinganalytics12.png">
 </p>
 
 <p>Anteriormente tinhamos :<br>
@@ -185,9 +185,9 @@ Em marketing o consumo varia nos aspectos demográficos, em aspectos geográfico
 <h4>Verificar se o modelo esta bem especificado</h4>
 <p>1º Teste : Heterocedasticidade - Koenker - Breusch-Pagan<br>
 Verificar se resíduos em relação a linha de regressão variam constantemente.<br>
-<img src="aula10marketinganalytics13.png"><br>
-<img src="aula10marketinganalytics14.png"><br>
-<img src="aula10marketinganalytics15.png"><br>
+<img src="/3-img/aula10marketinganalytics13.png"><br>
+<img src="/3-img/aula10marketinganalytics14.png"><br>
+<img src="/3-img/aula10marketinganalytics15.png"><br>
 
 ```
 Log-likelihood for Vendas_Whittaker = −553.809
@@ -199,10 +199,10 @@ Breusch-Pagan test for heteroskedasticity (robust variant) -
 ```
 Perceba a h0 (Hipótese nula) é "sem heterocedasticidade", como o p-value de 0.0483996 é inferior ao nível de significância 0.05, rejeitamos h0 e consideremos ha (Hipotese alternativa) e temos um modelo heterocedástico.<br>
 <strong>Sendo muito rigoroso</strong> vamos re-estimar o modelo calcular erros padrões robustos em que serão realizados ajustes matemáticos ponderando as observações em relação a reta de regressão, conforme figura a seguir :<br>
-<img src="aula10marketinganalytics16.png"><br>
+<img src="/3-img/aula10marketinganalytics16.png"><br>
 
 Janela com o resultado :<br>
-<img src="aula10marketinganalytics17.png"><br>
+<img src="/3-img/aula10marketinganalytics17.png"><br>
 </p>
 
 <p>2º Teste : Calcular novamente Heterocedasticidade - Koenker - Breusch-Pagan
@@ -225,7 +225,7 @@ Test statistic: LM = 9.566448,
 with p-value = P(Chi-square(4) > 9.566448) = 0.048400
 ```
 Resultado :<br>
-<img src="aula10marketinganalytics18.png"><br>
+<img src="/3-img/aula10marketinganalytics18.png"><br>
 Perceba a h0 (Hipótese nula) é "sem heterocedasticidade", o p-value continuou 0.0483996 que é inferior ao nível de significância 0.05, então ainda rejeitamos h0 e consideremos ha (Hipotese alternativa) e temos um modelo heterocedéstico.
 </p>
 
@@ -258,7 +258,7 @@ Aqui o teste é estatisticamente não significativo e a especificação é adequ
 
 <p>
 O sistema vai inserir os cálculos na janela que fica atrás conforme imagem e resultados a seguir :<br>
-<img src="aula10marketinganalytics19.png"><br>
+<img src="/3-img/aula10marketinganalytics19.png"><br>
 
 ```
 Log-likelihood for Vendas_Whittaker = −553.809
@@ -280,9 +280,9 @@ Perceba que o novo p-value calculado é 0.234799, superior ao nível de signific
  
 <p>4º Teste : Normalidade dos resíduos<br>
 Este cálculo será realizado sobre resuldado dos cálculo Ordinary Least Squares com a opção Robust Standard Erros/Erro Padrão Robusto ativada em que teremos como variável resposta, o log de indice de preço da Whittaker + anúncio e display da Whittaker, log de indice de preço da Cadbury, anúncio + display da Cadbury como variáveis explicativas. Figura a seguir mostra a opção Normality of residual :<br>
-<img src="aula10marketinganalytics20.png"><br>
+<img src="/3-img/aula10marketinganalytics20.png"><br>
 O resultado será :<br>
-<img src="aula10marketinganalytics21.png"><br>
+<img src="/3-img/aula10marketinganalytics21.png"><br>
 Atrás deste gráfico haverá uma janela com as seguintes informações:<br>
 
 ```
@@ -306,7 +306,7 @@ Test for null hypothesis of normal distribution:
 Chi-square(2) = 3.749 with p-value 0.15342
 ```
 E atrás desta janela tera a janela conforme imagem a seguir :<br>
-<img src="aula10marketinganalytics22.png"><br>
+<img src="/3-img/aula10marketinganalytics22.png"><br>
 Perceba a parte inferior com os seguintes dados :<br>
 ```
 Test for normality of residual -
