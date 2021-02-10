@@ -263,7 +263,7 @@ Em um modelo heterocedastico é muito provável que uma variável muito importan
         <li><a href="https://pt.wikipedia.org/wiki/%C3%8Dndice_de_pre%C3%A7os#:~:text=Um%20%C3%8Dndice%20de%20pre%C3%A7os%20(plural,um%20determinado%20intervalo%20de%20tempo.">Índices de preços</a></li>
         <li><a href="https://en.wikipedia.org/wiki/John_Napier">John Napier - Logaritmo Natural ou Neperiano</a></li>
         <li><a href="https://www.ama.org/">American Marketing Association</a></li>
-        <li><a href="https://www.estudar.com.vc/cursos/49-econometria">Estudar com você</a></li>
+        <li><a href="https://www.estudar.com.vc/cursos/49-econometria">Econometria - Estudar com você</a></li>
         <li><a href="https://pt.wikipedia.org/wiki/Heteroscedasticidade">Heteroscedasticidade</a></li>
         <li><a href="https://en.wikipedia.org/wiki/Homoscedasticity">Homoscedasticity</a></li>
     </ul>
